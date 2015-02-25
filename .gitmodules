@@ -1,0 +1,21 @@
+[submodule "wholecell-dna-damage"]
+	path = wholecell-dna-damage
+	url = https://github.com/dagwa/wholecell-dna-damage
+[submodule "wholecell-translation"]
+	path = wholecell-translation
+	url = https://github.com/dagwa/wholecell-translation
+[submodule "wholecell-protein"]
+	path = wholecell-protein
+	url = https://github.com/dagwa/wholecell-protein
+[submodule "wholecell-cytokinesis"]
+	path = wholecell-cytokinesis
+	url = https://github.com/dagwa/wholecell-cytokinesis
+[submodule "wholecell-transcription"]
+	path = wholecell-transcription
+	url = https://github.com/dagwa/wholecell-transcription
+[submodule "wholecell-metabolism"]
+	path = wholecell-metabolism
+	url = https://github.com/dagwa/wholecell-metabolism
+[submodule "wholecell-replication-initiation"]
+	path = wholecell-replication-initiation
+	url = https://github.com/dagwa/wholecell-replication-initiation
