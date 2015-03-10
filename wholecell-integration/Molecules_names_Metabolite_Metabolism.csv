@@ -1,0 +1,1702 @@
+id	name	readonly	readwrite	requirement
+A23CMP__c	2',3'-Cyclic AMP		x	x
+A3MP__c	3'-AMP		x	x
+AC__c	acetate		x	x
+ACAL__c	acetaldehyde		x	x
+ACCOA__c	Acetyl-CoA		x	x
+acriflavine__c	Acriflavine		x	x
+ACTP__c	Acetyl phosphate		x	x
+AD__c	adenine		x	x
+ADN__c	adenosine		x	x
+ADP__c	ADP		x	x
+AEPP__c	2-aminoethylphosphonate		x	x
+AHCYS__c	S-Adenosyl-L-homocysteine		x	x
+AKG__c	2-Oxoglutarate		x	x
+ALA__c	L-alanine		x	x
+AlaAla__c	L-alanyl-L-alanine		x	x
+AMET__c	S-Adenosyl-L-methionine		x	x
+aminodimethylaniline__c	N,N'-dimethyl-p-phenylenediamine		x	x
+AMP__c	AMP		x	x
+AMP_Lysine__c	AMP-Lysine		x	x
+AMP_Mor__c	AMP-morpholidate		x	x
+AMP_NH2__c	AMP-NH2		x	x
+anthranilate__c	2-aminobenzoic acid		x	x
+ARG__c	L-Arginine		x	x
+ArgArg__c	L-arginyl-L-arginine		x	x
+ASN__c	L-Asparagine		x	x
+AsnAsn__c	L-asparaginyl-L-asparagine		x	x
+ASP__c	L-Aspartate		x	x
+AspAsp__c	L-aspartyl-L-aspartic Acid		x	x
+ATP__c	ATP		x	x
+aza6dT__c	6-aza-2'-deoxythymidine		x	x
+aza6dTMP__c	6-aza-2'-deoxythymidine monophosphate		x	x
+aza8dA__c	8-aza-2'-deoxyadenosine		x	x
+aza8dAMP__c	8-aza-2'-deoxyadenosine monophosphate		x	x
+benzalkonium__c	Benzalkonium		x	x
+berberine__c	Berberine		x	x
+BUT__c	butyric acid, butanoic acid		x	x
+C23CMP__c	2',3'-Cyclic CMP		x	x
+C3MP__c	3'-CMP		x	x
+c5dU__c	5-Carbouy-2'-deoxyuridine		x	x
+c5dUMP__c	5-Carbouy-2'-deoxyuridine monophosphate		x	x
+CA__c	calcium ion		x	x
+CAP__c	carbamoyl phosphate		x	x
+carbamoylmethyl6dA__c	N6-carbamoylmethyl-2'-deoxyadenosine		x	x
+carbamoylmethyl6dAMP__c	N6-carbamoylmethyl-2'-deoxyadenosine monophosphate		x	x
+CDP__c	CDP		x	x
+CDPDG120__c	CDP-1,2-didodecanoylglycerol		x	x
+CDPDG140__c	CDP-1,2-ditetradecanoylglycerol		x	x
+CDPDG141__c	CDP-1,2-ditetradec-7-enoylglycerol		x	x
+CDPDG160__c	CDP-1,2-dihexadecanoylglycerol		x	x
+CDPDG161__c	CDP-1,2-dihexadec-9-enoylglycerol		x	x
+CDPDG180__c	CDP-1,2-dioctadecanoylglycerol		x	x
+CDPDG181__c	CDP-1,2-dioctadec-11-enoylglycerol		x	x
+Ceramide16__c	Ceramide (d18:1/16:0)		x	x
+CH3OH__c	methanol		x	x
+chloroacetaldehyde__c	chloroacetaldehyde		x	x
+chloroethylene_oxide__c	chloroethylene oxide		x	x
+CHOL__c	choline		x	x
+CHP__c	cumene hydroperoxide		x	x
+ciprofloxacin__c	ciprofloxacin		x	x
+CITR__c	L-citrulline		x	x
+CL__c	chloride ion		x	x
+CL160__c	cardiolipin (tetrahexadecanoyl, n-C16:0)		x	x
+CL161__c	cardiolipin (tetrahexadec-9-enoyl, n-C16:1)		x	x
+CL181__c	cardiolipin (tetraoctadec-11-enoyl, n-C18:1)		x	x
+cmnm5s2U__c	5-carboxymethylaminomethyl-2-thiouridine		x	x
+cmnm5s2UMP__c	5-carboxymethylaminomethyl-2-thiouridine monophosphate		x	x
+CMP__c	CMP		x	x
+CO__c	cobalt ion		x	x
+CO2__c	carbon dioxide		x	x
+COA__c	coenzyme A		x	x
+crystalViolet__c	Crystal violet		x	x
+CTP__c	CTP		x	x
+CU__c	cupric ion		x	x
+cyclobutane_dCdC__c	cyclobutane 2'-deoxycytidine dimer		x	x
+cyclobutane_dCdT__c	cyclobutane 2'-deoxycytidine 2'-deoxythymidine 		x	x
+cyclobutane_dCMPdCMP__c	cyclobutane 2'-deoxycytidine monophosphate dimer		x	x
+cyclobutane_dCMPdTMP__c	cyclobutane 2'-deoxycytidine monophosphate 2'-deoxythymidine  monophosphate		x	x
+cyclobutane_dTdC__c	cyclobutane 2'-deoxythymidine 2'-deoxycytidine		x	x
+cyclobutane_dTdT__c	cyclobutane 2'-deoxythymidine dimer		x	x
+cyclobutane_dTMPdCMP__c	cyclobutane 2'-deoxythymidine monophosphate 2'-deoxycytidine monophosphate		x	x
+cyclobutane_dTMPdTMP__c	cyclobutane 2'-deoxythymidine monophosphate dimer		x	x
+cyclodA__c	8,5'-cyclo-2'-deoxyadenosine		x	x
+cyclodAMP__c	8,5'-cyclo-2'-deoxyadenosine monophosphate		x	x
+cyclodG__c	8,5'-cyclo-2'-deoxyguanosine		x	x
+cyclodGMP__c	8,5'-cyclo-2'-deoxyguanosine monophosphate		x	x
+CYS__c	L-Cysteine		x	x
+CysCys__c	L-cysteinyl-L-cysteine		x	x
+CYTD__c	cytidine		x	x
+c_di_AMP__c	Cyclic-di-adenylate		x	x
+DA__c	deoxyadenosine		x	x
+DADP__c	dADP		x	x
+DAG160__c	Diacylglycerol (n-16:0)		x	x
+DAG161__c	Diacylglycerol (n-16:1)		x	x
+DAG181__c	Diacylglycerol (n-18:1)		x	x
+DALA__c	D-alanine		x	x
+DAMP__c	dAMP		x	x
+dApdAp__c	dAp-dAp		x	x
+DATP__c	dATP		x	x
+DC__c	deoxycytidine		x	x
+dC64dC__c	2'-deoxycytidine-[6,4]-2'-deoxycytidine		x	x
+dC64dC_dewar__c	2'-deoxycytidine-[6,4]-2'-deoxycytidine dewar product		x	x
+dC64dT__c	2'-deoxycytidine-[6,4]-2'-deoxythymidine		x	x
+dC64dT_dewar__c	2'-deoxycytidine-[6,4]-2'-deoxythymidine dewar product		x	x
+DCDP__c	dCDP		x	x
+DCMP__c	dCMP		x	x
+dCMP64dCMP__c	2'-deoxycytidine monophosphate-[6,4]-2'-deoxycytidine monophosphate		x	x
+dCMP64dCMP_dewar__c	2'-deoxycytidine monophosphate-[6,4]-2'-deoxycytidine monophosphate dewar product		x	x
+dCMP64dTMP__c	2'-deoxycytidine monophosphate-[6,4]-2'-deoxythymidine monophosphate		x	x
+dCMP64dTMP_dewar__c	2'-deoxycytidine monophosphate-[6,4]-2'-deoxythymidine monophosphate dewar product		x	x
+dCMP_GLYC__c	2-'deoxycytidine monophosphate glycol		x	x
+dCpdCp__c	dCp-dCp		x	x
+DCTP__c	dCTP		x	x
+dC_GLYC__c	2-'deoxycytidine glycol		x	x
+DDCA__c	Dodecanoate (n-C12:0)		x	x
+DDECG3P__c	1-dodecanoyl-sn-glycerol 3-phosphate		x	x
+deoxyG6P__c	2-deoxy-glucose-6-phosphate		x	x
+deoxyGLC__c	2-deoxy-glucose		x	x
+DG__c	deoxyguanosine		x	x
+DGDP__c	dGDP		x	x
+DGMP__c	dGMP		x	x
+dGpdGp__c	dGp-dGp		x	x
+DGTP__c	dGTP		x	x
+DHA__c	Dihydroxyacetone		x	x
+DHdT__c	5,6-dihydro-2'-deoxythymidine		x	x
+DHdTMP__c	5,6-dihydro-2'-deoxythymidine monophosphate		x	x
+DHdU__c	5,6-dihydroxy-2'-deoxyuridine		x	x
+DHdUMP__c	5,6-dihydroxy-2'-deoxyuridine monophosphate		x	x
+DHF__c	dihydrofolate		x	x
+dhpdU__c	5'-dihydroxypentyl-2'-deoxyuridine		x	x
+dhpdUMP__c	5'-dihydroxypentyl-2'-deoxyuridine monophosphate		x	x
+diacylglycerolCys__c	S-diacylglycerol cysteine 		x	x
+DIBUTYRIN__c	dibutyrin		x	x
+dINS__c	2'-deoxyinosine		x	x
+dINSMP__c	2'-deoxyinosine monophosphate		x	x
+DMBA__c	dimethylbenzyl alcohol		x	x
+doxorubicin__c	Doxorubicin		x	x
+DPCOA__c	dephospho-CoA		x	x
+DPG__c	3-Phospho-D-glyceroyl phosphate		x	x
+DR1P__c	2-Deoxy-D-ribose 1-phosphate		x	x
+DR5P__c	2-Deoxy-D-ribose 5-phosphate		x	x
+DT__c	thymidine		x	x
+dT64dC__c	2'-deoxythymidine-[6,4]-2'-deoxycytidine		x	x
+dT64dC_dewar__c	2'-deoxythymidine-[6,4]-2'-deoxycytidine dewar product		x	x
+dT64dT__c	2'-deoxythymidine-[6,4]-2'-deoxythymidine		x	x
+dT64dT_dewar__c	2'-deoxythymidine-[6,4]-2'-deoxythymidine dewar product		x	x
+DTDP__c	dTDP		x	x
+DTMP__c	dTMP		x	x
+dTMP64dCMP__c	2'-deoxythymidine monophosphate-[6,4]-2'-deoxycytidine monophosphate		x	x
+dTMP64dCMP_dewar__c	2'-deoxythymidine monophosphate-[6,4]-2'-deoxycytidine monophosphate dewar product		x	x
+dTMP64dTMP__c	2'-deoxythymidine monophosphate-[6,4]-2'-deoxythymidine monophosphate		x	x
+dTMP64dTMP_dewar__c	2'-deoxythymidine monophosphate-[6,4]-2'-deoxythymidine monophosphate dewar product		x	x
+dTMP_GLYC__c	2'-deoxythymidine monophosphate glycol		x	x
+dTpdTp__c	dTp-dTp		x	x
+DTTP__c	dTTP		x	x
+dT_GLYC__c	2'-deoxythymidine glycol		x	x
+DU__c	deoxyuridine		x	x
+DUDP__c	dUDP		x	x
+DUMP__c	dUMP		x	x
+DUTP__c	dUTP		x	x
+dXAN__c	2'-deoxyxanthosine		x	x
+dXANMP__c	2'-deoxyxanthosine monophosphate		x	x
+e1dA__c	1-ethyl-2'-deoxyadenosine		x	x
+e1dAMP__c	1-ethyl-2'-deoxyadenosine monophosphate		x	x
+e1dG__c	1-ethyl-2'-deoxyguanosine		x	x
+e1dGMP__c	1-ethyl-2'-deoxyguanosine monophosphate		x	x
+e3dA__c	3-ethyl-2'-deoxyadenosine		x	x
+e3dAMP__c	3-ethyl-2'-deoxyadenosine monophosphate		x	x
+e3dC__c	3-ethyl-2'-deoxycytidine		x	x
+e3dCMP__c	3-ethyl-2'-deoxycytidine monophosphate		x	x
+e3dG__c	3-ethyl-2'-deoxyguanosine		x	x
+e3dGMP__c	3-ethyl-2'-deoxyguanosine monophosphate		x	x
+e3dT__c	3'-ethyl-2'-deoxythymidine		x	x
+e3dTMP__c	3'-ethyl-2'-deoxythymidine monophosphate		x	x
+e4dC__c	4-ethyl-2'-deoxycytidine		x	x
+e4dCMP__c	4-ethyl-2'-deoxycytidine monophosphate		x	x
+E4P__c	D-Erythrose 4-phosphate		x	x
+e5dC__c	5-ethyl-2'-deoxycytidine		x	x
+e5dCMP__c	5-ethyl-2'-deoxycytidine monophosphate		x	x
+e6dA__c	6-ethyl-2'-deoxyadenosine		x	x
+e6dAMP__c	6-ethyl-2'-deoxyadenosine monophosphate		x	x
+e7dA__c	7-ethyl-2'-deoxyadenosine		x	x
+e7dAMP__c	7-ethyl-2'-deoxyadenosine monophosphate		x	x
+e7dG__c	7-ethyl-2'-deoxyguanosine		x	x
+e7dGMP__c	7-ethyl-2'-deoxyguanosine monophosphate		x	x
+e8dG__c	8-ethyl-2'-deoxyguanosine		x	x
+e8dGMP__c	8-ethyl-2'-deoxyguanosine monophosphate		x	x
+enoxacin__c	Enoxacin		x	x
+epsilon1N2dG__c	1,N2-etheno-2'-deoxyguanosine		x	x
+epsilon1N2dGMP__c	1,N2-etheno-2'-deoxyguanosine monophosphate		x	x
+epsilon1N6dA__c	1,N6-etheno-2'-deoxyadenosine		x	x
+epsilon1N6dAMP__c	1,N6-etheno-2'-deoxyadenosine monophosphate		x	x
+epsilon3N4dC__c	3,N4-etheno-2'-deoxycytidine		x	x
+epsilon3N4dCMP__c	3,N4-etheno-2'-deoxycytidine monophosphate		x	x
+epsilonN23dG__c	N2,3-etheno-2'-deoxyguanosine		x	x
+epsilonN23dGMP__c	N2,3-etheno-2'-deoxyguanosine monophosphate		x	x
+ethidium__c	Ethidium		x	x
+ETN__c	ethanolamine		x	x
+F1P__c	D-Fructose 1-phosphate		x	x
+f5dU__c	5-formyl-2'-deoxyuridine		x	x
+f5dUMP__c	5-formyl-2'-deoxyuridine monophosphate		x	x
+F6P__c	D-Fructose 6-phosphate		x	x
+FAD__c	flavin adenine dinucleotide, oxidized		x	x
+FADH2__c	flavin adenine dinucleotide, reduced		x	x
+FALD__c	formaldehyde		x	x
+FAPydA__c	N4-(2-Deoxy-alpha,beta-D-erythro-pentofuranosyl)-4,6-diamino-5-formamidopyrimidine		x	x
+FAPydAMP__c	N4-(2-Deoxy-alpha,beta-D-erythro-pentofuranosyl)-4,6-diamino-5-formamidopyrimidine monophosphate		x	x
+FAPydG__c	N6-(2-Deoxy-α,β-d-erythro-pentofuranosyl)-2,6-diamino-4-hydroxy-5-formamidopyrimidine		x	x
+FAPydGMP__c	N6-(2-Deoxy-α,β-d-erythro-pentofuranosyl)-2,6-diamino-4-hydroxy-5-formamidopyrimidine monophosphate		x	x
+FDP__c	D-Fructose 1,6-bisphosphate		x	x
+FE2__c	ferrous iron		x	x
+FE3__c	ferric iron		x	x
+FMET__c	N-Formyl-L-methionine		x	x
+FMN__c	flavin mononucleotide, oxidized		x	x
+FMNH2__c	flavin mononucleotide, reduced		x	x
+FOR__c	Formate		x	x
+FRU__c	D-Fructose		x	x
+FTHF10__c	10-formyl-tetrahydrofolate		x	x
+FTHF5__c	5-formyltetrahydrofolate		x	x
+FUC1P__c	L-fucose 1-phosphate		x	x
+G1P__c	D-Glucose 1-phosphate		x	x
+G23CMP__c	2',3'-Cyclic GMP		x	x
+G2P__c	D-Glycerate 2-phosphate		x	x
+G3MP__c	3'-GMP		x	x
+G3P__c	3-Phospho-D-glycerate		x	x
+G6P__c	D-Glucose 6-phosphate		x	x
+GalCer16__c	galactosyl-β-Ceramide (d18:1/16:0)		x	x
+GalDAG160__c	galactosyl-β-diacylglycerol(16:0/16:1(9Z))		x	x
+GalDAG161__c	galactosyl-β-diacylglycerol(16:1(9Z)/16:1(9Z))		x	x
+GalDAG181__c	galactosyl-β-diacylglycerol(18:1(11Z)/18:1(11Z))		x	x
+GalGalCer16__c	galactosyl-α1-4-galactosyl-β-Ceramide (d18:1/16:0)		x	x
+GalGalDAG160__c	galactosyl-α1-4-galactosyl-β-diacylglycerol(16:0/16:1(9Z))		x	x
+GalGalDAG161__c	galactosyl-α1-4-galactosyl-β-diacylglycerol(16:1(9Z)/16:1(9Z))		x	x
+GalGalDAG181__c	galactosyl-α1-4-galactosyl-β-diacylglycerol(18:1(11Z)/18:1(11Z))		x	x
+GalGalGalDAG160__c	galactosyl-α1-4-galactosyl-β1-4-galactosyl-β-diacylglycerol(16:0/16:1(9Z))		x	x
+GalGalGalDAG161__c	galactosyl-α1-4-galactosyl-β1-4-galactosyl-β-diacylglycerol(16:1(9Z)/16:1(9Z))		x	x
+GalGalGalDAG181__c	galactosyl-α1-4-galactosyl-β1-4-galactosyl-β-diacylglycerol(18:1(11Z)/18:1(11Z))		x	x
+GalGalGlcCer16__c	galactosyl-α1-4-galactosyl-β1-4-glucosyl-β-Ceramide (d18:1/16:0)		x	x
+GalGalGlcDAG160__c	galactosyl-α1-4-galactosyl-β1-4-glucosyl-β-diacylglycerol(16:0/16:1(9Z))		x	x
+GalGalGlcDAG161__c	galactosyl-α1-4-galactosyl-β1-4-glucosyl-β-diacylglycerol(16:1(9Z)/16:1(9Z))		x	x
+GalGalGlcDAG181__c	galactosyl-α1-4-galactosyl-β1-4-glucosyl-β-diacylglycerol(18:1(11Z)/18:1(11Z))		x	x
+GalGlcCer16__c	galactosyl-β1-4-glucosyl-β-Ceramide (d18:1/16:0)		x	x
+GalGlcDAG160__c	galactosyl-β1-4-glucosyl-β-diacylglycerol(16:0/16:1(9Z))		x	x
+GalGlcDAG161__c	galactosyl-β1-4-glucosyl-β-diacylglycerol(16:1(9Z)/16:1(9Z))		x	x
+GalGlcDAG181__c	galactosyl-β1-4-glucosyl-β-diacylglycerol(18:1(11Z)/18:1(11Z))		x	x
+GDP__c	GDP		x	x
+GDPTP__c	Guanosine 3'-diphosphate 5'-triphosphate		x	x
+GL__c	glycerol		x	x
+GL2P__c	Glycerol 2-phosphate		x	x
+GL3P__c	Glycerol 3-phosphate		x	x
+GLC__c	D-Glucose		x	x
+GlcCer16__c	glucosyl-β-Ceramide (d18:1/16:0)		x	x
+GlcDAG160__c	glucosyl-β-diacylglycerol(16:0/16:1(9Z))		x	x
+GlcDAG161__c	glucosyl-β-diacylglycerol(16:1(9Z)/16:1(9Z))		x	x
+GlcDAG181__c	glucosyl-β-diacylglycerol(18:1(11Z)/18:1(11Z))		x	x
+GlcGalCer16__c	glucosyl-β1-4-galactosyl-β-Ceramide (d18:1/16:0)		x	x
+GlcGalDAG160__c	glucosyl-β1-4-galactosyl-β-diacylglycerol(16:0/16:1(9Z))		x	x
+GlcGalDAG161__c	glucosyl-β1-4-galactosyl-β-diacylglycerol(16:1(9Z)/16:1(9Z))		x	x
+GlcGalDAG181__c	glucosyl-β1-4-galactosyl-β-diacylglycerol(18:1(11Z)/18:1(11Z))		x	x
+GlcGalGalDAG160__c	glucosyl-β1-4-galactosyl-α1-4-galactosyl-β-diacylglycerol(16:0/16:1(9Z))		x	x
+GlcGalGalDAG161__c	glucosyl-β1-4-galactosyl-α1-4-galactosyl-β-diacylglycerol(16:1(9Z)/16:1(9Z))		x	x
+GlcGalGalDAG181__c	glucosyl-β1-4-galactosyl-α1-4-galactosyl-β-diacylglycerol(18:1(11Z)/18:1(11Z))		x	x
+GlcGalGlcDAG160__c	glucosyl-β1-4-galactosyl-β1-4-glucosyl-β-diacylglycerol(16:0/16:1(9Z))		x	x
+GlcGalGlcDAG161__c	glucosyl-β1-4-galactosyl-β1-4-glucosyl-β-diacylglycerol(16:1(9Z)/16:1(9Z))		x	x
+GlcGalGlcDAG181__c	glucosyl-β1-4-galactosyl-β1-4-glucosyl-β-diacylglycerol(18:1(11Z)/18:1(11Z))		x	x
+GlcGlcDAG160__c	glucosyl-β1-4-glucosyl-β-diacylglycerol(16:0/16:1(9Z))		x	x
+GlcGlcDAG161__c	glucosyl-β1-4-glucosyl-β-diacylglycerol(16:1(9Z)/16:1(9Z))		x	x
+GlcGlcDAG181__c	glucosyl-β1-4-glucosyl-β-diacylglycerol(18:1(11Z)/18:1(11Z))		x	x
+GlcGlcGlcDAG160__c	glucosyl-β1-4-glucosyl-β1-4-glucosyl-β-diacylglycerol(16:0/16:1(9Z))		x	x
+GlcGlcGlcDAG161__c	glucosyl-β1-4-glucosyl-β1-4-glucosyl-β-diacylglycerol(16:1(9Z)/16:1(9Z))		x	x
+GlcGlcGlcDAG181__c	glucosyl-β1-4-glucosyl-β1-4-glucosyl-β-diacylglycerol(18:1(11Z)/18:1(11Z))		x	x
+glchm5dC__c	beta-D-glucosylhydroxymethyl-2'-deoxycytidine		x	x
+glchm5dCMP__c	beta-D-glucosylhydroxymethyl-2'-deoxycytidine monophosphate		x	x
+glchm5dU__c	beta-D-glucosylhydroxymethyl-2'-deoxyuridine		x	x
+glchm5dUMP__c	beta-D-glucosylhydroxymethyl-2'-deoxyuridine monophosphate		x	x
+GLN__c	L-glutamine		x	x
+GlnGln__c	L-glutaminyl-L-glutamine		x	x
+GLU__c	L-Glutamate		x	x
+gludT__c	a-glutamyl-2'-deoxythymidine		x	x
+gludTMP__c	a-glutamyl-2'-deoxythymidine monophosphate		x	x
+GluGlu__c	L-glutamyl-L-glutamic acid		x	x
+GLY__c	glycine		x	x
+GlyGly__c	L-glycyl-L-glycine		x	x
+Gm__c	2'-O-methylguanosine		x	x
+GmMP__c	2'-O-methylguanosine monophosphate		x	x
+GMP__c	GMP		x	x
+GMP_Lysine__c	GMP-lysine		x	x
+GMP_Mor__c	GMP-morpholidate		x	x
+GN__c	guanine		x	x
+GPCH__c	sn-Glycero-3-phosphocholine		x	x
+GPE__c	sn-Glycero-3-phosphoethanolamine		x	x
+GPG__c	Glycerophosphoglycerol		x	x
+GPI__c	sn-Glycero-3-phospho-1-inositol		x	x
+GPS__c	Glycerophosphoserine		x	x
+GSN__c	guanosine		x	x
+GTP__c	GTP		x	x
+H__c	hydrogen ion		x	x
+H2O__c	water		x	x
+H2O2__c	hydrogen peroxide		x	x
+HCYS__c	L-homocysteine		x	x
+HDCA__c	Hexadecanoate (n-C16:0)		x	x
+HDCEA__c	Hexadecenoate (n-C16:1)		x	x
+HDECEG3P__c	1-hexadecanoyl-sn-glycerol 3-phosphate		x	x
+HDECG3P__c	1-hexadec-9-enoyl-sn-glycerol 3-phosphate		x	x
+HIS__c	L-Histidine		x	x
+HisHis__c	L-histidyl-L-histidine		x	x
+hm3dC__c	3'-hydroxymethyl-2'-deoxycytidine		x	x
+hm3dCMP__c	3'-hydroxymethyl-2'-deoxycytidine monophosphate		x	x
+hm5dC__c	5'-hydroxymethyl-2'-deoxycytidine		x	x
+hm5dCMP__c	5'-hydroxymethyl-2'-deoxycytidine monophosphate		x	x
+hm5dU__c	5-hydroxymethyl-2'-deoxyuridine		x	x
+hm5dUMP__c	5-hydroxymethyl-2'-deoxyuridine monophosphate		x	x
+hm5hydantoin_dRibose__c	2'-deoxy-3'-(5-hydroxy-5-methyl-hydantoin)-ribose		x	x
+hm5hydantoin_dRiboseMP__c	2'-deoxy-3'-(5-hydroxy-5-methyl-hydantoin)-ribose monophosphate		x	x
+ho5dC__c	5-Hydroxy-2'-deoxycytidine		x	x
+ho5dCMP__c	5-Hydroxy-2'-deoxycytidine monophosphate		x	x
+ho5dU__c	5-hydroxy-2'-deoxyuridine		x	x
+ho5dUMP__c	5-hydroxy-2'-deoxyuridine monophosphate		x	x
+ho5ho6dT__c	5-hydroxy-6-hydroxy-2'-deoxythymidine		x	x
+ho5ho6dTMP__c	5-hydroxy-6-hydroxy-2'-deoxythymidine monophosphate		x	x
+ho5ho6dU__c	5-hydroxy-6-hydroxy-2'-deoxyuridine		x	x
+ho5ho6dUMP__c	5-hydroxy-6-hydroxy-2'-deoxyuridine monophosphate		x	x
+ho5hydantoin_dRibose__c	2'-deoxy-3'-(5-hydroxyhydantoin)-ribose		x	x
+ho5hydantoin_dRiboseMP__c	2'-deoxy-3'-(5-hydroxyhydantoin)-ribose monophosphate		x	x
+HPHPYR__c	3-(4-Hydroxyphenyl)pyruvate		x	x
+hydride__c	hydride		x	x
+hydroxyl_radical__c	hydroxyl radical		x	x
+HYXN__c	hypoxanthine		x	x
+IDP__c	IDP		x	x
+ILE__c	L-Isoleucine		x	x
+IleIle__c	L-isoleucyl-L-isoleucine		x	x
+IMP__c	IMP		x	x
+INOS__c	myo-inositol		x	x
+INS__c	inosine		x	x
+ITP__c	ITP		x	x
+K__c	potassium ion		x	x
+k2C__c	lysidine		x	x
+k2CMP__c	lysidine monophosphate		x	x
+LAC__c	D-lactate		x	x
+LEU__c	L-Leucine		x	x
+LeuLeu__c	L-leucyl-L-leucine		x	x
+LIPOATE__c	lipoate		x	x
+LIPOYLAMP__c	lipoyl-AMP		x	x
+LIPOYLLYS__c	N(6)-(lipoyl)lysine		x	x
+lomefloxacin__c	Lomefloxacin		x	x
+LYS__c	L-Lysine		x	x
+LysLys__c	L-lysyl-L-lysine		x	x
+m1dA__c	1-methyl-2'-deoxyadenosine		x	x
+m1dAMP__c	1-methyl-2'-deoxyadenosine monophosphate		x	x
+m1dG__c	1-methyl-2'-deoxyguanosine		x	x
+m1dGMP__c	1-methyl-2'-deoxyguanosine monophosphate		x	x
+m1G__c	1-methylguanosine		x	x
+m1GMP__c	1-methylguanosine monophosphate		x	x
+m2G__c	N(2)-methylguanosine		x	x
+m2GMP__c	N(2)-methylguanosine monophosphate		x	x
+m3dA__c	3-methyl-2'-deoxyadenosine		x	x
+m3dAMP__c	3-methyl-2'-deoxyadenosine monophosphate		x	x
+m3dC__c	3-methyl-2'-deoxycytidine		x	x
+m3dCMP__c	3-methyl-2'-deoxycytidine monophosphate		x	x
+m3dG__c	3-methyl-2'-deoxyguanosine		x	x
+m3dGMP__c	3-methyl-2'-deoxyguanosine monophosphate		x	x
+m3dT__c	3'-methyl-2'-deoxythymidine		x	x
+m3dTMP__c	3'-methyl-2'-deoxythymidine monophosphate		x	x
+m4dC__c	4-methyl-2'-deoxycytidine		x	x
+m4dCMP__c	4-methyl-2'-deoxycytidine monophosphate		x	x
+m5C__c	5-methylcytidine		x	x
+m5CMP__c	5-methylcytidine monophosphate		x	x
+m5dC__c	5-methyl-2'-deoxycytidine		x	x
+m5dCMP__c	5-methyl-2'-deoxycytidine monophosphate		x	x
+m62A__c	N6,N6-dimethyladenosine		x	x
+m62AMP__c	N6,N6-dimethyladenosine monophosphate		x	x
+m6A__c	N(6)-methyladenine		x	x
+m6AMP__c	N(6)-methyladenine monophosphate		x	x
+m6dA__c	6-methyl-2'-deoxyadenosine		x	x
+m6dAMP__c	6-methyl-2'-deoxyadenosine monophosphate		x	x
+m7dA__c	7-methyl-2'-deoxyadenosine		x	x
+m7dAMP__c	7-methyl-2'-deoxyadenosine monophosphate		x	x
+m7dG__c	7-methyl-2'-deoxyguanosine		x	x
+m7dGMP__c	7-methyl-2'-deoxyguanosine monophosphate		x	x
+m7G__c	7-methylguanosine		x	x
+m7GMP__c	7-methylguanosine monophosphate		x	x
+m8dG__c	8-methyl-2'-deoxyguanosine		x	x
+m8dGMP__c	8-methyl-2'-deoxyguanosine monophosphate		x	x
+MAL__c	L-Malate		x	x
+MAN__c	D-Mannose		x	x
+MAN1P__c	D-Mannose 1-phosphate		x	x
+MAN6P__c	D-Mannose 6-phosphate		x	x
+MET__c	L-Methionine		x	x
+METHF__c	5,10-methyltetrahydrofolate		x	x
+methylRed__c	4′-dimethylaminoazobenzene-2-carboxylic acid		x	x
+METHYL_OCDCEA__c	methyl oleate		x	x
+MetMet__c	L-methionyl-L-methionine		x	x
+METSOXRL__c	L-Methionine-R-Sulfoxide		x	x
+METSOXSL__c	L-Methionine-S-Sulfoxide		x	x
+METTHF__c	5,10-Methylenetetrahydrofolate		x	x
+MG__c	magnesium ion		x	x
+MN__c	manganese ion		x	x
+MO__c	molybdenum ion		x	x
+MOBD__c	Molybdate		x	x
+MONOBUTYRIN__c	1-monobutyrin		x	x
+MOR__c	morpholine		x	x
+MTHF__c	5-Methyltetrahydrofolate		x	x
+n2dA__c	2-amino-2'-deoxyadenosine		x	x
+n2dAMP__c	2-amino-2'-deoxyadenosine monophosphate		x	x
+NA__c	sodium ion		x	x
+NAAD__c	nicotinic acid adenine dinucleotide		x	x
+NAC__c	nicotinate		x	x
+NAD__c	nicotinamide adenine dinucleotide, oxidized		x	x
+NADH__c	nicotinamide adenine dinucleotide, reduced		x	x
+NADP__c	nicotinamide adenine dinucleotide phosphate, oxidized		x	x
+NADPH__c	nicotinamide adenine dinucleotide phosphate, reduced		x	x
+NAMN__c	nicotinate/nicotinic acid mononucleotide		x	x
+NH3__c	ammonia		x	x
+NH4__c	ammonium		x	x
+NI__c	nickel		x	x
+nisin__c	nisin		x	x
+NMN__c	nicotinamide mononucleotide		x	x
+norfloxacin__c	Norfloxacin		x	x
+novobiocin__c	Novobiocin		x	x
+NR__c	Nicotinate D-ribonucleotide		x	x
+O2__c	oxygen		x	x
+O2edC__c	2'-O-ethyl-2'-deoxycytidine		x	x
+O2edCMP__c	2'-O-ethyl-2'-deoxycytidine monophosphate		x	x
+O2edT__c	2'-O-ethyl-2'-deoxythymidine		x	x
+O2edTMP__c	2'-O-ethyl-2'-deoxythymidine monophosphate		x	x
+O2mdC__c	2'-O-methyl-2'-deoxycytidine		x	x
+O2mdCMP__c	2'-O-methyl-2'-deoxycytidine monophosphate		x	x
+O2mdT__c	2'-O-methyl-2'-deoxythymidine		x	x
+O2mdTMP__c	2'-O-methyl-2'-deoxythymidine monophosphate		x	x
+O4edT__c	4'-O-ethyl-2'-deoxythymidine		x	x
+O4edTMP__c	4'-O-ethyl-2'-deoxythymidine monophosphate		x	x
+O4mdT__c	4'-O-methyl-2'-deoxythymidine		x	x
+O4mdTMP__c	4'-O-methyl-2'-deoxythymidine monophosphate		x	x
+O6edG__c	6'-O-ethyl-2'-deoxyguanosine		x	x
+O6edGMP__c	6'-O-ethyl-2'-deoxyguanosine monophosphate		x	x
+O6mdG__c	6'-O-methyl-2'-deoxyguanosine		x	x
+O6mdGMP__c	6'-O-methyl-2'-deoxyguanosine monophosphate		x	x
+OA__c	oxaloacetate		x	x
+OCDCA__c	octadecanoate (n-C18:0)		x	x
+OCDCEA__c	octadecenoate (n-C18:1)		x	x
+ODEC11GP__c	1-octadec-11-enoyl-sn-glycerol 3-phosphate		x	x
+ODECG3P__c	1-octadecanoyl-sn-glycerol 3-phosphate		x	x
+OH__c	hydoxide anion		x	x
+ORN__c	ornithine		x	x
+oxo2dA__c	2-hydroxy-2'-deoxyadenosine		x	x
+oxo2dAMP__c	2-hydroxy-2'-deoxyadenosine monophosphate		x	x
+oxo8dA__c	8-hydroxy-2'-deoxyadenosine		x	x
+oxo8dAMP__c	8-hydroxy-2'-deoxyadenosine monophosphate		x	x
+oxo8dG__c	8-Oxo-2'-deoxyguanosine; 8-hydroxy-2'-deoxyguanosine		x	x
+oxo8dGMP__c	8-Oxo-2'-deoxyguanosine monophosphate; 8-hydroxy-2'-deoxyguanosine monophosphate		x	x
+oxoethyl7dG__c	7-(2'-oxoethyl)-2'-deoxyguanosine		x	x
+oxoethyl7dGMP__c	7-(2'-oxoethyl)-2'-deoxyguanosine monophosphate		x	x
+PA120__c	1,2-didodecanoyl-sn-glycerol 3-phosphate		x	x
+PA140__c	1,2-ditetradecanoyl-sn-glycerol 3-phosphate		x	x
+PA141__c	1,2-ditetradec-7-enoyl-sn-glycerol 3-phosphate		x	x
+PA160__c	1,2-dihexadecanoyl-sn-glycerol 3-phosphate		x	x
+PA161__c	1,2-dihexadec-9-enoyl-sn-glycerol 3-phosphate		x	x
+PA180__c	1,2-dioctadecanoyl-sn-glycerol 3-phosphate		x	x
+PA181__c	1,2-dioctadec-11-enoyl-sn-glycerol 3-phosphate		x	x
+PAP__c	Adenosine 3',5'-bisphosphate		x	x
+pCHOL__c	phosphoryl-choline		x	x
+PDLA5P__c	Pyridoxamine 5'-phosphate		x	x
+PEP__c	phosphoenolpyruvate		x	x
+PG160__c	Phosphatidylglycerol (dihexadecanoyl, n-C16:0)		x	x
+PG161__c	Phosphatidylglycerol (dihexadec-9-enoyl, n-C16:1)		x	x
+PG181__c	Phosphatidylglycerol (dioctadec-11-enoyl, n-C18:1)		x	x
+PGP160__c	Phosphatidylglycerophosphate (dihexadecanoyl, n-C16:0)		x	x
+PGP161__c	Phosphatidylglycerophosphate (dihexadec-9-enoyl, n-C16:1)		x	x
+PGP181__c	Phosphatidylglycerophosphate (dioctadec-11-enoyl, n-C18:1)		x	x
+PHE__c	L-phenylalanine		x	x
+PhePhe__c	L-phenylalanyl-L-phenylalanine		x	x
+PHPYR__c	phenylpyruvate		x	x
+PI__c	phosphate		x	x
+PL5P__c	Pyridoxal 5'-phosphate		x	x
+POE_SORBITAN__c	Polyoxyethylene (20) sorbitan		x	x
+PPAA__c	Phosphonoacetaldehyde		x	x
+PPGPP__c	Guanosine 3',5'-bis(diphosphate)		x	x
+PPHG__c	protoporphyrinogen IX		x	x
+PPI__c	diphosphate		x	x
+PPIX__c	protoporphyrin IX		x	x
+PRO__c	L-Proline		x	x
+proflavine__c	Proflavine		x	x
+ProPro__c	L-prolyl-L-proline		x	x
+PRPP__c	5-Phospho-alpha-D-ribose 1-diphosphate		x	x
+pSER__c	phosphoserine		x	x
+PSIURI__c	pseudouridine		x	x
+PSIURIMP__c	pseudouridine monophoshate		x	x
+pTHR__c	phosphothreonine		x	x
+PTRC__c	putrescine		x	x
+pTYR__c	Phosphotyrosine		x	x
+putdT__c	alpha-putrescinyl-2'-deoxythymidine		x	x
+putdTMP__c	alpha-putrescinyl-2'-deoxythymidine monophosphate		x	x
+PYDX__c	Pyridoxal		x	x
+PYR__c	pyruvate		x	x
+R1P__c	alpha-D-Ribose 1-phosphate		x	x
+R5P__c	alpha-D-Ribose 5-phosphate		x	x
+RBFLVRD__c	riboflavin, reduced		x	x
+rhodamine6G__c	Rhodamine 6G		x	x
+RIB__c	D-ribose		x	x
+RIBFLV__c	riboflavin, oxidized		x	x
+RL5P__c	D-Ribulose 5-phosphate		x	x
+s2U__c	2-thiouridine		x	x
+s2UMP__c	2-thiouridine monophosphate		x	x
+s4U__c	4-thiouridine		x	x
+s4UMP__c	4-thiouridine monophosphate		x	x
+S7P__c	D-sedoheptulose-7-phosphate		x	x
+SALA__c	3-Sulfino-L-alanine		x	x
+SBT__c	D-Sorbitol		x	x
+SBT6P__c	D-Sorbitol 6-phosphate		x	x
+SER__c	L-Serine		x	x
+SerSer__c	L-seryl-L-serine		x	x
+SNGLYP__c	sn-glycerol-1-phosphate		x	x
+SO2__c	sulfur dioxide		x	x
+SO4__c	sulphate		x	x
+SPMD__c	spermidine		x	x
+STEROL__c	cholesterol		x	x
+T3P1__c	D-glyceraldehdye-3-phosphate		x	x
+T3P2__c	Dihydroxyacetone phosphate		x	x
+TAG16P__c	D-Tagatose 1,6-biphosphate		x	x
+TAG6P__c	D-Tagatose 6-phosphate		x	x
+tBHP__c	tert-butylhydroperoxide		x	x
+tBOH__c	tert-Butanol		x	x
+TDECEG3P__c	1-tetradec-7-enoyl-sn-glycerol 3-phosphate		x	x
+TDECG3P__c	1-tetradecanoyl-sn-glycerol 3-phosphate		x	x
+TDP__c	TDP		x	x
+tetraphenylphosphonium__c	tetraphenylphosphonium		x	x
+THF__c	5,6,7,8-Tetrahydrofolate		x	x
+THM__c	thiamine		x	x
+THMP__c	Thiamin monophosphate		x	x
+THR__c	L-Threonine		x	x
+ThrThr__c	L-threonyl-L-threonine		x	x
+THY__c	thymine		x	x
+TPP__c	thiamine diphosphate		x	x
+TRIBUTYRIN__c	tributyrin; 1,3-Di(butanoyloxy)propan-2-yl butanoate; butyrin		x	x
+TRILAURIN__c	trilaurin		x	x
+TRIMYRISTIN__c	trimyristin; 1,3-Di(tetradecanoyloxy)propan-2-yl tetradecanoate; glyceryl trimyristate		x	x
+TRIOLEIN__c	triolein		x	x
+TRIPALMITIN__c	tripalmitin; 1,2,3-Trihexadecanoylglycerol; Glyceryl Tripalmitate; Glycerol Tripalmitate		x	x
+TRISTEARIN__c	Tristearin		x	x
+TRI_HDCEA_IN__c	triacylglycerol of {Hexadecenoate acid}		x	x
+TRI_TTDCEA_IN__c	triacylglycerol of {tetradecenoic acid}		x	x
+TRP__c	L-tryptophan		x	x
+TrpTrp__c	L-trytophanyl-L-trytophan		x	x
+TTDCA__c	tetradecanoate (n-C14:0)		x	x
+TTDCEA__c	tetradecenoate (n-C14:1)		x	x
+TTP__c	TTP		x	x
+TWEEN80__c	Tween 80; Polyoxyethylene (20) sorbitan monooleate; polysorbate 80		x	x
+TYR__c	L-tyrosine		x	x
+TyrTyr__c	L-tyrosyl-L-tyrosine		x	x
+U23CMP__c	2',3'-Cyclic UMP		x	x
+U3MP__c	3'-UMP		x	x
+UDP__c	UDP		x	x
+UDPG__c	UDP-glucose		x	x
+UDPGAL__c	UDP-galactose		x	x
+UDPGALF__c	UDP-D-galacto-1,4-furanose		x	x
+Um__c	2'-O-methyluridine		x	x
+UmMP__c	2'-O-methyluridine monophosphate		x	x
+UMP__c	UMP		x	x
+URA__c	uracil		x	x
+URI__c	uridine		x	x
+UTP__c	UTP		x	x
+VAL__c	L-Valine		x	x
+ValVal__c	L-valyl-L-valine		x	x
+vinyl_chloride__c	Vinylchloride		x	x
+X5P__c	D-Xylulose 5-phosphate		x	x
+XAN__c	xanthine		x	x
+XTSN__c	xanthosine		x	x
+ZN__c	zinc ion		x	x
+A23CMP__e	2',3'-Cyclic AMP		x	x
+A3MP__e	3'-AMP		x	x
+AC__e	acetate		x	x
+ACAL__e	acetaldehyde		x	x
+ACCOA__e	Acetyl-CoA		x	x
+acriflavine__e	Acriflavine		x	x
+ACTP__e	Acetyl phosphate		x	x
+AD__e	adenine		x	x
+ADN__e	adenosine		x	x
+ADP__e	ADP		x	x
+AEPP__e	2-aminoethylphosphonate		x	x
+AHCYS__e	S-Adenosyl-L-homocysteine		x	x
+AKG__e	2-Oxoglutarate		x	x
+ALA__e	L-alanine		x	x
+AlaAla__e	L-alanyl-L-alanine		x	x
+AMET__e	S-Adenosyl-L-methionine		x	x
+aminodimethylaniline__e	N,N'-dimethyl-p-phenylenediamine		x	x
+AMP__e	AMP		x	x
+AMP_Lysine__e	AMP-Lysine		x	x
+AMP_Mor__e	AMP-morpholidate		x	x
+AMP_NH2__e	AMP-NH2		x	x
+anthranilate__e	2-aminobenzoic acid		x	x
+ARG__e	L-Arginine		x	x
+ArgArg__e	L-arginyl-L-arginine		x	x
+ASN__e	L-Asparagine		x	x
+AsnAsn__e	L-asparaginyl-L-asparagine		x	x
+ASP__e	L-Aspartate		x	x
+AspAsp__e	L-aspartyl-L-aspartic Acid		x	x
+ATP__e	ATP		x	x
+aza6dT__e	6-aza-2'-deoxythymidine		x	x
+aza6dTMP__e	6-aza-2'-deoxythymidine monophosphate		x	x
+aza8dA__e	8-aza-2'-deoxyadenosine		x	x
+aza8dAMP__e	8-aza-2'-deoxyadenosine monophosphate		x	x
+benzalkonium__e	Benzalkonium		x	x
+berberine__e	Berberine		x	x
+BUT__e	butyric acid, butanoic acid		x	x
+C23CMP__e	2',3'-Cyclic CMP		x	x
+C3MP__e	3'-CMP		x	x
+c5dU__e	5-Carbouy-2'-deoxyuridine		x	x
+c5dUMP__e	5-Carbouy-2'-deoxyuridine monophosphate		x	x
+CA__e	calcium ion		x	x
+CAP__e	carbamoyl phosphate		x	x
+carbamoylmethyl6dA__e	N6-carbamoylmethyl-2'-deoxyadenosine		x	x
+carbamoylmethyl6dAMP__e	N6-carbamoylmethyl-2'-deoxyadenosine monophosphate		x	x
+CDP__e	CDP		x	x
+CDPDG120__e	CDP-1,2-didodecanoylglycerol		x	x
+CDPDG140__e	CDP-1,2-ditetradecanoylglycerol		x	x
+CDPDG141__e	CDP-1,2-ditetradec-7-enoylglycerol		x	x
+CDPDG160__e	CDP-1,2-dihexadecanoylglycerol		x	x
+CDPDG161__e	CDP-1,2-dihexadec-9-enoylglycerol		x	x
+CDPDG180__e	CDP-1,2-dioctadecanoylglycerol		x	x
+CDPDG181__e	CDP-1,2-dioctadec-11-enoylglycerol		x	x
+Ceramide16__e	Ceramide (d18:1/16:0)		x	x
+CH3OH__e	methanol		x	x
+chloroacetaldehyde__e	chloroacetaldehyde		x	x
+chloroethylene_oxide__e	chloroethylene oxide		x	x
+CHOL__e	choline		x	x
+CHP__e	cumene hydroperoxide		x	x
+ciprofloxacin__e	ciprofloxacin		x	x
+CITR__e	L-citrulline		x	x
+CL__e	chloride ion		x	x
+CL160__e	cardiolipin (tetrahexadecanoyl, n-C16:0)		x	x
+CL161__e	cardiolipin (tetrahexadec-9-enoyl, n-C16:1)		x	x
+CL181__e	cardiolipin (tetraoctadec-11-enoyl, n-C18:1)		x	x
+cmnm5s2U__e	5-carboxymethylaminomethyl-2-thiouridine		x	x
+cmnm5s2UMP__e	5-carboxymethylaminomethyl-2-thiouridine monophosphate		x	x
+CMP__e	CMP		x	x
+CO__e	cobalt ion		x	x
+CO2__e	carbon dioxide		x	x
+COA__e	coenzyme A		x	x
+crystalViolet__e	Crystal violet		x	x
+CTP__e	CTP		x	x
+CU__e	cupric ion		x	x
+cyclobutane_dCdC__e	cyclobutane 2'-deoxycytidine dimer		x	x
+cyclobutane_dCdT__e	cyclobutane 2'-deoxycytidine 2'-deoxythymidine 		x	x
+cyclobutane_dCMPdCMP__e	cyclobutane 2'-deoxycytidine monophosphate dimer		x	x
+cyclobutane_dCMPdTMP__e	cyclobutane 2'-deoxycytidine monophosphate 2'-deoxythymidine  monophosphate		x	x
+cyclobutane_dTdC__e	cyclobutane 2'-deoxythymidine 2'-deoxycytidine		x	x
+cyclobutane_dTdT__e	cyclobutane 2'-deoxythymidine dimer		x	x
+cyclobutane_dTMPdCMP__e	cyclobutane 2'-deoxythymidine monophosphate 2'-deoxycytidine monophosphate		x	x
+cyclobutane_dTMPdTMP__e	cyclobutane 2'-deoxythymidine monophosphate dimer		x	x
+cyclodA__e	8,5'-cyclo-2'-deoxyadenosine		x	x
+cyclodAMP__e	8,5'-cyclo-2'-deoxyadenosine monophosphate		x	x
+cyclodG__e	8,5'-cyclo-2'-deoxyguanosine		x	x
+cyclodGMP__e	8,5'-cyclo-2'-deoxyguanosine monophosphate		x	x
+CYS__e	L-Cysteine		x	x
+CysCys__e	L-cysteinyl-L-cysteine		x	x
+CYTD__e	cytidine		x	x
+c_di_AMP__e	Cyclic-di-adenylate		x	x
+DA__e	deoxyadenosine		x	x
+DADP__e	dADP		x	x
+DAG160__e	Diacylglycerol (n-16:0)		x	x
+DAG161__e	Diacylglycerol (n-16:1)		x	x
+DAG181__e	Diacylglycerol (n-18:1)		x	x
+DALA__e	D-alanine		x	x
+DAMP__e	dAMP		x	x
+dApdAp__e	dAp-dAp		x	x
+DATP__e	dATP		x	x
+DC__e	deoxycytidine		x	x
+dC64dC__e	2'-deoxycytidine-[6,4]-2'-deoxycytidine		x	x
+dC64dC_dewar__e	2'-deoxycytidine-[6,4]-2'-deoxycytidine dewar product		x	x
+dC64dT__e	2'-deoxycytidine-[6,4]-2'-deoxythymidine		x	x
+dC64dT_dewar__e	2'-deoxycytidine-[6,4]-2'-deoxythymidine dewar product		x	x
+DCDP__e	dCDP		x	x
+DCMP__e	dCMP		x	x
+dCMP64dCMP__e	2'-deoxycytidine monophosphate-[6,4]-2'-deoxycytidine monophosphate		x	x
+dCMP64dCMP_dewar__e	2'-deoxycytidine monophosphate-[6,4]-2'-deoxycytidine monophosphate dewar product		x	x
+dCMP64dTMP__e	2'-deoxycytidine monophosphate-[6,4]-2'-deoxythymidine monophosphate		x	x
+dCMP64dTMP_dewar__e	2'-deoxycytidine monophosphate-[6,4]-2'-deoxythymidine monophosphate dewar product		x	x
+dCMP_GLYC__e	2-'deoxycytidine monophosphate glycol		x	x
+dCpdCp__e	dCp-dCp		x	x
+DCTP__e	dCTP		x	x
+dC_GLYC__e	2-'deoxycytidine glycol		x	x
+DDCA__e	Dodecanoate (n-C12:0)		x	x
+DDECG3P__e	1-dodecanoyl-sn-glycerol 3-phosphate		x	x
+deoxyG6P__e	2-deoxy-glucose-6-phosphate		x	x
+deoxyGLC__e	2-deoxy-glucose		x	x
+DG__e	deoxyguanosine		x	x
+DGDP__e	dGDP		x	x
+DGMP__e	dGMP		x	x
+dGpdGp__e	dGp-dGp		x	x
+DGTP__e	dGTP		x	x
+DHA__e	Dihydroxyacetone		x	x
+DHdT__e	5,6-dihydro-2'-deoxythymidine		x	x
+DHdTMP__e	5,6-dihydro-2'-deoxythymidine monophosphate		x	x
+DHdU__e	5,6-dihydroxy-2'-deoxyuridine		x	x
+DHdUMP__e	5,6-dihydroxy-2'-deoxyuridine monophosphate		x	x
+DHF__e	dihydrofolate		x	x
+dhpdU__e	5'-dihydroxypentyl-2'-deoxyuridine		x	x
+dhpdUMP__e	5'-dihydroxypentyl-2'-deoxyuridine monophosphate		x	x
+diacylglycerolCys__e	S-diacylglycerol cysteine 		x	x
+DIBUTYRIN__e	dibutyrin		x	x
+dINS__e	2'-deoxyinosine		x	x
+dINSMP__e	2'-deoxyinosine monophosphate		x	x
+DMBA__e	dimethylbenzyl alcohol		x	x
+doxorubicin__e	Doxorubicin		x	x
+DPCOA__e	dephospho-CoA		x	x
+DPG__e	3-Phospho-D-glyceroyl phosphate		x	x
+DR1P__e	2-Deoxy-D-ribose 1-phosphate		x	x
+DR5P__e	2-Deoxy-D-ribose 5-phosphate		x	x
+DT__e	thymidine		x	x
+dT64dC__e	2'-deoxythymidine-[6,4]-2'-deoxycytidine		x	x
+dT64dC_dewar__e	2'-deoxythymidine-[6,4]-2'-deoxycytidine dewar product		x	x
+dT64dT__e	2'-deoxythymidine-[6,4]-2'-deoxythymidine		x	x
+dT64dT_dewar__e	2'-deoxythymidine-[6,4]-2'-deoxythymidine dewar product		x	x
+DTDP__e	dTDP		x	x
+DTMP__e	dTMP		x	x
+dTMP64dCMP__e	2'-deoxythymidine monophosphate-[6,4]-2'-deoxycytidine monophosphate		x	x
+dTMP64dCMP_dewar__e	2'-deoxythymidine monophosphate-[6,4]-2'-deoxycytidine monophosphate dewar product		x	x
+dTMP64dTMP__e	2'-deoxythymidine monophosphate-[6,4]-2'-deoxythymidine monophosphate		x	x
+dTMP64dTMP_dewar__e	2'-deoxythymidine monophosphate-[6,4]-2'-deoxythymidine monophosphate dewar product		x	x
+dTMP_GLYC__e	2'-deoxythymidine monophosphate glycol		x	x
+dTpdTp__e	dTp-dTp		x	x
+DTTP__e	dTTP		x	x
+dT_GLYC__e	2'-deoxythymidine glycol		x	x
+DU__e	deoxyuridine		x	x
+DUDP__e	dUDP		x	x
+DUMP__e	dUMP		x	x
+DUTP__e	dUTP		x	x
+dXAN__e	2'-deoxyxanthosine		x	x
+dXANMP__e	2'-deoxyxanthosine monophosphate		x	x
+e1dA__e	1-ethyl-2'-deoxyadenosine		x	x
+e1dAMP__e	1-ethyl-2'-deoxyadenosine monophosphate		x	x
+e1dG__e	1-ethyl-2'-deoxyguanosine		x	x
+e1dGMP__e	1-ethyl-2'-deoxyguanosine monophosphate		x	x
+e3dA__e	3-ethyl-2'-deoxyadenosine		x	x
+e3dAMP__e	3-ethyl-2'-deoxyadenosine monophosphate		x	x
+e3dC__e	3-ethyl-2'-deoxycytidine		x	x
+e3dCMP__e	3-ethyl-2'-deoxycytidine monophosphate		x	x
+e3dG__e	3-ethyl-2'-deoxyguanosine		x	x
+e3dGMP__e	3-ethyl-2'-deoxyguanosine monophosphate		x	x
+e3dT__e	3'-ethyl-2'-deoxythymidine		x	x
+e3dTMP__e	3'-ethyl-2'-deoxythymidine monophosphate		x	x
+e4dC__e	4-ethyl-2'-deoxycytidine		x	x
+e4dCMP__e	4-ethyl-2'-deoxycytidine monophosphate		x	x
+E4P__e	D-Erythrose 4-phosphate		x	x
+e5dC__e	5-ethyl-2'-deoxycytidine		x	x
+e5dCMP__e	5-ethyl-2'-deoxycytidine monophosphate		x	x
+e6dA__e	6-ethyl-2'-deoxyadenosine		x	x
+e6dAMP__e	6-ethyl-2'-deoxyadenosine monophosphate		x	x
+e7dA__e	7-ethyl-2'-deoxyadenosine		x	x
+e7dAMP__e	7-ethyl-2'-deoxyadenosine monophosphate		x	x
+e7dG__e	7-ethyl-2'-deoxyguanosine		x	x
+e7dGMP__e	7-ethyl-2'-deoxyguanosine monophosphate		x	x
+e8dG__e	8-ethyl-2'-deoxyguanosine		x	x
+e8dGMP__e	8-ethyl-2'-deoxyguanosine monophosphate		x	x
+enoxacin__e	Enoxacin		x	x
+epsilon1N2dG__e	1,N2-etheno-2'-deoxyguanosine		x	x
+epsilon1N2dGMP__e	1,N2-etheno-2'-deoxyguanosine monophosphate		x	x
+epsilon1N6dA__e	1,N6-etheno-2'-deoxyadenosine		x	x
+epsilon1N6dAMP__e	1,N6-etheno-2'-deoxyadenosine monophosphate		x	x
+epsilon3N4dC__e	3,N4-etheno-2'-deoxycytidine		x	x
+epsilon3N4dCMP__e	3,N4-etheno-2'-deoxycytidine monophosphate		x	x
+epsilonN23dG__e	N2,3-etheno-2'-deoxyguanosine		x	x
+epsilonN23dGMP__e	N2,3-etheno-2'-deoxyguanosine monophosphate		x	x
+ethidium__e	Ethidium		x	x
+ETN__e	ethanolamine		x	x
+F1P__e	D-Fructose 1-phosphate		x	x
+f5dU__e	5-formyl-2'-deoxyuridine		x	x
+f5dUMP__e	5-formyl-2'-deoxyuridine monophosphate		x	x
+F6P__e	D-Fructose 6-phosphate		x	x
+FAD__e	flavin adenine dinucleotide, oxidized		x	x
+FADH2__e	flavin adenine dinucleotide, reduced		x	x
+FALD__e	formaldehyde		x	x
+FAPydA__e	N4-(2-Deoxy-alpha,beta-D-erythro-pentofuranosyl)-4,6-diamino-5-formamidopyrimidine		x	x
+FAPydAMP__e	N4-(2-Deoxy-alpha,beta-D-erythro-pentofuranosyl)-4,6-diamino-5-formamidopyrimidine monophosphate		x	x
+FAPydG__e	N6-(2-Deoxy-α,β-d-erythro-pentofuranosyl)-2,6-diamino-4-hydroxy-5-formamidopyrimidine		x	x
+FAPydGMP__e	N6-(2-Deoxy-α,β-d-erythro-pentofuranosyl)-2,6-diamino-4-hydroxy-5-formamidopyrimidine monophosphate		x	x
+FDP__e	D-Fructose 1,6-bisphosphate		x	x
+FE2__e	ferrous iron		x	x
+FE3__e	ferric iron		x	x
+FMET__e	N-Formyl-L-methionine		x	x
+FMN__e	flavin mononucleotide, oxidized		x	x
+FMNH2__e	flavin mononucleotide, reduced		x	x
+FOR__e	Formate		x	x
+FRU__e	D-Fructose		x	x
+FTHF10__e	10-formyl-tetrahydrofolate		x	x
+FTHF5__e	5-formyltetrahydrofolate		x	x
+FUC1P__e	L-fucose 1-phosphate		x	x
+G1P__e	D-Glucose 1-phosphate		x	x
+G23CMP__e	2',3'-Cyclic GMP		x	x
+G2P__e	D-Glycerate 2-phosphate		x	x
+G3MP__e	3'-GMP		x	x
+G3P__e	3-Phospho-D-glycerate		x	x
+G6P__e	D-Glucose 6-phosphate		x	x
+GalCer16__e	galactosyl-β-Ceramide (d18:1/16:0)		x	x
+GalDAG160__e	galactosyl-β-diacylglycerol(16:0/16:1(9Z))		x	x
+GalDAG161__e	galactosyl-β-diacylglycerol(16:1(9Z)/16:1(9Z))		x	x
+GalDAG181__e	galactosyl-β-diacylglycerol(18:1(11Z)/18:1(11Z))		x	x
+GalGalCer16__e	galactosyl-α1-4-galactosyl-β-Ceramide (d18:1/16:0)		x	x
+GalGalDAG160__e	galactosyl-α1-4-galactosyl-β-diacylglycerol(16:0/16:1(9Z))		x	x
+GalGalDAG161__e	galactosyl-α1-4-galactosyl-β-diacylglycerol(16:1(9Z)/16:1(9Z))		x	x
+GalGalDAG181__e	galactosyl-α1-4-galactosyl-β-diacylglycerol(18:1(11Z)/18:1(11Z))		x	x
+GalGalGalDAG160__e	galactosyl-α1-4-galactosyl-β1-4-galactosyl-β-diacylglycerol(16:0/16:1(9Z))		x	x
+GalGalGalDAG161__e	galactosyl-α1-4-galactosyl-β1-4-galactosyl-β-diacylglycerol(16:1(9Z)/16:1(9Z))		x	x
+GalGalGalDAG181__e	galactosyl-α1-4-galactosyl-β1-4-galactosyl-β-diacylglycerol(18:1(11Z)/18:1(11Z))		x	x
+GalGalGlcCer16__e	galactosyl-α1-4-galactosyl-β1-4-glucosyl-β-Ceramide (d18:1/16:0)		x	x
+GalGalGlcDAG160__e	galactosyl-α1-4-galactosyl-β1-4-glucosyl-β-diacylglycerol(16:0/16:1(9Z))		x	x
+GalGalGlcDAG161__e	galactosyl-α1-4-galactosyl-β1-4-glucosyl-β-diacylglycerol(16:1(9Z)/16:1(9Z))		x	x
+GalGalGlcDAG181__e	galactosyl-α1-4-galactosyl-β1-4-glucosyl-β-diacylglycerol(18:1(11Z)/18:1(11Z))		x	x
+GalGlcCer16__e	galactosyl-β1-4-glucosyl-β-Ceramide (d18:1/16:0)		x	x
+GalGlcDAG160__e	galactosyl-β1-4-glucosyl-β-diacylglycerol(16:0/16:1(9Z))		x	x
+GalGlcDAG161__e	galactosyl-β1-4-glucosyl-β-diacylglycerol(16:1(9Z)/16:1(9Z))		x	x
+GalGlcDAG181__e	galactosyl-β1-4-glucosyl-β-diacylglycerol(18:1(11Z)/18:1(11Z))		x	x
+GDP__e	GDP		x	x
+GDPTP__e	Guanosine 3'-diphosphate 5'-triphosphate		x	x
+GL__e	glycerol		x	x
+GL2P__e	Glycerol 2-phosphate		x	x
+GL3P__e	Glycerol 3-phosphate		x	x
+GLC__e	D-Glucose		x	x
+GlcCer16__e	glucosyl-β-Ceramide (d18:1/16:0)		x	x
+GlcDAG160__e	glucosyl-β-diacylglycerol(16:0/16:1(9Z))		x	x
+GlcDAG161__e	glucosyl-β-diacylglycerol(16:1(9Z)/16:1(9Z))		x	x
+GlcDAG181__e	glucosyl-β-diacylglycerol(18:1(11Z)/18:1(11Z))		x	x
+GlcGalCer16__e	glucosyl-β1-4-galactosyl-β-Ceramide (d18:1/16:0)		x	x
+GlcGalDAG160__e	glucosyl-β1-4-galactosyl-β-diacylglycerol(16:0/16:1(9Z))		x	x
+GlcGalDAG161__e	glucosyl-β1-4-galactosyl-β-diacylglycerol(16:1(9Z)/16:1(9Z))		x	x
+GlcGalDAG181__e	glucosyl-β1-4-galactosyl-β-diacylglycerol(18:1(11Z)/18:1(11Z))		x	x
+GlcGalGalDAG160__e	glucosyl-β1-4-galactosyl-α1-4-galactosyl-β-diacylglycerol(16:0/16:1(9Z))		x	x
+GlcGalGalDAG161__e	glucosyl-β1-4-galactosyl-α1-4-galactosyl-β-diacylglycerol(16:1(9Z)/16:1(9Z))		x	x
+GlcGalGalDAG181__e	glucosyl-β1-4-galactosyl-α1-4-galactosyl-β-diacylglycerol(18:1(11Z)/18:1(11Z))		x	x
+GlcGalGlcDAG160__e	glucosyl-β1-4-galactosyl-β1-4-glucosyl-β-diacylglycerol(16:0/16:1(9Z))		x	x
+GlcGalGlcDAG161__e	glucosyl-β1-4-galactosyl-β1-4-glucosyl-β-diacylglycerol(16:1(9Z)/16:1(9Z))		x	x
+GlcGalGlcDAG181__e	glucosyl-β1-4-galactosyl-β1-4-glucosyl-β-diacylglycerol(18:1(11Z)/18:1(11Z))		x	x
+GlcGlcDAG160__e	glucosyl-β1-4-glucosyl-β-diacylglycerol(16:0/16:1(9Z))		x	x
+GlcGlcDAG161__e	glucosyl-β1-4-glucosyl-β-diacylglycerol(16:1(9Z)/16:1(9Z))		x	x
+GlcGlcDAG181__e	glucosyl-β1-4-glucosyl-β-diacylglycerol(18:1(11Z)/18:1(11Z))		x	x
+GlcGlcGlcDAG160__e	glucosyl-β1-4-glucosyl-β1-4-glucosyl-β-diacylglycerol(16:0/16:1(9Z))		x	x
+GlcGlcGlcDAG161__e	glucosyl-β1-4-glucosyl-β1-4-glucosyl-β-diacylglycerol(16:1(9Z)/16:1(9Z))		x	x
+GlcGlcGlcDAG181__e	glucosyl-β1-4-glucosyl-β1-4-glucosyl-β-diacylglycerol(18:1(11Z)/18:1(11Z))		x	x
+glchm5dC__e	beta-D-glucosylhydroxymethyl-2'-deoxycytidine		x	x
+glchm5dCMP__e	beta-D-glucosylhydroxymethyl-2'-deoxycytidine monophosphate		x	x
+glchm5dU__e	beta-D-glucosylhydroxymethyl-2'-deoxyuridine		x	x
+glchm5dUMP__e	beta-D-glucosylhydroxymethyl-2'-deoxyuridine monophosphate		x	x
+GLN__e	L-glutamine		x	x
+GlnGln__e	L-glutaminyl-L-glutamine		x	x
+GLU__e	L-Glutamate		x	x
+gludT__e	a-glutamyl-2'-deoxythymidine		x	x
+gludTMP__e	a-glutamyl-2'-deoxythymidine monophosphate		x	x
+GluGlu__e	L-glutamyl-L-glutamic acid		x	x
+GLY__e	glycine		x	x
+GlyGly__e	L-glycyl-L-glycine		x	x
+Gm__e	2'-O-methylguanosine		x	x
+GmMP__e	2'-O-methylguanosine monophosphate		x	x
+GMP__e	GMP		x	x
+GMP_Lysine__e	GMP-lysine		x	x
+GMP_Mor__e	GMP-morpholidate		x	x
+GN__e	guanine		x	x
+GPCH__e	sn-Glycero-3-phosphocholine		x	x
+GPE__e	sn-Glycero-3-phosphoethanolamine		x	x
+GPG__e	Glycerophosphoglycerol		x	x
+GPI__e	sn-Glycero-3-phospho-1-inositol		x	x
+GPS__e	Glycerophosphoserine		x	x
+GSN__e	guanosine		x	x
+GTP__e	GTP		x	x
+H__e	hydrogen ion		x	x
+H2O__e	water		x	x
+H2O2__e	hydrogen peroxide		x	x
+HCYS__e	L-homocysteine		x	x
+HDCA__e	Hexadecanoate (n-C16:0)		x	x
+HDCEA__e	Hexadecenoate (n-C16:1)		x	x
+HDECEG3P__e	1-hexadecanoyl-sn-glycerol 3-phosphate		x	x
+HDECG3P__e	1-hexadec-9-enoyl-sn-glycerol 3-phosphate		x	x
+HIS__e	L-Histidine		x	x
+HisHis__e	L-histidyl-L-histidine		x	x
+hm3dC__e	3'-hydroxymethyl-2'-deoxycytidine		x	x
+hm3dCMP__e	3'-hydroxymethyl-2'-deoxycytidine monophosphate		x	x
+hm5dC__e	5'-hydroxymethyl-2'-deoxycytidine		x	x
+hm5dCMP__e	5'-hydroxymethyl-2'-deoxycytidine monophosphate		x	x
+hm5dU__e	5-hydroxymethyl-2'-deoxyuridine		x	x
+hm5dUMP__e	5-hydroxymethyl-2'-deoxyuridine monophosphate		x	x
+hm5hydantoin_dRibose__e	2'-deoxy-3'-(5-hydroxy-5-methyl-hydantoin)-ribose		x	x
+hm5hydantoin_dRiboseMP__e	2'-deoxy-3'-(5-hydroxy-5-methyl-hydantoin)-ribose monophosphate		x	x
+ho5dC__e	5-Hydroxy-2'-deoxycytidine		x	x
+ho5dCMP__e	5-Hydroxy-2'-deoxycytidine monophosphate		x	x
+ho5dU__e	5-hydroxy-2'-deoxyuridine		x	x
+ho5dUMP__e	5-hydroxy-2'-deoxyuridine monophosphate		x	x
+ho5ho6dT__e	5-hydroxy-6-hydroxy-2'-deoxythymidine		x	x
+ho5ho6dTMP__e	5-hydroxy-6-hydroxy-2'-deoxythymidine monophosphate		x	x
+ho5ho6dU__e	5-hydroxy-6-hydroxy-2'-deoxyuridine		x	x
+ho5ho6dUMP__e	5-hydroxy-6-hydroxy-2'-deoxyuridine monophosphate		x	x
+ho5hydantoin_dRibose__e	2'-deoxy-3'-(5-hydroxyhydantoin)-ribose		x	x
+ho5hydantoin_dRiboseMP__e	2'-deoxy-3'-(5-hydroxyhydantoin)-ribose monophosphate		x	x
+HPHPYR__e	3-(4-Hydroxyphenyl)pyruvate		x	x
+hydride__e	hydride		x	x
+hydroxyl_radical__e	hydroxyl radical		x	x
+HYXN__e	hypoxanthine		x	x
+IDP__e	IDP		x	x
+ILE__e	L-Isoleucine		x	x
+IleIle__e	L-isoleucyl-L-isoleucine		x	x
+IMP__e	IMP		x	x
+INOS__e	myo-inositol		x	x
+INS__e	inosine		x	x
+ITP__e	ITP		x	x
+K__e	potassium ion		x	x
+k2C__e	lysidine		x	x
+k2CMP__e	lysidine monophosphate		x	x
+LAC__e	D-lactate		x	x
+LEU__e	L-Leucine		x	x
+LeuLeu__e	L-leucyl-L-leucine		x	x
+LIPOATE__e	lipoate		x	x
+LIPOYLAMP__e	lipoyl-AMP		x	x
+LIPOYLLYS__e	N(6)-(lipoyl)lysine		x	x
+lomefloxacin__e	Lomefloxacin		x	x
+LYS__e	L-Lysine		x	x
+LysLys__e	L-lysyl-L-lysine		x	x
+m1dA__e	1-methyl-2'-deoxyadenosine		x	x
+m1dAMP__e	1-methyl-2'-deoxyadenosine monophosphate		x	x
+m1dG__e	1-methyl-2'-deoxyguanosine		x	x
+m1dGMP__e	1-methyl-2'-deoxyguanosine monophosphate		x	x
+m1G__e	1-methylguanosine		x	x
+m1GMP__e	1-methylguanosine monophosphate		x	x
+m2G__e	N(2)-methylguanosine		x	x
+m2GMP__e	N(2)-methylguanosine monophosphate		x	x
+m3dA__e	3-methyl-2'-deoxyadenosine		x	x
+m3dAMP__e	3-methyl-2'-deoxyadenosine monophosphate		x	x
+m3dC__e	3-methyl-2'-deoxycytidine		x	x
+m3dCMP__e	3-methyl-2'-deoxycytidine monophosphate		x	x
+m3dG__e	3-methyl-2'-deoxyguanosine		x	x
+m3dGMP__e	3-methyl-2'-deoxyguanosine monophosphate		x	x
+m3dT__e	3'-methyl-2'-deoxythymidine		x	x
+m3dTMP__e	3'-methyl-2'-deoxythymidine monophosphate		x	x
+m4dC__e	4-methyl-2'-deoxycytidine		x	x
+m4dCMP__e	4-methyl-2'-deoxycytidine monophosphate		x	x
+m5C__e	5-methylcytidine		x	x
+m5CMP__e	5-methylcytidine monophosphate		x	x
+m5dC__e	5-methyl-2'-deoxycytidine		x	x
+m5dCMP__e	5-methyl-2'-deoxycytidine monophosphate		x	x
+m62A__e	N6,N6-dimethyladenosine		x	x
+m62AMP__e	N6,N6-dimethyladenosine monophosphate		x	x
+m6A__e	N(6)-methyladenine		x	x
+m6AMP__e	N(6)-methyladenine monophosphate		x	x
+m6dA__e	6-methyl-2'-deoxyadenosine		x	x
+m6dAMP__e	6-methyl-2'-deoxyadenosine monophosphate		x	x
+m7dA__e	7-methyl-2'-deoxyadenosine		x	x
+m7dAMP__e	7-methyl-2'-deoxyadenosine monophosphate		x	x
+m7dG__e	7-methyl-2'-deoxyguanosine		x	x
+m7dGMP__e	7-methyl-2'-deoxyguanosine monophosphate		x	x
+m7G__e	7-methylguanosine		x	x
+m7GMP__e	7-methylguanosine monophosphate		x	x
+m8dG__e	8-methyl-2'-deoxyguanosine		x	x
+m8dGMP__e	8-methyl-2'-deoxyguanosine monophosphate		x	x
+MAL__e	L-Malate		x	x
+MAN__e	D-Mannose		x	x
+MAN1P__e	D-Mannose 1-phosphate		x	x
+MAN6P__e	D-Mannose 6-phosphate		x	x
+MET__e	L-Methionine		x	x
+METHF__e	5,10-methyltetrahydrofolate		x	x
+methylRed__e	4′-dimethylaminoazobenzene-2-carboxylic acid		x	x
+METHYL_OCDCEA__e	methyl oleate		x	x
+MetMet__e	L-methionyl-L-methionine		x	x
+METSOXRL__e	L-Methionine-R-Sulfoxide		x	x
+METSOXSL__e	L-Methionine-S-Sulfoxide		x	x
+METTHF__e	5,10-Methylenetetrahydrofolate		x	x
+MG__e	magnesium ion		x	x
+MN__e	manganese ion		x	x
+MO__e	molybdenum ion		x	x
+MOBD__e	Molybdate		x	x
+MONOBUTYRIN__e	1-monobutyrin		x	x
+MOR__e	morpholine		x	x
+MTHF__e	5-Methyltetrahydrofolate		x	x
+n2dA__e	2-amino-2'-deoxyadenosine		x	x
+n2dAMP__e	2-amino-2'-deoxyadenosine monophosphate		x	x
+NA__e	sodium ion		x	x
+NAAD__e	nicotinic acid adenine dinucleotide		x	x
+NAC__e	nicotinate		x	x
+NAD__e	nicotinamide adenine dinucleotide, oxidized		x	x
+NADH__e	nicotinamide adenine dinucleotide, reduced		x	x
+NADP__e	nicotinamide adenine dinucleotide phosphate, oxidized		x	x
+NADPH__e	nicotinamide adenine dinucleotide phosphate, reduced		x	x
+NAMN__e	nicotinate/nicotinic acid mononucleotide		x	x
+NH3__e	ammonia		x	x
+NH4__e	ammonium		x	x
+NI__e	nickel		x	x
+nisin__e	nisin		x	x
+NMN__e	nicotinamide mononucleotide		x	x
+norfloxacin__e	Norfloxacin		x	x
+novobiocin__e	Novobiocin		x	x
+NR__e	Nicotinate D-ribonucleotide		x	x
+O2__e	oxygen		x	x
+O2edC__e	2'-O-ethyl-2'-deoxycytidine		x	x
+O2edCMP__e	2'-O-ethyl-2'-deoxycytidine monophosphate		x	x
+O2edT__e	2'-O-ethyl-2'-deoxythymidine		x	x
+O2edTMP__e	2'-O-ethyl-2'-deoxythymidine monophosphate		x	x
+O2mdC__e	2'-O-methyl-2'-deoxycytidine		x	x
+O2mdCMP__e	2'-O-methyl-2'-deoxycytidine monophosphate		x	x
+O2mdT__e	2'-O-methyl-2'-deoxythymidine		x	x
+O2mdTMP__e	2'-O-methyl-2'-deoxythymidine monophosphate		x	x
+O4edT__e	4'-O-ethyl-2'-deoxythymidine		x	x
+O4edTMP__e	4'-O-ethyl-2'-deoxythymidine monophosphate		x	x
+O4mdT__e	4'-O-methyl-2'-deoxythymidine		x	x
+O4mdTMP__e	4'-O-methyl-2'-deoxythymidine monophosphate		x	x
+O6edG__e	6'-O-ethyl-2'-deoxyguanosine		x	x
+O6edGMP__e	6'-O-ethyl-2'-deoxyguanosine monophosphate		x	x
+O6mdG__e	6'-O-methyl-2'-deoxyguanosine		x	x
+O6mdGMP__e	6'-O-methyl-2'-deoxyguanosine monophosphate		x	x
+OA__e	oxaloacetate		x	x
+OCDCA__e	octadecanoate (n-C18:0)		x	x
+OCDCEA__e	octadecenoate (n-C18:1)		x	x
+ODEC11GP__e	1-octadec-11-enoyl-sn-glycerol 3-phosphate		x	x
+ODECG3P__e	1-octadecanoyl-sn-glycerol 3-phosphate		x	x
+OH__e	hydoxide anion		x	x
+ORN__e	ornithine		x	x
+oxo2dA__e	2-hydroxy-2'-deoxyadenosine		x	x
+oxo2dAMP__e	2-hydroxy-2'-deoxyadenosine monophosphate		x	x
+oxo8dA__e	8-hydroxy-2'-deoxyadenosine		x	x
+oxo8dAMP__e	8-hydroxy-2'-deoxyadenosine monophosphate		x	x
+oxo8dG__e	8-Oxo-2'-deoxyguanosine; 8-hydroxy-2'-deoxyguanosine		x	x
+oxo8dGMP__e	8-Oxo-2'-deoxyguanosine monophosphate; 8-hydroxy-2'-deoxyguanosine monophosphate		x	x
+oxoethyl7dG__e	7-(2'-oxoethyl)-2'-deoxyguanosine		x	x
+oxoethyl7dGMP__e	7-(2'-oxoethyl)-2'-deoxyguanosine monophosphate		x	x
+PA120__e	1,2-didodecanoyl-sn-glycerol 3-phosphate		x	x
+PA140__e	1,2-ditetradecanoyl-sn-glycerol 3-phosphate		x	x
+PA141__e	1,2-ditetradec-7-enoyl-sn-glycerol 3-phosphate		x	x
+PA160__e	1,2-dihexadecanoyl-sn-glycerol 3-phosphate		x	x
+PA161__e	1,2-dihexadec-9-enoyl-sn-glycerol 3-phosphate		x	x
+PA180__e	1,2-dioctadecanoyl-sn-glycerol 3-phosphate		x	x
+PA181__e	1,2-dioctadec-11-enoyl-sn-glycerol 3-phosphate		x	x
+PAP__e	Adenosine 3',5'-bisphosphate		x	x
+pCHOL__e	phosphoryl-choline		x	x
+PDLA5P__e	Pyridoxamine 5'-phosphate		x	x
+PEP__e	phosphoenolpyruvate		x	x
+PG160__e	Phosphatidylglycerol (dihexadecanoyl, n-C16:0)		x	x
+PG161__e	Phosphatidylglycerol (dihexadec-9-enoyl, n-C16:1)		x	x
+PG181__e	Phosphatidylglycerol (dioctadec-11-enoyl, n-C18:1)		x	x
+PGP160__e	Phosphatidylglycerophosphate (dihexadecanoyl, n-C16:0)		x	x
+PGP161__e	Phosphatidylglycerophosphate (dihexadec-9-enoyl, n-C16:1)		x	x
+PGP181__e	Phosphatidylglycerophosphate (dioctadec-11-enoyl, n-C18:1)		x	x
+PHE__e	L-phenylalanine		x	x
+PhePhe__e	L-phenylalanyl-L-phenylalanine		x	x
+PHPYR__e	phenylpyruvate		x	x
+PI__e	phosphate		x	x
+PL5P__e	Pyridoxal 5'-phosphate		x	x
+POE_SORBITAN__e	Polyoxyethylene (20) sorbitan		x	x
+PPAA__e	Phosphonoacetaldehyde		x	x
+PPGPP__e	Guanosine 3',5'-bis(diphosphate)		x	x
+PPHG__e	protoporphyrinogen IX		x	x
+PPI__e	diphosphate		x	x
+PPIX__e	protoporphyrin IX		x	x
+PRO__e	L-Proline		x	x
+proflavine__e	Proflavine		x	x
+ProPro__e	L-prolyl-L-proline		x	x
+PRPP__e	5-Phospho-alpha-D-ribose 1-diphosphate		x	x
+pSER__e	phosphoserine		x	x
+PSIURI__e	pseudouridine		x	x
+PSIURIMP__e	pseudouridine monophoshate		x	x
+pTHR__e	phosphothreonine		x	x
+PTRC__e	putrescine		x	x
+pTYR__e	Phosphotyrosine		x	x
+putdT__e	alpha-putrescinyl-2'-deoxythymidine		x	x
+putdTMP__e	alpha-putrescinyl-2'-deoxythymidine monophosphate		x	x
+PYDX__e	Pyridoxal		x	x
+PYR__e	pyruvate		x	x
+R1P__e	alpha-D-Ribose 1-phosphate		x	x
+R5P__e	alpha-D-Ribose 5-phosphate		x	x
+RBFLVRD__e	riboflavin, reduced		x	x
+rhodamine6G__e	Rhodamine 6G		x	x
+RIB__e	D-ribose		x	x
+RIBFLV__e	riboflavin, oxidized		x	x
+RL5P__e	D-Ribulose 5-phosphate		x	x
+s2U__e	2-thiouridine		x	x
+s2UMP__e	2-thiouridine monophosphate		x	x
+s4U__e	4-thiouridine		x	x
+s4UMP__e	4-thiouridine monophosphate		x	x
+S7P__e	D-sedoheptulose-7-phosphate		x	x
+SALA__e	3-Sulfino-L-alanine		x	x
+SBT__e	D-Sorbitol		x	x
+SBT6P__e	D-Sorbitol 6-phosphate		x	x
+SER__e	L-Serine		x	x
+SerSer__e	L-seryl-L-serine		x	x
+SNGLYP__e	sn-glycerol-1-phosphate		x	x
+SO2__e	sulfur dioxide		x	x
+SO4__e	sulphate		x	x
+SPMD__e	spermidine		x	x
+STEROL__e	cholesterol		x	x
+T3P1__e	D-glyceraldehdye-3-phosphate		x	x
+T3P2__e	Dihydroxyacetone phosphate		x	x
+TAG16P__e	D-Tagatose 1,6-biphosphate		x	x
+TAG6P__e	D-Tagatose 6-phosphate		x	x
+tBHP__e	tert-butylhydroperoxide		x	x
+tBOH__e	tert-Butanol		x	x
+TDECEG3P__e	1-tetradec-7-enoyl-sn-glycerol 3-phosphate		x	x
+TDECG3P__e	1-tetradecanoyl-sn-glycerol 3-phosphate		x	x
+TDP__e	TDP		x	x
+tetraphenylphosphonium__e	tetraphenylphosphonium		x	x
+THF__e	5,6,7,8-Tetrahydrofolate		x	x
+THM__e	thiamine		x	x
+THMP__e	Thiamin monophosphate		x	x
+THR__e	L-Threonine		x	x
+ThrThr__e	L-threonyl-L-threonine		x	x
+THY__e	thymine		x	x
+TPP__e	thiamine diphosphate		x	x
+TRIBUTYRIN__e	tributyrin; 1,3-Di(butanoyloxy)propan-2-yl butanoate; butyrin		x	x
+TRILAURIN__e	trilaurin		x	x
+TRIMYRISTIN__e	trimyristin; 1,3-Di(tetradecanoyloxy)propan-2-yl tetradecanoate; glyceryl trimyristate		x	x
+TRIOLEIN__e	triolein		x	x
+TRIPALMITIN__e	tripalmitin; 1,2,3-Trihexadecanoylglycerol; Glyceryl Tripalmitate; Glycerol Tripalmitate		x	x
+TRISTEARIN__e	Tristearin		x	x
+TRI_HDCEA_IN__e	triacylglycerol of {Hexadecenoate acid}		x	x
+TRI_TTDCEA_IN__e	triacylglycerol of {tetradecenoic acid}		x	x
+TRP__e	L-tryptophan		x	x
+TrpTrp__e	L-trytophanyl-L-trytophan		x	x
+TTDCA__e	tetradecanoate (n-C14:0)		x	x
+TTDCEA__e	tetradecenoate (n-C14:1)		x	x
+TTP__e	TTP		x	x
+TWEEN80__e	Tween 80; Polyoxyethylene (20) sorbitan monooleate; polysorbate 80		x	x
+TYR__e	L-tyrosine		x	x
+TyrTyr__e	L-tyrosyl-L-tyrosine		x	x
+U23CMP__e	2',3'-Cyclic UMP		x	x
+U3MP__e	3'-UMP		x	x
+UDP__e	UDP		x	x
+UDPG__e	UDP-glucose		x	x
+UDPGAL__e	UDP-galactose		x	x
+UDPGALF__e	UDP-D-galacto-1,4-furanose		x	x
+Um__e	2'-O-methyluridine		x	x
+UmMP__e	2'-O-methyluridine monophosphate		x	x
+UMP__e	UMP		x	x
+URA__e	uracil		x	x
+URI__e	uridine		x	x
+UTP__e	UTP		x	x
+VAL__e	L-Valine		x	x
+ValVal__e	L-valyl-L-valine		x	x
+vinyl_chloride__e	Vinylchloride		x	x
+X5P__e	D-Xylulose 5-phosphate		x	x
+XAN__e	xanthine		x	x
+XTSN__e	xanthosine		x	x
+ZN__e	zinc ion		x	x
+A23CMP__m	2',3'-Cyclic AMP		x	x
+A3MP__m	3'-AMP		x	x
+AC__m	acetate		x	x
+ACAL__m	acetaldehyde		x	x
+ACCOA__m	Acetyl-CoA		x	x
+acriflavine__m	Acriflavine		x	x
+ACTP__m	Acetyl phosphate		x	x
+AD__m	adenine		x	x
+ADN__m	adenosine		x	x
+ADP__m	ADP		x	x
+AEPP__m	2-aminoethylphosphonate		x	x
+AHCYS__m	S-Adenosyl-L-homocysteine		x	x
+AKG__m	2-Oxoglutarate		x	x
+ALA__m	L-alanine		x	x
+AlaAla__m	L-alanyl-L-alanine		x	x
+AMET__m	S-Adenosyl-L-methionine		x	x
+aminodimethylaniline__m	N,N'-dimethyl-p-phenylenediamine		x	x
+AMP__m	AMP		x	x
+AMP_Lysine__m	AMP-Lysine		x	x
+AMP_Mor__m	AMP-morpholidate		x	x
+AMP_NH2__m	AMP-NH2		x	x
+anthranilate__m	2-aminobenzoic acid		x	x
+ARG__m	L-Arginine		x	x
+ArgArg__m	L-arginyl-L-arginine		x	x
+ASN__m	L-Asparagine		x	x
+AsnAsn__m	L-asparaginyl-L-asparagine		x	x
+ASP__m	L-Aspartate		x	x
+AspAsp__m	L-aspartyl-L-aspartic Acid		x	x
+ATP__m	ATP		x	x
+aza6dT__m	6-aza-2'-deoxythymidine		x	x
+aza6dTMP__m	6-aza-2'-deoxythymidine monophosphate		x	x
+aza8dA__m	8-aza-2'-deoxyadenosine		x	x
+aza8dAMP__m	8-aza-2'-deoxyadenosine monophosphate		x	x
+benzalkonium__m	Benzalkonium		x	x
+berberine__m	Berberine		x	x
+BUT__m	butyric acid, butanoic acid		x	x
+C23CMP__m	2',3'-Cyclic CMP		x	x
+C3MP__m	3'-CMP		x	x
+c5dU__m	5-Carbouy-2'-deoxyuridine		x	x
+c5dUMP__m	5-Carbouy-2'-deoxyuridine monophosphate		x	x
+CA__m	calcium ion		x	x
+CAP__m	carbamoyl phosphate		x	x
+carbamoylmethyl6dA__m	N6-carbamoylmethyl-2'-deoxyadenosine		x	x
+carbamoylmethyl6dAMP__m	N6-carbamoylmethyl-2'-deoxyadenosine monophosphate		x	x
+CDP__m	CDP		x	x
+CDPDG120__m	CDP-1,2-didodecanoylglycerol		x	x
+CDPDG140__m	CDP-1,2-ditetradecanoylglycerol		x	x
+CDPDG141__m	CDP-1,2-ditetradec-7-enoylglycerol		x	x
+CDPDG160__m	CDP-1,2-dihexadecanoylglycerol		x	x
+CDPDG161__m	CDP-1,2-dihexadec-9-enoylglycerol		x	x
+CDPDG180__m	CDP-1,2-dioctadecanoylglycerol		x	x
+CDPDG181__m	CDP-1,2-dioctadec-11-enoylglycerol		x	x
+Ceramide16__m	Ceramide (d18:1/16:0)		x	x
+CH3OH__m	methanol		x	x
+chloroacetaldehyde__m	chloroacetaldehyde		x	x
+chloroethylene_oxide__m	chloroethylene oxide		x	x
+CHOL__m	choline		x	x
+CHP__m	cumene hydroperoxide		x	x
+ciprofloxacin__m	ciprofloxacin		x	x
+CITR__m	L-citrulline		x	x
+CL__m	chloride ion		x	x
+CL160__m	cardiolipin (tetrahexadecanoyl, n-C16:0)		x	x
+CL161__m	cardiolipin (tetrahexadec-9-enoyl, n-C16:1)		x	x
+CL181__m	cardiolipin (tetraoctadec-11-enoyl, n-C18:1)		x	x
+cmnm5s2U__m	5-carboxymethylaminomethyl-2-thiouridine		x	x
+cmnm5s2UMP__m	5-carboxymethylaminomethyl-2-thiouridine monophosphate		x	x
+CMP__m	CMP		x	x
+CO__m	cobalt ion		x	x
+CO2__m	carbon dioxide		x	x
+COA__m	coenzyme A		x	x
+crystalViolet__m	Crystal violet		x	x
+CTP__m	CTP		x	x
+CU__m	cupric ion		x	x
+cyclobutane_dCdC__m	cyclobutane 2'-deoxycytidine dimer		x	x
+cyclobutane_dCdT__m	cyclobutane 2'-deoxycytidine 2'-deoxythymidine 		x	x
+cyclobutane_dCMPdCMP__m	cyclobutane 2'-deoxycytidine monophosphate dimer		x	x
+cyclobutane_dCMPdTMP__m	cyclobutane 2'-deoxycytidine monophosphate 2'-deoxythymidine  monophosphate		x	x
+cyclobutane_dTdC__m	cyclobutane 2'-deoxythymidine 2'-deoxycytidine		x	x
+cyclobutane_dTdT__m	cyclobutane 2'-deoxythymidine dimer		x	x
+cyclobutane_dTMPdCMP__m	cyclobutane 2'-deoxythymidine monophosphate 2'-deoxycytidine monophosphate		x	x
+cyclobutane_dTMPdTMP__m	cyclobutane 2'-deoxythymidine monophosphate dimer		x	x
+cyclodA__m	8,5'-cyclo-2'-deoxyadenosine		x	x
+cyclodAMP__m	8,5'-cyclo-2'-deoxyadenosine monophosphate		x	x
+cyclodG__m	8,5'-cyclo-2'-deoxyguanosine		x	x
+cyclodGMP__m	8,5'-cyclo-2'-deoxyguanosine monophosphate		x	x
+CYS__m	L-Cysteine		x	x
+CysCys__m	L-cysteinyl-L-cysteine		x	x
+CYTD__m	cytidine		x	x
+c_di_AMP__m	Cyclic-di-adenylate		x	x
+DA__m	deoxyadenosine		x	x
+DADP__m	dADP		x	x
+DAG160__m	Diacylglycerol (n-16:0)		x	x
+DAG161__m	Diacylglycerol (n-16:1)		x	x
+DAG181__m	Diacylglycerol (n-18:1)		x	x
+DALA__m	D-alanine		x	x
+DAMP__m	dAMP		x	x
+dApdAp__m	dAp-dAp		x	x
+DATP__m	dATP		x	x
+DC__m	deoxycytidine		x	x
+dC64dC__m	2'-deoxycytidine-[6,4]-2'-deoxycytidine		x	x
+dC64dC_dewar__m	2'-deoxycytidine-[6,4]-2'-deoxycytidine dewar product		x	x
+dC64dT__m	2'-deoxycytidine-[6,4]-2'-deoxythymidine		x	x
+dC64dT_dewar__m	2'-deoxycytidine-[6,4]-2'-deoxythymidine dewar product		x	x
+DCDP__m	dCDP		x	x
+DCMP__m	dCMP		x	x
+dCMP64dCMP__m	2'-deoxycytidine monophosphate-[6,4]-2'-deoxycytidine monophosphate		x	x
+dCMP64dCMP_dewar__m	2'-deoxycytidine monophosphate-[6,4]-2'-deoxycytidine monophosphate dewar product		x	x
+dCMP64dTMP__m	2'-deoxycytidine monophosphate-[6,4]-2'-deoxythymidine monophosphate		x	x
+dCMP64dTMP_dewar__m	2'-deoxycytidine monophosphate-[6,4]-2'-deoxythymidine monophosphate dewar product		x	x
+dCMP_GLYC__m	2-'deoxycytidine monophosphate glycol		x	x
+dCpdCp__m	dCp-dCp		x	x
+DCTP__m	dCTP		x	x
+dC_GLYC__m	2-'deoxycytidine glycol		x	x
+DDCA__m	Dodecanoate (n-C12:0)		x	x
+DDECG3P__m	1-dodecanoyl-sn-glycerol 3-phosphate		x	x
+deoxyG6P__m	2-deoxy-glucose-6-phosphate		x	x
+deoxyGLC__m	2-deoxy-glucose		x	x
+DG__m	deoxyguanosine		x	x
+DGDP__m	dGDP		x	x
+DGMP__m	dGMP		x	x
+dGpdGp__m	dGp-dGp		x	x
+DGTP__m	dGTP		x	x
+DHA__m	Dihydroxyacetone		x	x
+DHdT__m	5,6-dihydro-2'-deoxythymidine		x	x
+DHdTMP__m	5,6-dihydro-2'-deoxythymidine monophosphate		x	x
+DHdU__m	5,6-dihydroxy-2'-deoxyuridine		x	x
+DHdUMP__m	5,6-dihydroxy-2'-deoxyuridine monophosphate		x	x
+DHF__m	dihydrofolate		x	x
+dhpdU__m	5'-dihydroxypentyl-2'-deoxyuridine		x	x
+dhpdUMP__m	5'-dihydroxypentyl-2'-deoxyuridine monophosphate		x	x
+diacylglycerolCys__m	S-diacylglycerol cysteine 		x	x
+DIBUTYRIN__m	dibutyrin		x	x
+dINS__m	2'-deoxyinosine		x	x
+dINSMP__m	2'-deoxyinosine monophosphate		x	x
+DMBA__m	dimethylbenzyl alcohol		x	x
+doxorubicin__m	Doxorubicin		x	x
+DPCOA__m	dephospho-CoA		x	x
+DPG__m	3-Phospho-D-glyceroyl phosphate		x	x
+DR1P__m	2-Deoxy-D-ribose 1-phosphate		x	x
+DR5P__m	2-Deoxy-D-ribose 5-phosphate		x	x
+DT__m	thymidine		x	x
+dT64dC__m	2'-deoxythymidine-[6,4]-2'-deoxycytidine		x	x
+dT64dC_dewar__m	2'-deoxythymidine-[6,4]-2'-deoxycytidine dewar product		x	x
+dT64dT__m	2'-deoxythymidine-[6,4]-2'-deoxythymidine		x	x
+dT64dT_dewar__m	2'-deoxythymidine-[6,4]-2'-deoxythymidine dewar product		x	x
+DTDP__m	dTDP		x	x
+DTMP__m	dTMP		x	x
+dTMP64dCMP__m	2'-deoxythymidine monophosphate-[6,4]-2'-deoxycytidine monophosphate		x	x
+dTMP64dCMP_dewar__m	2'-deoxythymidine monophosphate-[6,4]-2'-deoxycytidine monophosphate dewar product		x	x
+dTMP64dTMP__m	2'-deoxythymidine monophosphate-[6,4]-2'-deoxythymidine monophosphate		x	x
+dTMP64dTMP_dewar__m	2'-deoxythymidine monophosphate-[6,4]-2'-deoxythymidine monophosphate dewar product		x	x
+dTMP_GLYC__m	2'-deoxythymidine monophosphate glycol		x	x
+dTpdTp__m	dTp-dTp		x	x
+DTTP__m	dTTP		x	x
+dT_GLYC__m	2'-deoxythymidine glycol		x	x
+DU__m	deoxyuridine		x	x
+DUDP__m	dUDP		x	x
+DUMP__m	dUMP		x	x
+DUTP__m	dUTP		x	x
+dXAN__m	2'-deoxyxanthosine		x	x
+dXANMP__m	2'-deoxyxanthosine monophosphate		x	x
+e1dA__m	1-ethyl-2'-deoxyadenosine		x	x
+e1dAMP__m	1-ethyl-2'-deoxyadenosine monophosphate		x	x
+e1dG__m	1-ethyl-2'-deoxyguanosine		x	x
+e1dGMP__m	1-ethyl-2'-deoxyguanosine monophosphate		x	x
+e3dA__m	3-ethyl-2'-deoxyadenosine		x	x
+e3dAMP__m	3-ethyl-2'-deoxyadenosine monophosphate		x	x
+e3dC__m	3-ethyl-2'-deoxycytidine		x	x
+e3dCMP__m	3-ethyl-2'-deoxycytidine monophosphate		x	x
+e3dG__m	3-ethyl-2'-deoxyguanosine		x	x
+e3dGMP__m	3-ethyl-2'-deoxyguanosine monophosphate		x	x
+e3dT__m	3'-ethyl-2'-deoxythymidine		x	x
+e3dTMP__m	3'-ethyl-2'-deoxythymidine monophosphate		x	x
+e4dC__m	4-ethyl-2'-deoxycytidine		x	x
+e4dCMP__m	4-ethyl-2'-deoxycytidine monophosphate		x	x
+E4P__m	D-Erythrose 4-phosphate		x	x
+e5dC__m	5-ethyl-2'-deoxycytidine		x	x
+e5dCMP__m	5-ethyl-2'-deoxycytidine monophosphate		x	x
+e6dA__m	6-ethyl-2'-deoxyadenosine		x	x
+e6dAMP__m	6-ethyl-2'-deoxyadenosine monophosphate		x	x
+e7dA__m	7-ethyl-2'-deoxyadenosine		x	x
+e7dAMP__m	7-ethyl-2'-deoxyadenosine monophosphate		x	x
+e7dG__m	7-ethyl-2'-deoxyguanosine		x	x
+e7dGMP__m	7-ethyl-2'-deoxyguanosine monophosphate		x	x
+e8dG__m	8-ethyl-2'-deoxyguanosine		x	x
+e8dGMP__m	8-ethyl-2'-deoxyguanosine monophosphate		x	x
+enoxacin__m	Enoxacin		x	x
+epsilon1N2dG__m	1,N2-etheno-2'-deoxyguanosine		x	x
+epsilon1N2dGMP__m	1,N2-etheno-2'-deoxyguanosine monophosphate		x	x
+epsilon1N6dA__m	1,N6-etheno-2'-deoxyadenosine		x	x
+epsilon1N6dAMP__m	1,N6-etheno-2'-deoxyadenosine monophosphate		x	x
+epsilon3N4dC__m	3,N4-etheno-2'-deoxycytidine		x	x
+epsilon3N4dCMP__m	3,N4-etheno-2'-deoxycytidine monophosphate		x	x
+epsilonN23dG__m	N2,3-etheno-2'-deoxyguanosine		x	x
+epsilonN23dGMP__m	N2,3-etheno-2'-deoxyguanosine monophosphate		x	x
+ethidium__m	Ethidium		x	x
+ETN__m	ethanolamine		x	x
+F1P__m	D-Fructose 1-phosphate		x	x
+f5dU__m	5-formyl-2'-deoxyuridine		x	x
+f5dUMP__m	5-formyl-2'-deoxyuridine monophosphate		x	x
+F6P__m	D-Fructose 6-phosphate		x	x
+FAD__m	flavin adenine dinucleotide, oxidized		x	x
+FADH2__m	flavin adenine dinucleotide, reduced		x	x
+FALD__m	formaldehyde		x	x
+FAPydA__m	N4-(2-Deoxy-alpha,beta-D-erythro-pentofuranosyl)-4,6-diamino-5-formamidopyrimidine		x	x
+FAPydAMP__m	N4-(2-Deoxy-alpha,beta-D-erythro-pentofuranosyl)-4,6-diamino-5-formamidopyrimidine monophosphate		x	x
+FAPydG__m	N6-(2-Deoxy-α,β-d-erythro-pentofuranosyl)-2,6-diamino-4-hydroxy-5-formamidopyrimidine		x	x
+FAPydGMP__m	N6-(2-Deoxy-α,β-d-erythro-pentofuranosyl)-2,6-diamino-4-hydroxy-5-formamidopyrimidine monophosphate		x	x
+FDP__m	D-Fructose 1,6-bisphosphate		x	x
+FE2__m	ferrous iron		x	x
+FE3__m	ferric iron		x	x
+FMET__m	N-Formyl-L-methionine		x	x
+FMN__m	flavin mononucleotide, oxidized		x	x
+FMNH2__m	flavin mononucleotide, reduced		x	x
+FOR__m	Formate		x	x
+FRU__m	D-Fructose		x	x
+FTHF10__m	10-formyl-tetrahydrofolate		x	x
+FTHF5__m	5-formyltetrahydrofolate		x	x
+FUC1P__m	L-fucose 1-phosphate		x	x
+G1P__m	D-Glucose 1-phosphate		x	x
+G23CMP__m	2',3'-Cyclic GMP		x	x
+G2P__m	D-Glycerate 2-phosphate		x	x
+G3MP__m	3'-GMP		x	x
+G3P__m	3-Phospho-D-glycerate		x	x
+G6P__m	D-Glucose 6-phosphate		x	x
+GalCer16__m	galactosyl-β-Ceramide (d18:1/16:0)		x	x
+GalDAG160__m	galactosyl-β-diacylglycerol(16:0/16:1(9Z))		x	x
+GalDAG161__m	galactosyl-β-diacylglycerol(16:1(9Z)/16:1(9Z))		x	x
+GalDAG181__m	galactosyl-β-diacylglycerol(18:1(11Z)/18:1(11Z))		x	x
+GalGalCer16__m	galactosyl-α1-4-galactosyl-β-Ceramide (d18:1/16:0)		x	x
+GalGalDAG160__m	galactosyl-α1-4-galactosyl-β-diacylglycerol(16:0/16:1(9Z))		x	x
+GalGalDAG161__m	galactosyl-α1-4-galactosyl-β-diacylglycerol(16:1(9Z)/16:1(9Z))		x	x
+GalGalDAG181__m	galactosyl-α1-4-galactosyl-β-diacylglycerol(18:1(11Z)/18:1(11Z))		x	x
+GalGalGalDAG160__m	galactosyl-α1-4-galactosyl-β1-4-galactosyl-β-diacylglycerol(16:0/16:1(9Z))		x	x
+GalGalGalDAG161__m	galactosyl-α1-4-galactosyl-β1-4-galactosyl-β-diacylglycerol(16:1(9Z)/16:1(9Z))		x	x
+GalGalGalDAG181__m	galactosyl-α1-4-galactosyl-β1-4-galactosyl-β-diacylglycerol(18:1(11Z)/18:1(11Z))		x	x
+GalGalGlcCer16__m	galactosyl-α1-4-galactosyl-β1-4-glucosyl-β-Ceramide (d18:1/16:0)		x	x
+GalGalGlcDAG160__m	galactosyl-α1-4-galactosyl-β1-4-glucosyl-β-diacylglycerol(16:0/16:1(9Z))		x	x
+GalGalGlcDAG161__m	galactosyl-α1-4-galactosyl-β1-4-glucosyl-β-diacylglycerol(16:1(9Z)/16:1(9Z))		x	x
+GalGalGlcDAG181__m	galactosyl-α1-4-galactosyl-β1-4-glucosyl-β-diacylglycerol(18:1(11Z)/18:1(11Z))		x	x
+GalGlcCer16__m	galactosyl-β1-4-glucosyl-β-Ceramide (d18:1/16:0)		x	x
+GalGlcDAG160__m	galactosyl-β1-4-glucosyl-β-diacylglycerol(16:0/16:1(9Z))		x	x
+GalGlcDAG161__m	galactosyl-β1-4-glucosyl-β-diacylglycerol(16:1(9Z)/16:1(9Z))		x	x
+GalGlcDAG181__m	galactosyl-β1-4-glucosyl-β-diacylglycerol(18:1(11Z)/18:1(11Z))		x	x
+GDP__m	GDP		x	x
+GDPTP__m	Guanosine 3'-diphosphate 5'-triphosphate		x	x
+GL__m	glycerol		x	x
+GL2P__m	Glycerol 2-phosphate		x	x
+GL3P__m	Glycerol 3-phosphate		x	x
+GLC__m	D-Glucose		x	x
+GlcCer16__m	glucosyl-β-Ceramide (d18:1/16:0)		x	x
+GlcDAG160__m	glucosyl-β-diacylglycerol(16:0/16:1(9Z))		x	x
+GlcDAG161__m	glucosyl-β-diacylglycerol(16:1(9Z)/16:1(9Z))		x	x
+GlcDAG181__m	glucosyl-β-diacylglycerol(18:1(11Z)/18:1(11Z))		x	x
+GlcGalCer16__m	glucosyl-β1-4-galactosyl-β-Ceramide (d18:1/16:0)		x	x
+GlcGalDAG160__m	glucosyl-β1-4-galactosyl-β-diacylglycerol(16:0/16:1(9Z))		x	x
+GlcGalDAG161__m	glucosyl-β1-4-galactosyl-β-diacylglycerol(16:1(9Z)/16:1(9Z))		x	x
+GlcGalDAG181__m	glucosyl-β1-4-galactosyl-β-diacylglycerol(18:1(11Z)/18:1(11Z))		x	x
+GlcGalGalDAG160__m	glucosyl-β1-4-galactosyl-α1-4-galactosyl-β-diacylglycerol(16:0/16:1(9Z))		x	x
+GlcGalGalDAG161__m	glucosyl-β1-4-galactosyl-α1-4-galactosyl-β-diacylglycerol(16:1(9Z)/16:1(9Z))		x	x
+GlcGalGalDAG181__m	glucosyl-β1-4-galactosyl-α1-4-galactosyl-β-diacylglycerol(18:1(11Z)/18:1(11Z))		x	x
+GlcGalGlcDAG160__m	glucosyl-β1-4-galactosyl-β1-4-glucosyl-β-diacylglycerol(16:0/16:1(9Z))		x	x
+GlcGalGlcDAG161__m	glucosyl-β1-4-galactosyl-β1-4-glucosyl-β-diacylglycerol(16:1(9Z)/16:1(9Z))		x	x
+GlcGalGlcDAG181__m	glucosyl-β1-4-galactosyl-β1-4-glucosyl-β-diacylglycerol(18:1(11Z)/18:1(11Z))		x	x
+GlcGlcDAG160__m	glucosyl-β1-4-glucosyl-β-diacylglycerol(16:0/16:1(9Z))		x	x
+GlcGlcDAG161__m	glucosyl-β1-4-glucosyl-β-diacylglycerol(16:1(9Z)/16:1(9Z))		x	x
+GlcGlcDAG181__m	glucosyl-β1-4-glucosyl-β-diacylglycerol(18:1(11Z)/18:1(11Z))		x	x
+GlcGlcGlcDAG160__m	glucosyl-β1-4-glucosyl-β1-4-glucosyl-β-diacylglycerol(16:0/16:1(9Z))		x	x
+GlcGlcGlcDAG161__m	glucosyl-β1-4-glucosyl-β1-4-glucosyl-β-diacylglycerol(16:1(9Z)/16:1(9Z))		x	x
+GlcGlcGlcDAG181__m	glucosyl-β1-4-glucosyl-β1-4-glucosyl-β-diacylglycerol(18:1(11Z)/18:1(11Z))		x	x
+glchm5dC__m	beta-D-glucosylhydroxymethyl-2'-deoxycytidine		x	x
+glchm5dCMP__m	beta-D-glucosylhydroxymethyl-2'-deoxycytidine monophosphate		x	x
+glchm5dU__m	beta-D-glucosylhydroxymethyl-2'-deoxyuridine		x	x
+glchm5dUMP__m	beta-D-glucosylhydroxymethyl-2'-deoxyuridine monophosphate		x	x
+GLN__m	L-glutamine		x	x
+GlnGln__m	L-glutaminyl-L-glutamine		x	x
+GLU__m	L-Glutamate		x	x
+gludT__m	a-glutamyl-2'-deoxythymidine		x	x
+gludTMP__m	a-glutamyl-2'-deoxythymidine monophosphate		x	x
+GluGlu__m	L-glutamyl-L-glutamic acid		x	x
+GLY__m	glycine		x	x
+GlyGly__m	L-glycyl-L-glycine		x	x
+Gm__m	2'-O-methylguanosine		x	x
+GmMP__m	2'-O-methylguanosine monophosphate		x	x
+GMP__m	GMP		x	x
+GMP_Lysine__m	GMP-lysine		x	x
+GMP_Mor__m	GMP-morpholidate		x	x
+GN__m	guanine		x	x
+GPCH__m	sn-Glycero-3-phosphocholine		x	x
+GPE__m	sn-Glycero-3-phosphoethanolamine		x	x
+GPG__m	Glycerophosphoglycerol		x	x
+GPI__m	sn-Glycero-3-phospho-1-inositol		x	x
+GPS__m	Glycerophosphoserine		x	x
+GSN__m	guanosine		x	x
+GTP__m	GTP		x	x
+H__m	hydrogen ion		x	x
+H2O__m	water		x	x
+H2O2__m	hydrogen peroxide		x	x
+HCYS__m	L-homocysteine		x	x
+HDCA__m	Hexadecanoate (n-C16:0)		x	x
+HDCEA__m	Hexadecenoate (n-C16:1)		x	x
+HDECEG3P__m	1-hexadecanoyl-sn-glycerol 3-phosphate		x	x
+HDECG3P__m	1-hexadec-9-enoyl-sn-glycerol 3-phosphate		x	x
+HIS__m	L-Histidine		x	x
+HisHis__m	L-histidyl-L-histidine		x	x
+hm3dC__m	3'-hydroxymethyl-2'-deoxycytidine		x	x
+hm3dCMP__m	3'-hydroxymethyl-2'-deoxycytidine monophosphate		x	x
+hm5dC__m	5'-hydroxymethyl-2'-deoxycytidine		x	x
+hm5dCMP__m	5'-hydroxymethyl-2'-deoxycytidine monophosphate		x	x
+hm5dU__m	5-hydroxymethyl-2'-deoxyuridine		x	x
+hm5dUMP__m	5-hydroxymethyl-2'-deoxyuridine monophosphate		x	x
+hm5hydantoin_dRibose__m	2'-deoxy-3'-(5-hydroxy-5-methyl-hydantoin)-ribose		x	x
+hm5hydantoin_dRiboseMP__m	2'-deoxy-3'-(5-hydroxy-5-methyl-hydantoin)-ribose monophosphate		x	x
+ho5dC__m	5-Hydroxy-2'-deoxycytidine		x	x
+ho5dCMP__m	5-Hydroxy-2'-deoxycytidine monophosphate		x	x
+ho5dU__m	5-hydroxy-2'-deoxyuridine		x	x
+ho5dUMP__m	5-hydroxy-2'-deoxyuridine monophosphate		x	x
+ho5ho6dT__m	5-hydroxy-6-hydroxy-2'-deoxythymidine		x	x
+ho5ho6dTMP__m	5-hydroxy-6-hydroxy-2'-deoxythymidine monophosphate		x	x
+ho5ho6dU__m	5-hydroxy-6-hydroxy-2'-deoxyuridine		x	x
+ho5ho6dUMP__m	5-hydroxy-6-hydroxy-2'-deoxyuridine monophosphate		x	x
+ho5hydantoin_dRibose__m	2'-deoxy-3'-(5-hydroxyhydantoin)-ribose		x	x
+ho5hydantoin_dRiboseMP__m	2'-deoxy-3'-(5-hydroxyhydantoin)-ribose monophosphate		x	x
+HPHPYR__m	3-(4-Hydroxyphenyl)pyruvate		x	x
+hydride__m	hydride		x	x
+hydroxyl_radical__m	hydroxyl radical		x	x
+HYXN__m	hypoxanthine		x	x
+IDP__m	IDP		x	x
+ILE__m	L-Isoleucine		x	x
+IleIle__m	L-isoleucyl-L-isoleucine		x	x
+IMP__m	IMP		x	x
+INOS__m	myo-inositol		x	x
+INS__m	inosine		x	x
+ITP__m	ITP		x	x
+K__m	potassium ion		x	x
+k2C__m	lysidine		x	x
+k2CMP__m	lysidine monophosphate		x	x
+LAC__m	D-lactate		x	x
+LEU__m	L-Leucine		x	x
+LeuLeu__m	L-leucyl-L-leucine		x	x
+LIPOATE__m	lipoate		x	x
+LIPOYLAMP__m	lipoyl-AMP		x	x
+LIPOYLLYS__m	N(6)-(lipoyl)lysine		x	x
+lomefloxacin__m	Lomefloxacin		x	x
+LYS__m	L-Lysine		x	x
+LysLys__m	L-lysyl-L-lysine		x	x
+m1dA__m	1-methyl-2'-deoxyadenosine		x	x
+m1dAMP__m	1-methyl-2'-deoxyadenosine monophosphate		x	x
+m1dG__m	1-methyl-2'-deoxyguanosine		x	x
+m1dGMP__m	1-methyl-2'-deoxyguanosine monophosphate		x	x
+m1G__m	1-methylguanosine		x	x
+m1GMP__m	1-methylguanosine monophosphate		x	x
+m2G__m	N(2)-methylguanosine		x	x
+m2GMP__m	N(2)-methylguanosine monophosphate		x	x
+m3dA__m	3-methyl-2'-deoxyadenosine		x	x
+m3dAMP__m	3-methyl-2'-deoxyadenosine monophosphate		x	x
+m3dC__m	3-methyl-2'-deoxycytidine		x	x
+m3dCMP__m	3-methyl-2'-deoxycytidine monophosphate		x	x
+m3dG__m	3-methyl-2'-deoxyguanosine		x	x
+m3dGMP__m	3-methyl-2'-deoxyguanosine monophosphate		x	x
+m3dT__m	3'-methyl-2'-deoxythymidine		x	x
+m3dTMP__m	3'-methyl-2'-deoxythymidine monophosphate		x	x
+m4dC__m	4-methyl-2'-deoxycytidine		x	x
+m4dCMP__m	4-methyl-2'-deoxycytidine monophosphate		x	x
+m5C__m	5-methylcytidine		x	x
+m5CMP__m	5-methylcytidine monophosphate		x	x
+m5dC__m	5-methyl-2'-deoxycytidine		x	x
+m5dCMP__m	5-methyl-2'-deoxycytidine monophosphate		x	x
+m62A__m	N6,N6-dimethyladenosine		x	x
+m62AMP__m	N6,N6-dimethyladenosine monophosphate		x	x
+m6A__m	N(6)-methyladenine		x	x
+m6AMP__m	N(6)-methyladenine monophosphate		x	x
+m6dA__m	6-methyl-2'-deoxyadenosine		x	x
+m6dAMP__m	6-methyl-2'-deoxyadenosine monophosphate		x	x
+m7dA__m	7-methyl-2'-deoxyadenosine		x	x
+m7dAMP__m	7-methyl-2'-deoxyadenosine monophosphate		x	x
+m7dG__m	7-methyl-2'-deoxyguanosine		x	x
+m7dGMP__m	7-methyl-2'-deoxyguanosine monophosphate		x	x
+m7G__m	7-methylguanosine		x	x
+m7GMP__m	7-methylguanosine monophosphate		x	x
+m8dG__m	8-methyl-2'-deoxyguanosine		x	x
+m8dGMP__m	8-methyl-2'-deoxyguanosine monophosphate		x	x
+MAL__m	L-Malate		x	x
+MAN__m	D-Mannose		x	x
+MAN1P__m	D-Mannose 1-phosphate		x	x
+MAN6P__m	D-Mannose 6-phosphate		x	x
+MET__m	L-Methionine		x	x
+METHF__m	5,10-methyltetrahydrofolate		x	x
+methylRed__m	4′-dimethylaminoazobenzene-2-carboxylic acid		x	x
+METHYL_OCDCEA__m	methyl oleate		x	x
+MetMet__m	L-methionyl-L-methionine		x	x
+METSOXRL__m	L-Methionine-R-Sulfoxide		x	x
+METSOXSL__m	L-Methionine-S-Sulfoxide		x	x
+METTHF__m	5,10-Methylenetetrahydrofolate		x	x
+MG__m	magnesium ion		x	x
+MN__m	manganese ion		x	x
+MO__m	molybdenum ion		x	x
+MOBD__m	Molybdate		x	x
+MONOBUTYRIN__m	1-monobutyrin		x	x
+MOR__m	morpholine		x	x
+MTHF__m	5-Methyltetrahydrofolate		x	x
+n2dA__m	2-amino-2'-deoxyadenosine		x	x
+n2dAMP__m	2-amino-2'-deoxyadenosine monophosphate		x	x
+NA__m	sodium ion		x	x
+NAAD__m	nicotinic acid adenine dinucleotide		x	x
+NAC__m	nicotinate		x	x
+NAD__m	nicotinamide adenine dinucleotide, oxidized		x	x
+NADH__m	nicotinamide adenine dinucleotide, reduced		x	x
+NADP__m	nicotinamide adenine dinucleotide phosphate, oxidized		x	x
+NADPH__m	nicotinamide adenine dinucleotide phosphate, reduced		x	x
+NAMN__m	nicotinate/nicotinic acid mononucleotide		x	x
+NH3__m	ammonia		x	x
+NH4__m	ammonium		x	x
+NI__m	nickel		x	x
+nisin__m	nisin		x	x
+NMN__m	nicotinamide mononucleotide		x	x
+norfloxacin__m	Norfloxacin		x	x
+novobiocin__m	Novobiocin		x	x
+NR__m	Nicotinate D-ribonucleotide		x	x
+O2__m	oxygen		x	x
+O2edC__m	2'-O-ethyl-2'-deoxycytidine		x	x
+O2edCMP__m	2'-O-ethyl-2'-deoxycytidine monophosphate		x	x
+O2edT__m	2'-O-ethyl-2'-deoxythymidine		x	x
+O2edTMP__m	2'-O-ethyl-2'-deoxythymidine monophosphate		x	x
+O2mdC__m	2'-O-methyl-2'-deoxycytidine		x	x
+O2mdCMP__m	2'-O-methyl-2'-deoxycytidine monophosphate		x	x
+O2mdT__m	2'-O-methyl-2'-deoxythymidine		x	x
+O2mdTMP__m	2'-O-methyl-2'-deoxythymidine monophosphate		x	x
+O4edT__m	4'-O-ethyl-2'-deoxythymidine		x	x
+O4edTMP__m	4'-O-ethyl-2'-deoxythymidine monophosphate		x	x
+O4mdT__m	4'-O-methyl-2'-deoxythymidine		x	x
+O4mdTMP__m	4'-O-methyl-2'-deoxythymidine monophosphate		x	x
+O6edG__m	6'-O-ethyl-2'-deoxyguanosine		x	x
+O6edGMP__m	6'-O-ethyl-2'-deoxyguanosine monophosphate		x	x
+O6mdG__m	6'-O-methyl-2'-deoxyguanosine		x	x
+O6mdGMP__m	6'-O-methyl-2'-deoxyguanosine monophosphate		x	x
+OA__m	oxaloacetate		x	x
+OCDCA__m	octadecanoate (n-C18:0)		x	x
+OCDCEA__m	octadecenoate (n-C18:1)		x	x
+ODEC11GP__m	1-octadec-11-enoyl-sn-glycerol 3-phosphate		x	x
+ODECG3P__m	1-octadecanoyl-sn-glycerol 3-phosphate		x	x
+OH__m	hydoxide anion		x	x
+ORN__m	ornithine		x	x
+oxo2dA__m	2-hydroxy-2'-deoxyadenosine		x	x
+oxo2dAMP__m	2-hydroxy-2'-deoxyadenosine monophosphate		x	x
+oxo8dA__m	8-hydroxy-2'-deoxyadenosine		x	x
+oxo8dAMP__m	8-hydroxy-2'-deoxyadenosine monophosphate		x	x
+oxo8dG__m	8-Oxo-2'-deoxyguanosine; 8-hydroxy-2'-deoxyguanosine		x	x
+oxo8dGMP__m	8-Oxo-2'-deoxyguanosine monophosphate; 8-hydroxy-2'-deoxyguanosine monophosphate		x	x
+oxoethyl7dG__m	7-(2'-oxoethyl)-2'-deoxyguanosine		x	x
+oxoethyl7dGMP__m	7-(2'-oxoethyl)-2'-deoxyguanosine monophosphate		x	x
+PA120__m	1,2-didodecanoyl-sn-glycerol 3-phosphate		x	x
+PA140__m	1,2-ditetradecanoyl-sn-glycerol 3-phosphate		x	x
+PA141__m	1,2-ditetradec-7-enoyl-sn-glycerol 3-phosphate		x	x
+PA160__m	1,2-dihexadecanoyl-sn-glycerol 3-phosphate		x	x
+PA161__m	1,2-dihexadec-9-enoyl-sn-glycerol 3-phosphate		x	x
+PA180__m	1,2-dioctadecanoyl-sn-glycerol 3-phosphate		x	x
+PA181__m	1,2-dioctadec-11-enoyl-sn-glycerol 3-phosphate		x	x
+PAP__m	Adenosine 3',5'-bisphosphate		x	x
+pCHOL__m	phosphoryl-choline		x	x
+PDLA5P__m	Pyridoxamine 5'-phosphate		x	x
+PEP__m	phosphoenolpyruvate		x	x
+PG160__m	Phosphatidylglycerol (dihexadecanoyl, n-C16:0)		x	x
+PG161__m	Phosphatidylglycerol (dihexadec-9-enoyl, n-C16:1)		x	x
+PG181__m	Phosphatidylglycerol (dioctadec-11-enoyl, n-C18:1)		x	x
+PGP160__m	Phosphatidylglycerophosphate (dihexadecanoyl, n-C16:0)		x	x
+PGP161__m	Phosphatidylglycerophosphate (dihexadec-9-enoyl, n-C16:1)		x	x
+PGP181__m	Phosphatidylglycerophosphate (dioctadec-11-enoyl, n-C18:1)		x	x
+PHE__m	L-phenylalanine		x	x
+PhePhe__m	L-phenylalanyl-L-phenylalanine		x	x
+PHPYR__m	phenylpyruvate		x	x
+PI__m	phosphate		x	x
+PL5P__m	Pyridoxal 5'-phosphate		x	x
+POE_SORBITAN__m	Polyoxyethylene (20) sorbitan		x	x
+PPAA__m	Phosphonoacetaldehyde		x	x
+PPGPP__m	Guanosine 3',5'-bis(diphosphate)		x	x
+PPHG__m	protoporphyrinogen IX		x	x
+PPI__m	diphosphate		x	x
+PPIX__m	protoporphyrin IX		x	x
+PRO__m	L-Proline		x	x
+proflavine__m	Proflavine		x	x
+ProPro__m	L-prolyl-L-proline		x	x
+PRPP__m	5-Phospho-alpha-D-ribose 1-diphosphate		x	x
+pSER__m	phosphoserine		x	x
+PSIURI__m	pseudouridine		x	x
+PSIURIMP__m	pseudouridine monophoshate		x	x
+pTHR__m	phosphothreonine		x	x
+PTRC__m	putrescine		x	x
+pTYR__m	Phosphotyrosine		x	x
+putdT__m	alpha-putrescinyl-2'-deoxythymidine		x	x
+putdTMP__m	alpha-putrescinyl-2'-deoxythymidine monophosphate		x	x
+PYDX__m	Pyridoxal		x	x
+PYR__m	pyruvate		x	x
+R1P__m	alpha-D-Ribose 1-phosphate		x	x
+R5P__m	alpha-D-Ribose 5-phosphate		x	x
+RBFLVRD__m	riboflavin, reduced		x	x
+rhodamine6G__m	Rhodamine 6G		x	x
+RIB__m	D-ribose		x	x
+RIBFLV__m	riboflavin, oxidized		x	x
+RL5P__m	D-Ribulose 5-phosphate		x	x
+s2U__m	2-thiouridine		x	x
+s2UMP__m	2-thiouridine monophosphate		x	x
+s4U__m	4-thiouridine		x	x
+s4UMP__m	4-thiouridine monophosphate		x	x
+S7P__m	D-sedoheptulose-7-phosphate		x	x
+SALA__m	3-Sulfino-L-alanine		x	x
+SBT__m	D-Sorbitol		x	x
+SBT6P__m	D-Sorbitol 6-phosphate		x	x
+SER__m	L-Serine		x	x
+SerSer__m	L-seryl-L-serine		x	x
+SNGLYP__m	sn-glycerol-1-phosphate		x	x
+SO2__m	sulfur dioxide		x	x
+SO4__m	sulphate		x	x
+SPMD__m	spermidine		x	x
+STEROL__m	cholesterol		x	x
+T3P1__m	D-glyceraldehdye-3-phosphate		x	x
+T3P2__m	Dihydroxyacetone phosphate		x	x
+TAG16P__m	D-Tagatose 1,6-biphosphate		x	x
+TAG6P__m	D-Tagatose 6-phosphate		x	x
+tBHP__m	tert-butylhydroperoxide		x	x
+tBOH__m	tert-Butanol		x	x
+TDECEG3P__m	1-tetradec-7-enoyl-sn-glycerol 3-phosphate		x	x
+TDECG3P__m	1-tetradecanoyl-sn-glycerol 3-phosphate		x	x
+TDP__m	TDP		x	x
+tetraphenylphosphonium__m	tetraphenylphosphonium		x	x
+THF__m	5,6,7,8-Tetrahydrofolate		x	x
+THM__m	thiamine		x	x
+THMP__m	Thiamin monophosphate		x	x
+THR__m	L-Threonine		x	x
+ThrThr__m	L-threonyl-L-threonine		x	x
+THY__m	thymine		x	x
+TPP__m	thiamine diphosphate		x	x
+TRIBUTYRIN__m	tributyrin; 1,3-Di(butanoyloxy)propan-2-yl butanoate; butyrin		x	x
+TRILAURIN__m	trilaurin		x	x
+TRIMYRISTIN__m	trimyristin; 1,3-Di(tetradecanoyloxy)propan-2-yl tetradecanoate; glyceryl trimyristate		x	x
+TRIOLEIN__m	triolein		x	x
+TRIPALMITIN__m	tripalmitin; 1,2,3-Trihexadecanoylglycerol; Glyceryl Tripalmitate; Glycerol Tripalmitate		x	x
+TRISTEARIN__m	Tristearin		x	x
+TRI_HDCEA_IN__m	triacylglycerol of {Hexadecenoate acid}		x	x
+TRI_TTDCEA_IN__m	triacylglycerol of {tetradecenoic acid}		x	x
+TRP__m	L-tryptophan		x	x
+TrpTrp__m	L-trytophanyl-L-trytophan		x	x
+TTDCA__m	tetradecanoate (n-C14:0)		x	x
+TTDCEA__m	tetradecenoate (n-C14:1)		x	x
+TTP__m	TTP		x	x
+TWEEN80__m	Tween 80; Polyoxyethylene (20) sorbitan monooleate; polysorbate 80		x	x
+TYR__m	L-tyrosine		x	x
+TyrTyr__m	L-tyrosyl-L-tyrosine		x	x
+U23CMP__m	2',3'-Cyclic UMP		x	x
+U3MP__m	3'-UMP		x	x
+UDP__m	UDP		x	x
+UDPG__m	UDP-glucose		x	x
+UDPGAL__m	UDP-galactose		x	x
+UDPGALF__m	UDP-D-galacto-1,4-furanose		x	x
+Um__m	2'-O-methyluridine		x	x
+UmMP__m	2'-O-methyluridine monophosphate		x	x
+UMP__m	UMP		x	x
+URA__m	uracil		x	x
+URI__m	uridine		x	x
+UTP__m	UTP		x	x
+VAL__m	L-Valine		x	x
+ValVal__m	L-valyl-L-valine		x	x
+vinyl_chloride__m	Vinylchloride		x	x
+X5P__m	D-Xylulose 5-phosphate		x	x
+XAN__m	xanthine		x	x
+XTSN__m	xanthosine		x	x
+ZN__m	zinc ion		x	x

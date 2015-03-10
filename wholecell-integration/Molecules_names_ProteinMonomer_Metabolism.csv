@@ -1,0 +1,32 @@
+id	name	readonly	readwrite	requirement
+MG_124_MONOMER__c	thioredoxin		x	x
+MG_287_MONOMER__c	acyl carrier protein		x	x
+MG_124_MONOMER__e	thioredoxin		x	x
+MG_287_MONOMER__e	acyl carrier protein		x	x
+MG_124_MONOMER__m	thioredoxin		x	x
+MG_287_MONOMER__m	acyl carrier protein		x	x
+MG_171_MONOMER	adenylate kinase	x		
+MG_356_MONOMER	choline/ethanolamine kinase, putative	x		
+MG_330_MONOMER	cytidylate kinase	x		
+MG_264_MONOMER	dephospho-CoA kinase	x		
+MG_130_MONOMER		x		
+MG_050_MONOMER	deoxyribose-phosphate aldolase	x		
+MG_342_MONOMER	NADPH-dependent FMN reductase domain protein	x		
+MG_245_MONOMER	5-formyltetrahydrofolate cyclo-ligase, putative	x		
+MG_517_MONOMER	glycosyl transferase, group 2 family protein	x		
+MG_430_MONOMER	2,3-bisphosphoglycerate-independent phosphoglycerate mutase	x		
+MG_310_MONOMER	hydrolase, Putative esterase/lipase 1	x		
+MG_327_MONOMER	hydrolase, Putative esterase/lipase 2	x		
+MG_344_MONOMER	hydrolase, Putative esterase/lipase 3	x		
+MG_270_MONOMER	lipoyltransferase/lipoate-protein ligase, putative	x		
+MG_408_MONOMER	methionine-S-sulfoxide reductase	x		
+MG_448_MONOMER	methionine-R-sulfoxide reductase	x		
+MG_230_MONOMER	ribonucleotide reductase stimulatory protein	x		
+MG_300_MONOMER	phosphoglycerate kinase	x		
+MG_212_MONOMER	1-acyl-sn-glycerol-3-phosphate acyltransferase, putative	x		
+MG_037_MONOMER	nicotinate phosphoribosyltransferase	x		
+MG_145_MONOMER	riboflavin biosynthesis protein RibF	x		
+MG_009_MONOMER	deoxyribonuclease	x		
+MG_071_MONOMER	ATPase, P-type (transporting), HAD superfamily, subfamily IC	x		
+MG_447_MONOMER	multidrug efflux pump	x		
+MG_061_MONOMER	Mycoplasma MFS transporter	x		
