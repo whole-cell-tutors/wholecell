@@ -5,8 +5,8 @@
 import libsbml, libsedml
 
 # Required inputs
-model_files = ['toy_model_1.xml', 'toy_model_2.xml'] # list of SBML files
-io_files = [] # list of CSV files
+model_files = ['toymodel1.xml', 'toymodel2.xml', 'toymodel3.xml']
+io_files = []
 loc = 'toy_scheduler.xml'
 
 doc = libsedml.SedDocument(1, 2)
