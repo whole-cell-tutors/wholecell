@@ -33,9 +33,15 @@ def build_model(fns, proc_name):
 
     for fn in fns:
         with open(fn) as fin:
-            iface_reader = csv.reader(fin, delimiter="\t")
+            fin.readline()
+            iface_reader = csv.reader(fin, delimiter=",")
             for entry in iface_reader:
-                vid, name, ro, rw, req = entry
+                vid, name, ro, rw, req = 5*[""]
+                if "Metabolites" in fn:
+                    vid, name, ro, rw, req = entry
+                else:
+                    vid, name, ro, rw = entry
+                
                 if req=='x':
                     require.append(vid)
                 elif rw=='x':
@@ -51,20 +57,35 @@ def get_process_name(fn):
     f = os.path.basename(fn).split(".")[0]
     return f.split('_')[-1]
 
-def is_process_file(fn):
-    return (len(fn.split('_')) > 3)
 
 def build_all_models(directory):
     models = []
     
     proc_files = defaultdict(list)
     for fn in os.listdir(directory):
-        if os.path.basename(fn).endswith(".csv") and is_process_file(fn):
+        if os.path.basename(fn).endswith(".csv"):
             pname = get_process_name(fn)
             proc_files[pname].append(fn)
 
     for proc_name, proc_fns in proc_files.iteritems():
         models.append(build_model(proc_fns, proc_name))
+                
+    return models
+
+def build_all_models1(directory):
+    models = []
+    
+    proc_files = defaultdict(list)
+    pnames = os.listdir(directory)
+    for pn in pnames:
+        pf = os.path.join(directory, pn)
+        for fn in os.listdir(pf):
+            if fn.endswith(".csv"):
+                proc_files[pn].append(os.path.join(pf, fn))
+
+    for proc_name, proc_fns in proc_files.iteritems():
+        models.append(build_model(proc_fns, proc_name))
+                    
                 
     return models
 
