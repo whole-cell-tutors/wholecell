@@ -1,125 +1,125 @@
-id	name	readonly	readwrite	requirement
-MG_124_MONOMER_ox__c	oxidized thioredoxin		x	x
-MG_229_231_TETRAMER__c	ribonucleoside-diphosphate reductase		x	x
-MG_229_231_TETRAMER_ox__c	oxidized ribonucleoside-diphosphate reductase		x	x
-MG_287_MONOMER_ACP__c	holo acyl carrier protein		x	x
-MG_287_MONOMER_ddcaACP__c	Dodecanoyl-ACP (n-C12:0ACP)		x	x
-MG_287_MONOMER_hdeACP__c	cis-hexadec-9-enoyl-[acyl-carrier protein] (n-C16:1)		x	x
-MG_287_MONOMER_myrsACP__c	Myristoyl-ACP (n-C14:0ACP)		x	x
-MG_287_MONOMER_ocdcaACP__c	Octadecanoyl-ACP (n-C18:0ACP)		x	x
-MG_287_MONOMER_octeACP__c	cis-octadec-11-enoyl-[acyl-carrier protein] (n-C18:1)		x	x
-MG_287_MONOMER_palmACP__c	Palmitoyl-ACP (n-C16:0ACP)		x	x
-MG_287_MONOMER_tdeACP__c	cis-tetradec-7-enoyl-[acyl-carrier protein] (n-C14:1)		x	x
-MG_427_DIMER__c	osmotically inducible peroxidase		x	x
-MG_427_DIMER_ox__c	oxidized osmotically inducible peroxidase		x	x
-MG_454_DIMER__c	thiol-dependent peroxidase		x	x
-MG_454_DIMER_ox__c	oxidized thiol-dependent peroxidase		x	x
-MG_124_MONOMER_ox__e	oxidized thioredoxin		x	x
-MG_229_231_TETRAMER__e	ribonucleoside-diphosphate reductase		x	x
-MG_229_231_TETRAMER_ox__e	oxidized ribonucleoside-diphosphate reductase		x	x
-MG_287_MONOMER_ACP__e	holo acyl carrier protein		x	x
-MG_287_MONOMER_ddcaACP__e	Dodecanoyl-ACP (n-C12:0ACP)		x	x
-MG_287_MONOMER_hdeACP__e	cis-hexadec-9-enoyl-[acyl-carrier protein] (n-C16:1)		x	x
-MG_287_MONOMER_myrsACP__e	Myristoyl-ACP (n-C14:0ACP)		x	x
-MG_287_MONOMER_ocdcaACP__e	Octadecanoyl-ACP (n-C18:0ACP)		x	x
-MG_287_MONOMER_octeACP__e	cis-octadec-11-enoyl-[acyl-carrier protein] (n-C18:1)		x	x
-MG_287_MONOMER_palmACP__e	Palmitoyl-ACP (n-C16:0ACP)		x	x
-MG_287_MONOMER_tdeACP__e	cis-tetradec-7-enoyl-[acyl-carrier protein] (n-C14:1)		x	x
-MG_427_DIMER__e	osmotically inducible peroxidase		x	x
-MG_427_DIMER_ox__e	oxidized osmotically inducible peroxidase		x	x
-MG_454_DIMER__e	thiol-dependent peroxidase		x	x
-MG_454_DIMER_ox__e	oxidized thiol-dependent peroxidase		x	x
-MG_124_MONOMER_ox__m	oxidized thioredoxin		x	x
-MG_229_231_TETRAMER__m	ribonucleoside-diphosphate reductase		x	x
-MG_229_231_TETRAMER_ox__m	oxidized ribonucleoside-diphosphate reductase		x	x
-MG_287_MONOMER_ACP__m	holo acyl carrier protein		x	x
-MG_287_MONOMER_ddcaACP__m	Dodecanoyl-ACP (n-C12:0ACP)		x	x
-MG_287_MONOMER_hdeACP__m	cis-hexadec-9-enoyl-[acyl-carrier protein] (n-C16:1)		x	x
-MG_287_MONOMER_myrsACP__m	Myristoyl-ACP (n-C14:0ACP)		x	x
-MG_287_MONOMER_ocdcaACP__m	Octadecanoyl-ACP (n-C18:0ACP)		x	x
-MG_287_MONOMER_octeACP__m	cis-octadec-11-enoyl-[acyl-carrier protein] (n-C18:1)		x	x
-MG_287_MONOMER_palmACP__m	Palmitoyl-ACP (n-C16:0ACP)		x	x
-MG_287_MONOMER_tdeACP__m	cis-tetradec-7-enoyl-[acyl-carrier protein] (n-C14:1)		x	x
-MG_427_DIMER__m	osmotically inducible peroxidase		x	x
-MG_427_DIMER_ox__m	oxidized osmotically inducible peroxidase		x	x
-MG_454_DIMER__m	thiol-dependent peroxidase		x	x
-MG_454_DIMER_ox__m	oxidized thiol-dependent peroxidase		x	x
-MG_271_272_273_274_192MER	pyruvate dehydrogenase	x		
-MG_357_DIMER	acetate kinase	x		
-MG_482_DIMER	holo-(acyl-carrier-protein) synthase	x		
-MG_123_DIMER	arginine deaminase	x		
-MG_276_DIMER	adenine phosphoribosyltransferase	x		
-MG_398_399_400_401_402_403_404_405_22MER	H(+)-transporting two-sector ATPase	x		
-MG_333_DIMER	FMN-dependent NADH-azoreductase, putative	x		
-MG_052_DIMER	cytidine deaminase	x		
-MG_437_DIMER	phosphatidate cytidylyltransferase	x		
-MG_434_HEXAMER	uridylate kinase	x		
-MG_053_TRIMER	phosphoglucomutase/phosphomannomutase, putative	x		
-MG_336_DIMER	cysteine desulfurase	x		
-MG_049_HEXAMER	purine nucleoside phosphorylase	x		
-MG_107_DIMER	guanylate kinase	x		
-MG_369_DIMER	DAK2 phosphatase domain protein	x		
-MG_228_TETRAMER	dihydrofolate reductase	x		
-MG_105_OCTAMER	putative DNA integrity scanning protein	x		
-MG_407_DIMER	enolase	x		
-MG_023_DIMER	fructose-1,6-bisphosphate aldolase, class II	x		
-MG_013_DIMER	methylenetetrahydrofolate dehydrogenase/methylenetetrahydrofolate cyclohydrolase	x		
-MG_063_DIMER	1-phosphofructokinase, putative	x		
-MG_118_DIMER	UDP-glucose 4-epimerase	x		
-MG_453_TETRAMER	UTP-glucose-1-phosphate uridylyltransferase	x		
-MG_301_TETRAMER	glyceraldehyde-3-phosphate dehydrogenase, type I	x		
-MG_137_DIMER	UDP-galactopyranose mutase	x		
-MG_038_TETRAMER	glycerol kinase	x		
-MG_293_DIMER	glycerophosphoryl diester phosphodiesterase family protein	x		
-MG_394_TETRAMER	serine hydroxymethyltransferase	x		
-MG_039_DIMER	FAD-dependent glycerol-3-phosphate dehydrogenase, putative	x		
-MG_259_TETRAMER	modification methylase	x		
-MG_458_TETRAMER	hypoxanthine phosphoribosyltransferase	x		
-MG_460_TETRAMER	L-lactate dehydrogenase/malate dehydrogenase	x		
-MG_047_TETRAMER	S-adenosylmethionine synthetase	x		
-MG_385_DIMER	glycerophosphoryl diester phosphodiesterase family protein	x		
-MG_383_DIMER	NH(3)-dependent NAD+ synthetase, putative	x		
-MG_128_HEXAMER	inorganic polyphosphate/ATP-NAD kinase, probable	x		
-MG_240_HEXAMER	nicotinamide-nucleotide adenylyltransferase/conserved hypothetical protein	x		
-MG_275_TETRAMER	NADH oxidase	x		
-MG_229_231_TETRAMER	ribonucleoside-diphosphate reductase	x		
-MG_051_DIMER	pyrimidine-nucleoside phosphorylase	x		
-MG_215_TETRAMER	6-phosphofructokinase	x		
-MG_111_DIMER	glucose-6-phosphate isomerase	x		
-MG_114_DIMER	CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase	x		
-MG_368_DIMER	fatty acid/phospholipid synthesis protein PlsX	x		
-MG_351_HEXAMER	inorganic pyrophosphatase	x		
-MG_058_HEXAMER	ribose-phosphate pyrophosphokinase	x		
-MG_299_DIMER	phosphate acetyltransferase	x		
-MG_216_TETRAMER	pyruvate kinase	x		
-MG_278_DIMER	GTP pyrophosphokinase	x		
-MG_112_DIMER	ribulose-phosphate 3-epimerase	x		
-MG_396_DIMER	ribose 5-phosphate isomerase B	x		
-MG_034_DIMER	thymidine kinase	x		
-MG_372_DIMER	thiamine biosynthesis/tRNA modification protein ThiI	x		
-MG_227_DIMER	thymidylate synthase	x		
-MG_066_DIMER	transketolase	x		
-MG_006_DIMER	thymidylate kinase	x		
-MG_431_DIMER	triosephosphate isomerase	x		
-MG_102_DIMER	thioredoxin-disulfide reductase	x		
-MG_226_DIMER	amino acid transporter	x		
-MG_225_DIMER	amino acid transporter	x		
-MG_179_180_181_TETRAMER	metal ion (cobalt) ABC transporter	x		
-MG_302_303_304_TETRAMER	metal ion (cobalt) ABC transporter	x		
-MG_316_DIMER	DNA internalization-related competence protein ComEC/Rec2	x		
-MG_041_062_429_PENTAMER	PTS system, fructose-specific	x		
-MG_186_187_188_189_PENTAMER	Oligosaccharide or polyol ABC transporter	x		
-MG_041_069_429_PENTAMER	PTS system, glucose-specific	x		
-MG_033_TETRAMER	glycerol uptake facilitator	x		
-MG_014_015_DIMER	multidrug ABC transporter	x		
-MG_322_323_TETRAMER	potassium uptake protein, TrkH family, putative	x		
-MG_077_078_079_080_321_PENTAMER	oligopeptide ABC transporter	x		
-MG_289_290_291_PENTAMER	phosphonate ABC transporter	x		
-MG_410_411_412_PENTAMER	phosphate ABC transporter	x		
-MG_040_119_120_121_PENTAMER	Monosaccharide (riboside/galactoside) ABC transporter	x		
-MG_467_468_526_TETRAMER	salivaricin A ABC transporter	x		
-MG_042_043_044_045_PENTAMER	spermidine/putrescine (polyamine) ABC transporter	x		
-MG_390_DIMER	toxin ABC transporter, ATP-binding/permease protein	x		
-MG_382_TETRAMER	uridine kinase	x		
-MG_030_TRIMER	uracil phosphoribosyltransferase	x		
-MG_265_DIMER	sugar phosphatase	x		
+"id","name","readonly","readwrite","requirement"
+"MG_124_MONOMER_ox__c","oxidized thioredoxin","","x","x"
+"MG_229_231_TETRAMER__c","ribonucleoside-diphosphate reductase","","x","x"
+"MG_229_231_TETRAMER_ox__c","oxidized ribonucleoside-diphosphate reductase","","x","x"
+"MG_287_MONOMER_ACP__c","holo acyl carrier protein","","x","x"
+"MG_287_MONOMER_ddcaACP__c","Dodecanoyl-ACP (n-C12:0ACP)","","x","x"
+"MG_287_MONOMER_hdeACP__c","cis-hexadec-9-enoyl-[acyl-carrier protein] (n-C16:1)","","x","x"
+"MG_287_MONOMER_myrsACP__c","Myristoyl-ACP (n-C14:0ACP)","","x","x"
+"MG_287_MONOMER_ocdcaACP__c","Octadecanoyl-ACP (n-C18:0ACP)","","x","x"
+"MG_287_MONOMER_octeACP__c","cis-octadec-11-enoyl-[acyl-carrier protein] (n-C18:1)","","x","x"
+"MG_287_MONOMER_palmACP__c","Palmitoyl-ACP (n-C16:0ACP)","","x","x"
+"MG_287_MONOMER_tdeACP__c","cis-tetradec-7-enoyl-[acyl-carrier protein] (n-C14:1)","","x","x"
+"MG_427_DIMER__c","osmotically inducible peroxidase","","x","x"
+"MG_427_DIMER_ox__c","oxidized osmotically inducible peroxidase","","x","x"
+"MG_454_DIMER__c","thiol-dependent peroxidase","","x","x"
+"MG_454_DIMER_ox__c","oxidized thiol-dependent peroxidase","","x","x"
+"MG_124_MONOMER_ox__e","oxidized thioredoxin","","x","x"
+"MG_229_231_TETRAMER__e","ribonucleoside-diphosphate reductase","","x","x"
+"MG_229_231_TETRAMER_ox__e","oxidized ribonucleoside-diphosphate reductase","","x","x"
+"MG_287_MONOMER_ACP__e","holo acyl carrier protein","","x","x"
+"MG_287_MONOMER_ddcaACP__e","Dodecanoyl-ACP (n-C12:0ACP)","","x","x"
+"MG_287_MONOMER_hdeACP__e","cis-hexadec-9-enoyl-[acyl-carrier protein] (n-C16:1)","","x","x"
+"MG_287_MONOMER_myrsACP__e","Myristoyl-ACP (n-C14:0ACP)","","x","x"
+"MG_287_MONOMER_ocdcaACP__e","Octadecanoyl-ACP (n-C18:0ACP)","","x","x"
+"MG_287_MONOMER_octeACP__e","cis-octadec-11-enoyl-[acyl-carrier protein] (n-C18:1)","","x","x"
+"MG_287_MONOMER_palmACP__e","Palmitoyl-ACP (n-C16:0ACP)","","x","x"
+"MG_287_MONOMER_tdeACP__e","cis-tetradec-7-enoyl-[acyl-carrier protein] (n-C14:1)","","x","x"
+"MG_427_DIMER__e","osmotically inducible peroxidase","","x","x"
+"MG_427_DIMER_ox__e","oxidized osmotically inducible peroxidase","","x","x"
+"MG_454_DIMER__e","thiol-dependent peroxidase","","x","x"
+"MG_454_DIMER_ox__e","oxidized thiol-dependent peroxidase","","x","x"
+"MG_124_MONOMER_ox__m","oxidized thioredoxin","","x","x"
+"MG_229_231_TETRAMER__m","ribonucleoside-diphosphate reductase","","x","x"
+"MG_229_231_TETRAMER_ox__m","oxidized ribonucleoside-diphosphate reductase","","x","x"
+"MG_287_MONOMER_ACP__m","holo acyl carrier protein","","x","x"
+"MG_287_MONOMER_ddcaACP__m","Dodecanoyl-ACP (n-C12:0ACP)","","x","x"
+"MG_287_MONOMER_hdeACP__m","cis-hexadec-9-enoyl-[acyl-carrier protein] (n-C16:1)","","x","x"
+"MG_287_MONOMER_myrsACP__m","Myristoyl-ACP (n-C14:0ACP)","","x","x"
+"MG_287_MONOMER_ocdcaACP__m","Octadecanoyl-ACP (n-C18:0ACP)","","x","x"
+"MG_287_MONOMER_octeACP__m","cis-octadec-11-enoyl-[acyl-carrier protein] (n-C18:1)","","x","x"
+"MG_287_MONOMER_palmACP__m","Palmitoyl-ACP (n-C16:0ACP)","","x","x"
+"MG_287_MONOMER_tdeACP__m","cis-tetradec-7-enoyl-[acyl-carrier protein] (n-C14:1)","","x","x"
+"MG_427_DIMER__m","osmotically inducible peroxidase","","x","x"
+"MG_427_DIMER_ox__m","oxidized osmotically inducible peroxidase","","x","x"
+"MG_454_DIMER__m","thiol-dependent peroxidase","","x","x"
+"MG_454_DIMER_ox__m","oxidized thiol-dependent peroxidase","","x","x"
+"MG_271_272_273_274_192MER","pyruvate dehydrogenase","x","",""
+"MG_357_DIMER","acetate kinase","x","",""
+"MG_482_DIMER","holo-(acyl-carrier-protein) synthase","x","",""
+"MG_123_DIMER","arginine deaminase","x","",""
+"MG_276_DIMER","adenine phosphoribosyltransferase","x","",""
+"MG_398_399_400_401_402_403_404_405_22MER","H(+)-transporting two-sector ATPase","x","",""
+"MG_333_DIMER","FMN-dependent NADH-azoreductase, putative","x","",""
+"MG_052_DIMER","cytidine deaminase","x","",""
+"MG_437_DIMER","phosphatidate cytidylyltransferase","x","",""
+"MG_434_HEXAMER","uridylate kinase","x","",""
+"MG_053_TRIMER","phosphoglucomutase/phosphomannomutase, putative","x","",""
+"MG_336_DIMER","cysteine desulfurase","x","",""
+"MG_049_HEXAMER","purine nucleoside phosphorylase","x","",""
+"MG_107_DIMER","guanylate kinase","x","",""
+"MG_369_DIMER","DAK2 phosphatase domain protein","x","",""
+"MG_228_TETRAMER","dihydrofolate reductase","x","",""
+"MG_105_OCTAMER","putative DNA integrity scanning protein","x","",""
+"MG_407_DIMER","enolase","x","",""
+"MG_023_DIMER","fructose-1,6-bisphosphate aldolase, class II","x","",""
+"MG_013_DIMER","methylenetetrahydrofolate dehydrogenase/methylenetetrahydrofolate cyclohydrolase","x","",""
+"MG_063_DIMER","1-phosphofructokinase, putative","x","",""
+"MG_118_DIMER","UDP-glucose 4-epimerase","x","",""
+"MG_453_TETRAMER","UTP-glucose-1-phosphate uridylyltransferase","x","",""
+"MG_301_TETRAMER","glyceraldehyde-3-phosphate dehydrogenase, type I","x","",""
+"MG_137_DIMER","UDP-galactopyranose mutase","x","",""
+"MG_038_TETRAMER","glycerol kinase","x","",""
+"MG_293_DIMER","glycerophosphoryl diester phosphodiesterase family protein","x","",""
+"MG_394_TETRAMER","serine hydroxymethyltransferase","x","",""
+"MG_039_DIMER","FAD-dependent glycerol-3-phosphate dehydrogenase, putative","x","",""
+"MG_259_TETRAMER","modification methylase","x","",""
+"MG_458_TETRAMER","hypoxanthine phosphoribosyltransferase","x","",""
+"MG_460_TETRAMER","L-lactate dehydrogenase/malate dehydrogenase","x","",""
+"MG_047_TETRAMER","S-adenosylmethionine synthetase","x","",""
+"MG_385_DIMER","glycerophosphoryl diester phosphodiesterase family protein","x","",""
+"MG_383_DIMER","NH(3)-dependent NAD+ synthetase, putative","x","",""
+"MG_128_HEXAMER","inorganic polyphosphate/ATP-NAD kinase, probable","x","",""
+"MG_240_HEXAMER","nicotinamide-nucleotide adenylyltransferase/conserved hypothetical protein","x","",""
+"MG_275_TETRAMER","NADH oxidase","x","",""
+"MG_229_231_TETRAMER","ribonucleoside-diphosphate reductase","x","",""
+"MG_051_DIMER","pyrimidine-nucleoside phosphorylase","x","",""
+"MG_215_TETRAMER","6-phosphofructokinase","x","",""
+"MG_111_DIMER","glucose-6-phosphate isomerase","x","",""
+"MG_114_DIMER","CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase","x","",""
+"MG_368_DIMER","fatty acid/phospholipid synthesis protein PlsX","x","",""
+"MG_351_HEXAMER","inorganic pyrophosphatase","x","",""
+"MG_058_HEXAMER","ribose-phosphate pyrophosphokinase","x","",""
+"MG_299_DIMER","phosphate acetyltransferase","x","",""
+"MG_216_TETRAMER","pyruvate kinase","x","",""
+"MG_278_DIMER","GTP pyrophosphokinase","x","",""
+"MG_112_DIMER","ribulose-phosphate 3-epimerase","x","",""
+"MG_396_DIMER","ribose 5-phosphate isomerase B","x","",""
+"MG_034_DIMER","thymidine kinase","x","",""
+"MG_372_DIMER","thiamine biosynthesis/tRNA modification protein ThiI","x","",""
+"MG_227_DIMER","thymidylate synthase","x","",""
+"MG_066_DIMER","transketolase","x","",""
+"MG_006_DIMER","thymidylate kinase","x","",""
+"MG_431_DIMER","triosephosphate isomerase","x","",""
+"MG_102_DIMER","thioredoxin-disulfide reductase","x","",""
+"MG_226_DIMER","amino acid transporter","x","",""
+"MG_225_DIMER","amino acid transporter","x","",""
+"MG_179_180_181_TETRAMER","metal ion (cobalt) ABC transporter","x","",""
+"MG_302_303_304_TETRAMER","metal ion (cobalt) ABC transporter","x","",""
+"MG_316_DIMER","DNA internalization-related competence protein ComEC/Rec2","x","",""
+"MG_041_062_429_PENTAMER","PTS system, fructose-specific","x","",""
+"MG_186_187_188_189_PENTAMER","Oligosaccharide or polyol ABC transporter","x","",""
+"MG_041_069_429_PENTAMER","PTS system, glucose-specific","x","",""
+"MG_033_TETRAMER","glycerol uptake facilitator","x","",""
+"MG_014_015_DIMER","multidrug ABC transporter","x","",""
+"MG_322_323_TETRAMER","potassium uptake protein, TrkH family, putative","x","",""
+"MG_077_078_079_080_321_PENTAMER","oligopeptide ABC transporter","x","",""
+"MG_289_290_291_PENTAMER","phosphonate ABC transporter","x","",""
+"MG_410_411_412_PENTAMER","phosphate ABC transporter","x","",""
+"MG_040_119_120_121_PENTAMER","Monosaccharide (riboside/galactoside) ABC transporter","x","",""
+"MG_467_468_526_TETRAMER","salivaricin A ABC transporter","x","",""
+"MG_042_043_044_045_PENTAMER","spermidine/putrescine (polyamine) ABC transporter","x","",""
+"MG_390_DIMER","toxin ABC transporter, ATP-binding/permease protein","x","",""
+"MG_382_TETRAMER","uridine kinase","x","",""
+"MG_030_TRIMER","uracil phosphoribosyltransferase","x","",""
+"MG_265_DIMER","sugar phosphatase","x","",""
