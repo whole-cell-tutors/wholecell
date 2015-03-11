@@ -1,0 +1,16 @@
+Metabolites;read only;write;requirement
+AMP_c;;x;x
+ATP_c;;x;x
+ApAp_c;;x;
+CMP_c;;x;x
+CTP_c;;x;x
+CpCp_c;;x;
+GMP_c;;x;x
+GTP_c;;x;x
+GpGp_c;;x;
+UMP_c;;x;x
+UTP_c;;x;x
+UpUp_c;;x;
+PPI_c;;x;
+H_c;;x;x
+H2O_c;;x;x
