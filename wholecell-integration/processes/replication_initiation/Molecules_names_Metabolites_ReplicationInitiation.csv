@@ -1,0 +1,6 @@
+Metabolite (722),Description,read only,Read and write,requirement
+ADP,ADP,,x,x
+ATP,ATP,,x,x
+H,hydrogen ion,,x,x
+H2O,water,,x,x
+PI,phosphate,,x,x
