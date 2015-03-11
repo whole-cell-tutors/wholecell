@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Created by libAntimony version v2.7.0 on 2015-03-11 10:22 with libSBML version 5.11.0. -->
+<!-- Created by libAntimony version v2.7.0 on 2015-03-11 10:18 with libSBML version 5.11.0. -->
 <sbml xmlns="http://www.sbml.org/sbml/level3/version1/core" level="3" version="1">
-  <model id="toy_model_2" name="toy_model_2">
+  <model id="toymodel1" name="toymodel1">
     <listOfCompartments>
       <compartment sboTerm="SBO:0000410" id="default_compartment" spatialDimensions="3" size="1" constant="true"/>
     </listOfCompartments>
     <listOfSpecies>
+      <species id="sp_A" compartment="default_compartment" initialConcentration="10" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="sp_B" compartment="default_compartment" initialConcentration="10" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
       <species id="sp_C" compartment="default_compartment" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="sp_D" compartment="default_compartment" initialConcentration="2" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="sp_E" compartment="default_compartment" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
     </listOfSpecies>
     <listOfParameters>
-      <parameter id="k1" value="0.68" constant="true"/>
+      <parameter id="k1" value="0.45" constant="true"/>
     </listOfParameters>
     <listOfReactions>
       <reaction id="R1" reversible="true" fast="false">
         <listOfReactants>
-          <speciesReference species="sp_C" stoichiometry="1" constant="true"/>
-          <speciesReference species="sp_D" stoichiometry="1" constant="true"/>
+          <speciesReference species="sp_A" stoichiometry="1" constant="true"/>
+          <speciesReference species="sp_B" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="sp_E" stoichiometry="1" constant="true"/>
+          <speciesReference species="sp_C" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
               <ci> k1 </ci>
-              <ci> sp_C </ci>
-              <ci> sp_D </ci>
+              <ci> sp_A </ci>
+              <ci> sp_B </ci>
             </apply>
           </math>
         </kineticLaw>
