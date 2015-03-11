@@ -30,22 +30,9 @@ SBML_SPECIES = []
 
 
 ENTITY_TO_SBO_MAPPING = {
-    "Gene" : "SBO:0000354", # informational molecule segment
-    "Complex" : "SBO:0000253", # non-covalent complex
-    "Protein" : "SBO:0000252", # polypeptide chain
-    "Dna" : "SBO:0000251", # deoxyribonucleic acid
-    "DnaRegion" : "SBO:0000251", # deoxyribonucleic acid
-    "Rna" : "SBO:0000250", # ribonucleic acid
-    "RnaRegion" : "SBO:0000250", # ribonucleic acid
-    "SmallMolecule" : "SBO:0000247", # simple chemical
-    "Simple_molecule" : "SBO:0000247", # simple chemical
-    "tRNA" : "SBO:0000313",
-    "rRNA" : "SBO:0000314",
-    "snRNA" : "SBO:0000318",
-    "miRNA" : "SBO:0000316",
-    "TSS": "SO:0000315",
-    "mRNA": "SBO:0000278",
-    "metabolite": "SBO:0000299"
+    "macromolecule" : "SBO:0000245", 
+    "nucleicacid" : "SBO:0000354", 
+    "simplemolecule" : "SBO:0000247"
 }
 
 DOCUMENT = libsbml.SBMLDocument( 2, 4)
@@ -98,18 +85,18 @@ for index, row in Process_RNAProcessing_reactions.iterrows():
 
 	for i in reactants_reaction.keys():
 				reactant_ref = reaction.createReactant()
-				add_species_by_id(i,'metabolite',MODEL,i, 'c')
+				add_species_by_id(i,'simplemolecule',MODEL,i, 'c')
 				reactant_ref.setSpecies(i)
 				reactant_ref.setStoichiometry(reactants_reaction[i])
 
 	for i in products_reaction.keys():
 				product_ref = reaction.createProduct()
-				add_species_by_id(i,'metabolite',MODEL,i, 'c')
+				add_species_by_id(i,'simplemolecule',MODEL,i, 'c')
 				product_ref.setSpecies(i)
 				product_ref.setStoichiometry(products_reaction[i])	
 
 	mod_ref = reaction.createModifier()
-	add_species_by_id(modifier_enzyme,'Protein',MODEL,modifier_enzyme, 'c')
+	add_species_by_id(modifier_enzyme,'macromolecule',MODEL,modifier_enzyme, 'c')
 	mod_ref.setSpecies(modifier_enzyme)
 
 libsbml.writeSBMLToFile( DOCUMENT, "RNAProcessing_s3o.xml")

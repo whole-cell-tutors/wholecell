@@ -5,123 +5,123 @@
       <compartment id="c" size="1" units="volume" constant="true"/>
     </listOfCompartments>
     <listOfSpecies>
-      <species sboTerm="SBO:0000299" id="CYS" name="CYS" compartment="c"/>
-      <species sboTerm="SBO:0000299" id="UMP" name="UMP" compartment="c"/>
-      <species sboTerm="SBO:0000299" id="H2O" name="H2O" compartment="c"/>
-      <species sboTerm="SBO:0000299" id="ATP" name="ATP" compartment="c"/>
-      <species sboTerm="SBO:0000299" id="GMP" name="GMP" compartment="c"/>
-      <species sboTerm="SBO:0000299" id="AMET" name="AMET" compartment="c"/>
-      <species sboTerm="SBO:0000299" id="s4UMP" name="s4UMP" compartment="c"/>
-      <species sboTerm="SBO:0000299" id="SER" name="SER" compartment="c"/>
-      <species sboTerm="SBO:0000299" id="H" name="H" compartment="c"/>
-      <species sboTerm="SBO:0000299" id="PPI" name="PPI" compartment="c"/>
-      <species sboTerm="SBO:0000299" id="AHCYS" name="AHCYS" compartment="c"/>
-      <species sboTerm="SBO:0000299" id="m7GMP" name="m7GMP" compartment="c"/>
-      <species sboTerm="SBO:0000299" id="PSIURIMP" name="PSIURIMP" compartment="c"/>
-      <species sboTerm="SBO:0000299" id="AMP" name="AMP" compartment="c"/>
-      <species sboTerm="SBO:0000250" id="rna_MG471" name="rna_MG471" compartment="c"/>
-      <species sboTerm="SBO:0000250" id="rna_MG471_46_39_8" name="rna_MG471_46_39_8" compartment="c"/>
-      <species sboTerm="SBO:0000252" id="_MG_347_DIMER_MG_182_DIMER_MG_372_DIMER" name="_tRNA (guanine-N(7)-)-methyltransferase_tRNA pseudouridine synthase A_tRNA U8 sulfurtransferase" compartment="c"/>
-      <species sboTerm="SBO:0000250" id="rna_MG472" name="rna_MG472" compartment="c"/>
-      <species sboTerm="SBO:0000250" id="rna_MG472_47_8" name="rna_MG472_47_8" compartment="c"/>
-      <species sboTerm="SBO:0000252" id="_MG_347_DIMER_MG_372_DIMER" name="_tRNA (guanine-N(7)-)-methyltransferase_tRNA U8 sulfurtransferase" compartment="c"/>
-      <species sboTerm="SBO:0000250" id="rna_MG475" name="rna_MG475" compartment="c"/>
-      <species sboTerm="SBO:0000250" id="rna_MG475_8" name="rna_MG475_8" compartment="c"/>
-      <species sboTerm="SBO:0000252" id="_MG_372_DIMER" name="_tRNA U8 sulfurtransferase" compartment="c"/>
-      <species sboTerm="SBO:0000250" id="rna_MG479" name="rna_MG479" compartment="c"/>
-      <species sboTerm="SBO:0000250" id="rna_MG479_8" name="rna_MG479_8" compartment="c"/>
-      <species sboTerm="SBO:0000250" id="rna_MG483" name="rna_MG483" compartment="c"/>
-      <species sboTerm="SBO:0000250" id="rna_MG483_42_8" name="rna_MG483_42_8" compartment="c"/>
-      <species sboTerm="SBO:0000252" id="_MG_182_DIMER_MG_372_DIMER" name="_tRNA pseudouridine synthase A_tRNA U8 sulfurtransferase" compartment="c"/>
-      <species sboTerm="SBO:0000299" id="m1GMP" name="m1GMP" compartment="c"/>
-      <species sboTerm="SBO:0000250" id="rna_MG484" name="rna_MG484" compartment="c"/>
-      <species sboTerm="SBO:0000250" id="rna_MG484_38_47_8" name="rna_MG484_38_47_8" compartment="c"/>
-      <species sboTerm="SBO:0000252" id="_MG_445_DIMER_MG_347_DIMER_MG_372_DIMER" name="_tRNA (guanine-N(1)-)-methyltransferase_tRNA (guanine-N(7)-)-methyltransferase_tRNA U8 sulfurtransferase" compartment="c"/>
-      <species sboTerm="SBO:0000250" id="rna_MG485" name="rna_MG485" compartment="c"/>
-      <species sboTerm="SBO:0000250" id="rna_MG485_47_8" name="rna_MG485_47_8" compartment="c"/>
-      <species sboTerm="SBO:0000299" id="LYS" name="LYS" compartment="c"/>
-      <species sboTerm="SBO:0000299" id="CMP" name="CMP" compartment="c"/>
-      <species sboTerm="SBO:0000299" id="k2CMP" name="k2CMP" compartment="c"/>
-      <species sboTerm="SBO:0000250" id="rna_MG486" name="rna_MG486" compartment="c"/>
-      <species sboTerm="SBO:0000250" id="rna_MG486_47_35_40_8" name="rna_MG486_47_35_40_8" compartment="c"/>
-      <species sboTerm="SBO:0000252" id="_MG_347_DIMER_MG_084_TETRAMER_MG_182_DIMER_MG_372_DIMER" name="_tRNA (guanine-N(7)-)-methyltransferase_tRNA(Ile)-lysidine synthetase_tRNA pseudouridine synthase A_tRNA U8 sulfurtransferase" compartment="c"/>
-      <species sboTerm="SBO:0000250" id="rna_MG487" name="rna_MG487" compartment="c"/>
-      <species sboTerm="SBO:0000250" id="rna_MG487_38_8" name="rna_MG487_38_8" compartment="c"/>
-      <species sboTerm="SBO:0000252" id="_MG_445_DIMER_MG_372_DIMER" name="_tRNA (guanine-N(1)-)-methyltransferase_tRNA U8 sulfurtransferase" compartment="c"/>
-      <species sboTerm="SBO:0000250" id="rna_MG488" name="rna_MG488" compartment="c"/>
-      <species sboTerm="SBO:0000250" id="rna_MG488_47_40_8" name="rna_MG488_47_40_8" compartment="c"/>
-      <species sboTerm="SBO:0000250" id="rna_MG489" name="rna_MG489" compartment="c"/>
-      <species sboTerm="SBO:0000250" id="rna_MG489_8" name="rna_MG489_8" compartment="c"/>
-      <species sboTerm="SBO:0000250" id="rna_MG490" name="rna_MG490" compartment="c"/>
-      <species sboTerm="SBO:0000250" id="rna_MG490_46_8" name="rna_MG490_46_8" compartment="c"/>
-      <species sboTerm="SBO:0000250" id="rna_MG492" name="rna_MG492" compartment="c"/>
-      <species sboTerm="SBO:0000250" id="rna_MG492_47_8" name="rna_MG492_47_8" compartment="c"/>
-      <species sboTerm="SBO:0000250" id="rna_MG493" name="rna_MG493" compartment="c"/>
-      <species sboTerm="SBO:0000250" id="rna_MG493_8" name="rna_MG493_8" compartment="c"/>
-      <species sboTerm="SBO:0000250" id="rna_MG495" name="rna_MG495" compartment="c"/>
-      <species sboTerm="SBO:0000250" id="rna_MG495_39_8" name="rna_MG495_39_8" compartment="c"/>
-      <species sboTerm="SBO:0000250" id="rna_MG496" name="rna_MG496" compartment="c"/>
-      <species sboTerm="SBO:0000250" id="rna_MG496_8" name="rna_MG496_8" compartment="c"/>
-      <species sboTerm="SBO:0000250" id="rna_MG497" name="rna_MG497" compartment="c"/>
-      <species sboTerm="SBO:0000250" id="rna_MG497_47_8" name="rna_MG497_47_8" compartment="c"/>
-      <species sboTerm="SBO:0000250" id="rna_MG499" name="rna_MG499" compartment="c"/>
-      <species sboTerm="SBO:0000250" id="rna_MG499_8" name="rna_MG499_8" compartment="c"/>
-      <species sboTerm="SBO:0000250" id="rna_MG500" name="rna_MG500" compartment="c"/>
-      <species sboTerm="SBO:0000250" id="rna_MG500_39_8" name="rna_MG500_39_8" compartment="c"/>
-      <species sboTerm="SBO:0000299" id="s2UMP" name="s2UMP" compartment="c"/>
-      <species sboTerm="SBO:0000299" id="FTHF5" name="FTHF5" compartment="c"/>
-      <species sboTerm="SBO:0000299" id="GLY" name="GLY" compartment="c"/>
-      <species sboTerm="SBO:0000299" id="THF" name="THF" compartment="c"/>
-      <species sboTerm="SBO:0000299" id="cmnm5s2UMP" name="cmnm5s2UMP" compartment="c"/>
-      <species sboTerm="SBO:0000250" id="rna_MG501" name="rna_MG501" compartment="c"/>
-      <species sboTerm="SBO:0000250" id="rna_MG501_45_33_33_38_8" name="rna_MG501_45_33_33_38_8" compartment="c"/>
-      <species sboTerm="SBO:0000252" id="_MG_347_DIMER_MG_295_MONOMER_MG_008_379_TETRAMER_MG_182_DIMER_MG_372_DIMER" name="_tRNA (guanine-N(7)-)-methyltransferase_tRNA U34 sulfurtransferase_tRNA uridine 5-carboxymethylaminomethyl modification enzyme_tRNA pseudouridine synthase A_tRNA U8 sulfurtransferase" compartment="c"/>
-      <species sboTerm="SBO:0000250" id="rna_MG502" name="rna_MG502" compartment="c"/>
-      <species sboTerm="SBO:0000250" id="rna_MG502_33_33_38_8" name="rna_MG502_33_33_38_8" compartment="c"/>
-      <species sboTerm="SBO:0000252" id="_MG_295_MONOMER_MG_008_379_TETRAMER_MG_182_DIMER_MG_372_DIMER" name="_tRNA U34 sulfurtransferase_tRNA uridine 5-carboxymethylaminomethyl modification enzyme_tRNA pseudouridine synthase A_tRNA U8 sulfurtransferase" compartment="c"/>
-      <species sboTerm="SBO:0000250" id="rna_MG503" name="rna_MG503" compartment="c"/>
-      <species sboTerm="SBO:0000250" id="rna_MG503_40_8" name="rna_MG503_40_8" compartment="c"/>
-      <species sboTerm="SBO:0000250" id="rna_MG504" name="rna_MG504" compartment="c"/>
-      <species sboTerm="SBO:0000250" id="rna_MG504_45_39_8" name="rna_MG504_45_39_8" compartment="c"/>
-      <species sboTerm="SBO:0000250" id="rna_MG506" name="rna_MG506" compartment="c"/>
-      <species sboTerm="SBO:0000250" id="rna_MG506_8" name="rna_MG506_8" compartment="c"/>
-      <species sboTerm="SBO:0000250" id="rna_MG507" name="rna_MG507" compartment="c"/>
-      <species sboTerm="SBO:0000250" id="rna_MG507_8" name="rna_MG507_8" compartment="c"/>
-      <species sboTerm="SBO:0000250" id="rna_MG508" name="rna_MG508" compartment="c"/>
-      <species sboTerm="SBO:0000250" id="rna_MG508_37_39_8" name="rna_MG508_37_39_8" compartment="c"/>
-      <species sboTerm="SBO:0000252" id="_MG_445_DIMER_MG_182_DIMER_MG_372_DIMER" name="_tRNA (guanine-N(1)-)-methyltransferase_tRNA pseudouridine synthase A_tRNA U8 sulfurtransferase" compartment="c"/>
-      <species sboTerm="SBO:0000250" id="rna_MG509" name="rna_MG509" compartment="c"/>
-      <species sboTerm="SBO:0000250" id="rna_MG509_46_39_8" name="rna_MG509_46_39_8" compartment="c"/>
-      <species sboTerm="SBO:0000250" id="rna_MG510" name="rna_MG510" compartment="c"/>
-      <species sboTerm="SBO:0000250" id="rna_MG510_46_39_8" name="rna_MG510_46_39_8" compartment="c"/>
-      <species sboTerm="SBO:0000250" id="rna_MG511" name="rna_MG511" compartment="c"/>
-      <species sboTerm="SBO:0000250" id="rna_MG511_46_8" name="rna_MG511_46_8" compartment="c"/>
-      <species sboTerm="SBO:0000250" id="rna_MG512" name="rna_MG512" compartment="c"/>
-      <species sboTerm="SBO:0000250" id="rna_MG512_45_38_8" name="rna_MG512_45_38_8" compartment="c"/>
-      <species sboTerm="SBO:0000250" id="rna_MG513" name="rna_MG513" compartment="c"/>
-      <species sboTerm="SBO:0000250" id="rna_MG513_35_35_8" name="rna_MG513_35_35_8" compartment="c"/>
-      <species sboTerm="SBO:0000252" id="_MG_295_MONOMER_MG_008_379_TETRAMER_MG_372_DIMER" name="_tRNA U34 sulfurtransferase_tRNA uridine 5-carboxymethylaminomethyl modification enzyme_tRNA U8 sulfurtransferase" compartment="c"/>
-      <species sboTerm="SBO:0000250" id="rna_MG514" name="rna_MG514" compartment="c"/>
-      <species sboTerm="SBO:0000250" id="rna_MG514_45_8" name="rna_MG514_45_8" compartment="c"/>
-      <species sboTerm="SBO:0000250" id="rna_MG518" name="rna_MG518" compartment="c"/>
-      <species sboTerm="SBO:0000250" id="rna_MG518_39_8" name="rna_MG518_39_8" compartment="c"/>
-      <species sboTerm="SBO:0000250" id="rna_MG519" name="rna_MG519" compartment="c"/>
-      <species sboTerm="SBO:0000250" id="rna_MG519_37_46_8" name="rna_MG519_37_46_8" compartment="c"/>
-      <species sboTerm="SBO:0000250" id="rna_MG520" name="rna_MG520" compartment="c"/>
-      <species sboTerm="SBO:0000250" id="rna_MG520_8" name="rna_MG520_8" compartment="c"/>
-      <species sboTerm="SBO:0000250" id="rna_MG523" name="rna_MG523" compartment="c"/>
-      <species sboTerm="SBO:0000250" id="rna_MG523_46_8" name="rna_MG523_46_8" compartment="c"/>
-      <species sboTerm="SBO:0000299" id="m6AMP" name="m6AMP" compartment="c"/>
-      <species sboTerm="SBO:0000299" id="m2GMP" name="m2GMP" compartment="c"/>
-      <species sboTerm="SBO:0000299" id="m62AMP" name="m62AMP" compartment="c"/>
-      <species sboTerm="SBO:0000250" id="rna_MGrrnA16S" name="rna_MGrrnA16S" compartment="c"/>
-      <species sboTerm="SBO:0000250" id="rna_MGrrnA16S_529_1499_1499_1500_1500" name="rna_MGrrnA16S_529_1499_1499_1500_1500" compartment="c"/>
-      <species sboTerm="SBO:0000252" id="_MG_380_MONOMER_MG_463_MONOMER_MG_463_MONOMER_MG_463_MONOMER_MG_463_MONOMER" name="_16S rRNA (guanine-N(2)-)-methyltransferase_16S rRNA (adenine-N(6)-)-methyltransferase_16S rRNA (adenine-N(6)-)-methyltransferase_16S rRNA (adenine-N(6)-)-methyltransferase_16S rRNA (adenine-N(6)-)-methyltransferase" compartment="c"/>
-      <species sboTerm="SBO:0000299" id="UmMP" name="UmMP" compartment="c"/>
-      <species sboTerm="SBO:0000299" id="GmMP" name="GmMP" compartment="c"/>
-      <species sboTerm="SBO:0000250" id="rna_MGrrnA23S" name="rna_MGrrnA23S" compartment="c"/>
-      <species sboTerm="SBO:0000250" id="rna_MGrrnA23S_1924_1930_2265_2518_2566_2594" name="rna_MGrrnA23S_1924_1930_2265_2518_2566_2594" compartment="c"/>
-      <species sboTerm="SBO:0000252" id="_MG_370_MONOMER_MG_370_MONOMER_MG_252_DIMER_MG_209_MONOMER_MG_346_DIMER_MG_209_MONOMER" name="_23S rRNA pseudouridine synthase A_23S rRNA pseudouridine synthase A_23S rRNA (guanine-N(2)-)-methyltransferase_23S rRNA pseudouridine synthase A_23S rRNA (uracil-N(2)-)-methyltransferase_23S rRNA pseudouridine synthase A" compartment="c"/>
+      <species sboTerm="SBO:0000247" id="CYS" name="CYS" compartment="c"/>
+      <species sboTerm="SBO:0000247" id="UMP" name="UMP" compartment="c"/>
+      <species sboTerm="SBO:0000247" id="H2O" name="H2O" compartment="c"/>
+      <species sboTerm="SBO:0000247" id="ATP" name="ATP" compartment="c"/>
+      <species sboTerm="SBO:0000247" id="GMP" name="GMP" compartment="c"/>
+      <species sboTerm="SBO:0000247" id="AMET" name="AMET" compartment="c"/>
+      <species sboTerm="SBO:0000247" id="s4UMP" name="s4UMP" compartment="c"/>
+      <species sboTerm="SBO:0000247" id="SER" name="SER" compartment="c"/>
+      <species sboTerm="SBO:0000247" id="H" name="H" compartment="c"/>
+      <species sboTerm="SBO:0000247" id="PPI" name="PPI" compartment="c"/>
+      <species sboTerm="SBO:0000247" id="AHCYS" name="AHCYS" compartment="c"/>
+      <species sboTerm="SBO:0000247" id="m7GMP" name="m7GMP" compartment="c"/>
+      <species sboTerm="SBO:0000247" id="PSIURIMP" name="PSIURIMP" compartment="c"/>
+      <species sboTerm="SBO:0000247" id="AMP" name="AMP" compartment="c"/>
+      <species sboTerm="SBO:0000354" id="rna_MG471" name="rna_MG471" compartment="c"/>
+      <species sboTerm="SBO:0000354" id="rna_MG471_46_39_8" name="rna_MG471_46_39_8" compartment="c"/>
+      <species sboTerm="SBO:0000245" id="_MG_347_DIMER_MG_182_DIMER_MG_372_DIMER" name="_tRNA (guanine-N(7)-)-methyltransferase_tRNA pseudouridine synthase A_tRNA U8 sulfurtransferase" compartment="c"/>
+      <species sboTerm="SBO:0000354" id="rna_MG472" name="rna_MG472" compartment="c"/>
+      <species sboTerm="SBO:0000354" id="rna_MG472_47_8" name="rna_MG472_47_8" compartment="c"/>
+      <species sboTerm="SBO:0000245" id="_MG_347_DIMER_MG_372_DIMER" name="_tRNA (guanine-N(7)-)-methyltransferase_tRNA U8 sulfurtransferase" compartment="c"/>
+      <species sboTerm="SBO:0000354" id="rna_MG475" name="rna_MG475" compartment="c"/>
+      <species sboTerm="SBO:0000354" id="rna_MG475_8" name="rna_MG475_8" compartment="c"/>
+      <species sboTerm="SBO:0000245" id="_MG_372_DIMER" name="_tRNA U8 sulfurtransferase" compartment="c"/>
+      <species sboTerm="SBO:0000354" id="rna_MG479" name="rna_MG479" compartment="c"/>
+      <species sboTerm="SBO:0000354" id="rna_MG479_8" name="rna_MG479_8" compartment="c"/>
+      <species sboTerm="SBO:0000354" id="rna_MG483" name="rna_MG483" compartment="c"/>
+      <species sboTerm="SBO:0000354" id="rna_MG483_42_8" name="rna_MG483_42_8" compartment="c"/>
+      <species sboTerm="SBO:0000245" id="_MG_182_DIMER_MG_372_DIMER" name="_tRNA pseudouridine synthase A_tRNA U8 sulfurtransferase" compartment="c"/>
+      <species sboTerm="SBO:0000247" id="m1GMP" name="m1GMP" compartment="c"/>
+      <species sboTerm="SBO:0000354" id="rna_MG484" name="rna_MG484" compartment="c"/>
+      <species sboTerm="SBO:0000354" id="rna_MG484_38_47_8" name="rna_MG484_38_47_8" compartment="c"/>
+      <species sboTerm="SBO:0000245" id="_MG_445_DIMER_MG_347_DIMER_MG_372_DIMER" name="_tRNA (guanine-N(1)-)-methyltransferase_tRNA (guanine-N(7)-)-methyltransferase_tRNA U8 sulfurtransferase" compartment="c"/>
+      <species sboTerm="SBO:0000354" id="rna_MG485" name="rna_MG485" compartment="c"/>
+      <species sboTerm="SBO:0000354" id="rna_MG485_47_8" name="rna_MG485_47_8" compartment="c"/>
+      <species sboTerm="SBO:0000247" id="LYS" name="LYS" compartment="c"/>
+      <species sboTerm="SBO:0000247" id="CMP" name="CMP" compartment="c"/>
+      <species sboTerm="SBO:0000247" id="k2CMP" name="k2CMP" compartment="c"/>
+      <species sboTerm="SBO:0000354" id="rna_MG486" name="rna_MG486" compartment="c"/>
+      <species sboTerm="SBO:0000354" id="rna_MG486_47_35_40_8" name="rna_MG486_47_35_40_8" compartment="c"/>
+      <species sboTerm="SBO:0000245" id="_MG_347_DIMER_MG_084_TETRAMER_MG_182_DIMER_MG_372_DIMER" name="_tRNA (guanine-N(7)-)-methyltransferase_tRNA(Ile)-lysidine synthetase_tRNA pseudouridine synthase A_tRNA U8 sulfurtransferase" compartment="c"/>
+      <species sboTerm="SBO:0000354" id="rna_MG487" name="rna_MG487" compartment="c"/>
+      <species sboTerm="SBO:0000354" id="rna_MG487_38_8" name="rna_MG487_38_8" compartment="c"/>
+      <species sboTerm="SBO:0000245" id="_MG_445_DIMER_MG_372_DIMER" name="_tRNA (guanine-N(1)-)-methyltransferase_tRNA U8 sulfurtransferase" compartment="c"/>
+      <species sboTerm="SBO:0000354" id="rna_MG488" name="rna_MG488" compartment="c"/>
+      <species sboTerm="SBO:0000354" id="rna_MG488_47_40_8" name="rna_MG488_47_40_8" compartment="c"/>
+      <species sboTerm="SBO:0000354" id="rna_MG489" name="rna_MG489" compartment="c"/>
+      <species sboTerm="SBO:0000354" id="rna_MG489_8" name="rna_MG489_8" compartment="c"/>
+      <species sboTerm="SBO:0000354" id="rna_MG490" name="rna_MG490" compartment="c"/>
+      <species sboTerm="SBO:0000354" id="rna_MG490_46_8" name="rna_MG490_46_8" compartment="c"/>
+      <species sboTerm="SBO:0000354" id="rna_MG492" name="rna_MG492" compartment="c"/>
+      <species sboTerm="SBO:0000354" id="rna_MG492_47_8" name="rna_MG492_47_8" compartment="c"/>
+      <species sboTerm="SBO:0000354" id="rna_MG493" name="rna_MG493" compartment="c"/>
+      <species sboTerm="SBO:0000354" id="rna_MG493_8" name="rna_MG493_8" compartment="c"/>
+      <species sboTerm="SBO:0000354" id="rna_MG495" name="rna_MG495" compartment="c"/>
+      <species sboTerm="SBO:0000354" id="rna_MG495_39_8" name="rna_MG495_39_8" compartment="c"/>
+      <species sboTerm="SBO:0000354" id="rna_MG496" name="rna_MG496" compartment="c"/>
+      <species sboTerm="SBO:0000354" id="rna_MG496_8" name="rna_MG496_8" compartment="c"/>
+      <species sboTerm="SBO:0000354" id="rna_MG497" name="rna_MG497" compartment="c"/>
+      <species sboTerm="SBO:0000354" id="rna_MG497_47_8" name="rna_MG497_47_8" compartment="c"/>
+      <species sboTerm="SBO:0000354" id="rna_MG499" name="rna_MG499" compartment="c"/>
+      <species sboTerm="SBO:0000354" id="rna_MG499_8" name="rna_MG499_8" compartment="c"/>
+      <species sboTerm="SBO:0000354" id="rna_MG500" name="rna_MG500" compartment="c"/>
+      <species sboTerm="SBO:0000354" id="rna_MG500_39_8" name="rna_MG500_39_8" compartment="c"/>
+      <species sboTerm="SBO:0000247" id="s2UMP" name="s2UMP" compartment="c"/>
+      <species sboTerm="SBO:0000247" id="FTHF5" name="FTHF5" compartment="c"/>
+      <species sboTerm="SBO:0000247" id="GLY" name="GLY" compartment="c"/>
+      <species sboTerm="SBO:0000247" id="THF" name="THF" compartment="c"/>
+      <species sboTerm="SBO:0000247" id="cmnm5s2UMP" name="cmnm5s2UMP" compartment="c"/>
+      <species sboTerm="SBO:0000354" id="rna_MG501" name="rna_MG501" compartment="c"/>
+      <species sboTerm="SBO:0000354" id="rna_MG501_45_33_33_38_8" name="rna_MG501_45_33_33_38_8" compartment="c"/>
+      <species sboTerm="SBO:0000245" id="_MG_347_DIMER_MG_295_MONOMER_MG_008_379_TETRAMER_MG_182_DIMER_MG_372_DIMER" name="_tRNA (guanine-N(7)-)-methyltransferase_tRNA U34 sulfurtransferase_tRNA uridine 5-carboxymethylaminomethyl modification enzyme_tRNA pseudouridine synthase A_tRNA U8 sulfurtransferase" compartment="c"/>
+      <species sboTerm="SBO:0000354" id="rna_MG502" name="rna_MG502" compartment="c"/>
+      <species sboTerm="SBO:0000354" id="rna_MG502_33_33_38_8" name="rna_MG502_33_33_38_8" compartment="c"/>
+      <species sboTerm="SBO:0000245" id="_MG_295_MONOMER_MG_008_379_TETRAMER_MG_182_DIMER_MG_372_DIMER" name="_tRNA U34 sulfurtransferase_tRNA uridine 5-carboxymethylaminomethyl modification enzyme_tRNA pseudouridine synthase A_tRNA U8 sulfurtransferase" compartment="c"/>
+      <species sboTerm="SBO:0000354" id="rna_MG503" name="rna_MG503" compartment="c"/>
+      <species sboTerm="SBO:0000354" id="rna_MG503_40_8" name="rna_MG503_40_8" compartment="c"/>
+      <species sboTerm="SBO:0000354" id="rna_MG504" name="rna_MG504" compartment="c"/>
+      <species sboTerm="SBO:0000354" id="rna_MG504_45_39_8" name="rna_MG504_45_39_8" compartment="c"/>
+      <species sboTerm="SBO:0000354" id="rna_MG506" name="rna_MG506" compartment="c"/>
+      <species sboTerm="SBO:0000354" id="rna_MG506_8" name="rna_MG506_8" compartment="c"/>
+      <species sboTerm="SBO:0000354" id="rna_MG507" name="rna_MG507" compartment="c"/>
+      <species sboTerm="SBO:0000354" id="rna_MG507_8" name="rna_MG507_8" compartment="c"/>
+      <species sboTerm="SBO:0000354" id="rna_MG508" name="rna_MG508" compartment="c"/>
+      <species sboTerm="SBO:0000354" id="rna_MG508_37_39_8" name="rna_MG508_37_39_8" compartment="c"/>
+      <species sboTerm="SBO:0000245" id="_MG_445_DIMER_MG_182_DIMER_MG_372_DIMER" name="_tRNA (guanine-N(1)-)-methyltransferase_tRNA pseudouridine synthase A_tRNA U8 sulfurtransferase" compartment="c"/>
+      <species sboTerm="SBO:0000354" id="rna_MG509" name="rna_MG509" compartment="c"/>
+      <species sboTerm="SBO:0000354" id="rna_MG509_46_39_8" name="rna_MG509_46_39_8" compartment="c"/>
+      <species sboTerm="SBO:0000354" id="rna_MG510" name="rna_MG510" compartment="c"/>
+      <species sboTerm="SBO:0000354" id="rna_MG510_46_39_8" name="rna_MG510_46_39_8" compartment="c"/>
+      <species sboTerm="SBO:0000354" id="rna_MG511" name="rna_MG511" compartment="c"/>
+      <species sboTerm="SBO:0000354" id="rna_MG511_46_8" name="rna_MG511_46_8" compartment="c"/>
+      <species sboTerm="SBO:0000354" id="rna_MG512" name="rna_MG512" compartment="c"/>
+      <species sboTerm="SBO:0000354" id="rna_MG512_45_38_8" name="rna_MG512_45_38_8" compartment="c"/>
+      <species sboTerm="SBO:0000354" id="rna_MG513" name="rna_MG513" compartment="c"/>
+      <species sboTerm="SBO:0000354" id="rna_MG513_35_35_8" name="rna_MG513_35_35_8" compartment="c"/>
+      <species sboTerm="SBO:0000245" id="_MG_295_MONOMER_MG_008_379_TETRAMER_MG_372_DIMER" name="_tRNA U34 sulfurtransferase_tRNA uridine 5-carboxymethylaminomethyl modification enzyme_tRNA U8 sulfurtransferase" compartment="c"/>
+      <species sboTerm="SBO:0000354" id="rna_MG514" name="rna_MG514" compartment="c"/>
+      <species sboTerm="SBO:0000354" id="rna_MG514_45_8" name="rna_MG514_45_8" compartment="c"/>
+      <species sboTerm="SBO:0000354" id="rna_MG518" name="rna_MG518" compartment="c"/>
+      <species sboTerm="SBO:0000354" id="rna_MG518_39_8" name="rna_MG518_39_8" compartment="c"/>
+      <species sboTerm="SBO:0000354" id="rna_MG519" name="rna_MG519" compartment="c"/>
+      <species sboTerm="SBO:0000354" id="rna_MG519_37_46_8" name="rna_MG519_37_46_8" compartment="c"/>
+      <species sboTerm="SBO:0000354" id="rna_MG520" name="rna_MG520" compartment="c"/>
+      <species sboTerm="SBO:0000354" id="rna_MG520_8" name="rna_MG520_8" compartment="c"/>
+      <species sboTerm="SBO:0000354" id="rna_MG523" name="rna_MG523" compartment="c"/>
+      <species sboTerm="SBO:0000354" id="rna_MG523_46_8" name="rna_MG523_46_8" compartment="c"/>
+      <species sboTerm="SBO:0000247" id="m6AMP" name="m6AMP" compartment="c"/>
+      <species sboTerm="SBO:0000247" id="m2GMP" name="m2GMP" compartment="c"/>
+      <species sboTerm="SBO:0000247" id="m62AMP" name="m62AMP" compartment="c"/>
+      <species sboTerm="SBO:0000354" id="rna_MGrrnA16S" name="rna_MGrrnA16S" compartment="c"/>
+      <species sboTerm="SBO:0000354" id="rna_MGrrnA16S_529_1499_1499_1500_1500" name="rna_MGrrnA16S_529_1499_1499_1500_1500" compartment="c"/>
+      <species sboTerm="SBO:0000245" id="_MG_380_MONOMER_MG_463_MONOMER_MG_463_MONOMER_MG_463_MONOMER_MG_463_MONOMER" name="_16S rRNA (guanine-N(2)-)-methyltransferase_16S rRNA (adenine-N(6)-)-methyltransferase_16S rRNA (adenine-N(6)-)-methyltransferase_16S rRNA (adenine-N(6)-)-methyltransferase_16S rRNA (adenine-N(6)-)-methyltransferase" compartment="c"/>
+      <species sboTerm="SBO:0000247" id="UmMP" name="UmMP" compartment="c"/>
+      <species sboTerm="SBO:0000247" id="GmMP" name="GmMP" compartment="c"/>
+      <species sboTerm="SBO:0000354" id="rna_MGrrnA23S" name="rna_MGrrnA23S" compartment="c"/>
+      <species sboTerm="SBO:0000354" id="rna_MGrrnA23S_1924_1930_2265_2518_2566_2594" name="rna_MGrrnA23S_1924_1930_2265_2518_2566_2594" compartment="c"/>
+      <species sboTerm="SBO:0000245" id="_MG_370_MONOMER_MG_370_MONOMER_MG_252_DIMER_MG_209_MONOMER_MG_346_DIMER_MG_209_MONOMER" name="_23S rRNA pseudouridine synthase A_23S rRNA pseudouridine synthase A_23S rRNA (guanine-N(2)-)-methyltransferase_23S rRNA pseudouridine synthase A_23S rRNA (uracil-N(2)-)-methyltransferase_23S rRNA pseudouridine synthase A" compartment="c"/>
     </listOfSpecies>
     <listOfReactions>
       <reaction id="MG471_MODIFICATION" reversible="false">
