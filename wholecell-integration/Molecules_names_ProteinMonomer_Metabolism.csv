@@ -1,6 +1,6 @@
 "id","name","readonly","readwrite","requirement"
-"MG_124_MONOMER__c","thioredoxin","","x","x"
-"MG_287_MONOMER__c","acyl carrier protein","","x","x"
+"MG_124_MONOMER","thioredoxin","","x","x"
+"MG_287_MONOMER","acyl carrier protein","","x","x"
 "MG_124_MONOMER__e","thioredoxin","","x","x"
 "MG_287_MONOMER__e","acyl carrier protein","","x","x"
 "MG_124_MONOMER__m","thioredoxin","","x","x"
