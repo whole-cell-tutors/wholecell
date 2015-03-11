@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level2/version4" level="2" version="4">
+  <model>
+    <listOfCompartments>
+      <compartment id="c" size="1" units="volume" constant="true"/>
+    </listOfCompartments>
+    <listOfSpecies>
+      <species sboTerm="SBO:0000299" id="H2O" name="H2O" compartment="c"/>
+      <species sboTerm="SBO:0000299" id="ApAp" name="ApAp" compartment="c"/>
+      <species sboTerm="SBO:0000299" id="ATP" name="ATP" compartment="c"/>
+      <species sboTerm="SBO:0000299" id="AMP" name="AMP" compartment="c"/>
+      <species sboTerm="SBO:0000299" id="PI" name="PI" compartment="c"/>
+      <species sboTerm="SBO:0000299" id="ADP" name="ADP" compartment="c"/>
+      <species sboTerm="SBO:0000299" id="H" name="H" compartment="c"/>
+      <species sboTerm="SBO:0000252" id="MG_425_DIMER" name="MG_425_DIMER" compartment="c"/>
+      <species sboTerm="SBO:0000299" id="CpCp" name="CpCp" compartment="c"/>
+      <species sboTerm="SBO:0000299" id="CMP" name="CMP" compartment="c"/>
+      <species sboTerm="SBO:0000299" id="GpGp" name="GpGp" compartment="c"/>
+      <species sboTerm="SBO:0000299" id="GMP" name="GMP" compartment="c"/>
+      <species sboTerm="SBO:0000299" id="UpUp" name="UpUp" compartment="c"/>
+      <species sboTerm="SBO:0000299" id="UMP" name="UMP" compartment="c"/>
+      <species sboTerm="SBO:0000252" id="MG_367_DIMER" name="MG_367_DIMER" compartment="c"/>
+      <species sboTerm="SBO:0000252" id="MG_139_DIMER" name="MG_139_DIMER" compartment="c"/>
+      <species sboTerm="SBO:0000252" id="MG_0003_465" name="MG_0003_465" compartment="c"/>
+      <species sboTerm="SBO:0000299" id="GTP" name="GTP" compartment="c"/>
+      <species sboTerm="SBO:0000299" id="GDP" name="GDP" compartment="c"/>
+      <species sboTerm="SBO:0000252" id="MG_110_MONOMER" name="MG_110_MONOMER" compartment="c"/>
+    </listOfSpecies>
+    <listOfReactions>
+      <reaction id="RNACleavage_DeaD_AMP" reversible="false">
+        <listOfReactants>
+          <speciesReference species="H2O" stoichiometry="2"/>
+          <speciesReference species="ApAp" stoichiometry="1"/>
+          <speciesReference species="ATP" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="AMP" stoichiometry="2"/>
+          <speciesReference species="PI" stoichiometry="1"/>
+          <speciesReference species="ADP" stoichiometry="1"/>
+          <speciesReference species="H" stoichiometry="2"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="MG_425_DIMER"/>
+        </listOfModifiers>
+      </reaction>
+      <reaction id="RNACleavage_DeaD_CMP" reversible="false">
+        <listOfReactants>
+          <speciesReference species="H2O" stoichiometry="2"/>
+          <speciesReference species="CpCp" stoichiometry="1"/>
+          <speciesReference species="ATP" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="H" stoichiometry="2"/>
+          <speciesReference species="PI" stoichiometry="1"/>
+          <speciesReference species="ADP" stoichiometry="1"/>
+          <speciesReference species="CMP" stoichiometry="2"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="MG_425_DIMER"/>
+        </listOfModifiers>
+      </reaction>
+      <reaction id="RNACleavage_DeaD_GMP" reversible="false">
+        <listOfReactants>
+          <speciesReference species="H2O" stoichiometry="2"/>
+          <speciesReference species="GpGp" stoichiometry="1"/>
+          <speciesReference species="ATP" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="H" stoichiometry="2"/>
+          <speciesReference species="GMP" stoichiometry="2"/>
+          <speciesReference species="PI" stoichiometry="1"/>
+          <speciesReference species="ADP" stoichiometry="1"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="MG_425_DIMER"/>
+        </listOfModifiers>
+      </reaction>
+      <reaction id="RNACleavage_DeaD_UMP" reversible="false">
+        <listOfReactants>
+          <speciesReference species="H2O" stoichiometry="2"/>
+          <speciesReference species="UpUp" stoichiometry="1"/>
+          <speciesReference species="ATP" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="H" stoichiometry="2"/>
+          <speciesReference species="PI" stoichiometry="1"/>
+          <speciesReference species="UMP" stoichiometry="2"/>
+          <speciesReference species="ADP" stoichiometry="1"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="MG_425_DIMER"/>
+        </listOfModifiers>
+      </reaction>
+      <reaction id="RNACleavage_RNAseIII_AMP" reversible="false">
+        <listOfReactants>
+          <speciesReference species="H2O" stoichiometry="1"/>
+          <speciesReference species="ApAp" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="AMP" stoichiometry="2"/>
+          <speciesReference species="H" stoichiometry="1"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="MG_367_DIMER"/>
+        </listOfModifiers>
+      </reaction>
+      <reaction id="RNACleavage_RNAseIII_CMP" reversible="false">
+        <listOfReactants>
+          <speciesReference species="H2O" stoichiometry="1"/>
+          <speciesReference species="CpCp" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="H" stoichiometry="1"/>
+          <speciesReference species="CMP" stoichiometry="2"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="MG_367_DIMER"/>
+        </listOfModifiers>
+      </reaction>
+      <reaction id="RNACleavage_RNAseIII_GMP" reversible="false">
+        <listOfReactants>
+          <speciesReference species="H2O" stoichiometry="1"/>
+          <speciesReference species="GpGp" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="H" stoichiometry="1"/>
+          <speciesReference species="GMP" stoichiometry="2"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="MG_367_DIMER"/>
+        </listOfModifiers>
+      </reaction>
+      <reaction id="RNACleavage_RNAseIII_UMP" reversible="false">
+        <listOfReactants>
+          <speciesReference species="H2O" stoichiometry="1"/>
+          <speciesReference species="UpUp" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="H" stoichiometry="1"/>
+          <speciesReference species="UMP" stoichiometry="2"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="MG_367_DIMER"/>
+        </listOfModifiers>
+      </reaction>
+      <reaction id="RNACleavage_RNAseJ_AMP" reversible="false">
+        <listOfReactants>
+          <speciesReference species="H2O" stoichiometry="1"/>
+          <speciesReference species="ApAp" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="AMP" stoichiometry="2"/>
+          <speciesReference species="H" stoichiometry="1"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="MG_139_DIMER"/>
+        </listOfModifiers>
+      </reaction>
+      <reaction id="RNACleavage_RNAseJ_CMP" reversible="false">
+        <listOfReactants>
+          <speciesReference species="H2O" stoichiometry="1"/>
+          <speciesReference species="CpCp" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="H" stoichiometry="1"/>
+          <speciesReference species="CMP" stoichiometry="2"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="MG_139_DIMER"/>
+        </listOfModifiers>
+      </reaction>
+      <reaction id="RNACleavage_RNAseJ_GMP" reversible="false">
+        <listOfReactants>
+          <speciesReference species="H2O" stoichiometry="1"/>
+          <speciesReference species="GpGp" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="H" stoichiometry="1"/>
+          <speciesReference species="GMP" stoichiometry="2"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="MG_139_DIMER"/>
+        </listOfModifiers>
+      </reaction>
+      <reaction id="RNACleavage_RNAseJ_UMP" reversible="false">
+        <listOfReactants>
+          <speciesReference species="H2O" stoichiometry="1"/>
+          <speciesReference species="UpUp" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="H" stoichiometry="1"/>
+          <speciesReference species="UMP" stoichiometry="2"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="MG_139_DIMER"/>
+        </listOfModifiers>
+      </reaction>
+      <reaction id="RNACleavage_RNAseP_AMP" reversible="false">
+        <listOfReactants>
+          <speciesReference species="H2O" stoichiometry="1"/>
+          <speciesReference species="ApAp" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="AMP" stoichiometry="2"/>
+          <speciesReference species="H" stoichiometry="1"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="MG_0003_465"/>
+        </listOfModifiers>
+      </reaction>
+      <reaction id="RNACleavage_RNAseP_CMP" reversible="false">
+        <listOfReactants>
+          <speciesReference species="H2O" stoichiometry="1"/>
+          <speciesReference species="CpCp" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="H" stoichiometry="1"/>
+          <speciesReference species="CMP" stoichiometry="2"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="MG_0003_465"/>
+        </listOfModifiers>
+      </reaction>
+      <reaction id="RNACleavage_RNAseP_GMP" reversible="false">
+        <listOfReactants>
+          <speciesReference species="H2O" stoichiometry="1"/>
+          <speciesReference species="GpGp" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="H" stoichiometry="1"/>
+          <speciesReference species="GMP" stoichiometry="2"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="MG_0003_465"/>
+        </listOfModifiers>
+      </reaction>
+      <reaction id="RNACleavage_RNAseP_UMP" reversible="false">
+        <listOfReactants>
+          <speciesReference species="H2O" stoichiometry="1"/>
+          <speciesReference species="UpUp" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="H" stoichiometry="1"/>
+          <speciesReference species="UMP" stoichiometry="2"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="MG_0003_465"/>
+        </listOfModifiers>
+      </reaction>
+      <reaction id="RNACleavage_RsgA_AMP" reversible="false">
+        <listOfReactants>
+          <speciesReference species="GTP" stoichiometry="1"/>
+          <speciesReference species="H2O" stoichiometry="2"/>
+          <speciesReference species="ApAp" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="GDP" stoichiometry="1"/>
+          <speciesReference species="AMP" stoichiometry="2"/>
+          <speciesReference species="PI" stoichiometry="1"/>
+          <speciesReference species="H" stoichiometry="2"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="MG_110_MONOMER"/>
+        </listOfModifiers>
+      </reaction>
+      <reaction id="RNACleavage_RsgA_CMP" reversible="false">
+        <listOfReactants>
+          <speciesReference species="GTP" stoichiometry="1"/>
+          <speciesReference species="H2O" stoichiometry="2"/>
+          <speciesReference species="CpCp" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="GDP" stoichiometry="1"/>
+          <speciesReference species="H" stoichiometry="2"/>
+          <speciesReference species="PI" stoichiometry="1"/>
+          <speciesReference species="CMP" stoichiometry="2"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="MG_110_MONOMER"/>
+        </listOfModifiers>
+      </reaction>
+      <reaction id="RNACleavage_RsgA_GMP" reversible="false">
+        <listOfReactants>
+          <speciesReference species="GTP" stoichiometry="1"/>
+          <speciesReference species="H2O" stoichiometry="2"/>
+          <speciesReference species="GpGp" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="GDP" stoichiometry="1"/>
+          <speciesReference species="H" stoichiometry="2"/>
+          <speciesReference species="GMP" stoichiometry="2"/>
+          <speciesReference species="PI" stoichiometry="1"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="MG_110_MONOMER"/>
+        </listOfModifiers>
+      </reaction>
+      <reaction id="RNACleavage_RsgA_UMP" reversible="false">
+        <listOfReactants>
+          <speciesReference species="GTP" stoichiometry="1"/>
+          <speciesReference species="H2O" stoichiometry="2"/>
+          <speciesReference species="UpUp" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="GDP" stoichiometry="1"/>
+          <speciesReference species="H" stoichiometry="2"/>
+          <speciesReference species="PI" stoichiometry="1"/>
+          <speciesReference species="UMP" stoichiometry="2"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="MG_110_MONOMER"/>
+        </listOfModifiers>
+      </reaction>
+    </listOfReactions>
+  </model>
+</sbml>
