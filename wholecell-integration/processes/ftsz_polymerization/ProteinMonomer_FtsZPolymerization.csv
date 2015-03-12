@@ -1,0 +1,4 @@
+ID (as in matlab),read-only,Read and write,requirement
+MG_224_MONOMER,,X,
+MG_224_MONOMER_GTP,,X,
+MG_224_MONOMER_GDP,,X,

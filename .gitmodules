@@ -19,3 +19,6 @@
 [submodule "wholecell-replication-initiation"]
 	path = wholecell-replication-initiation
 	url = https://github.com/dagwa/wholecell-replication-initiation
+[submodule "wholecell-annotation"]
+	path = wholecell-annotation
+	url = https://github.com/dagwa/wholecell-annotation.git

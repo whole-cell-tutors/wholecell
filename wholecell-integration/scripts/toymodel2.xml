@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Created by libAntimony version v2.7.0 on 2015-03-11 10:22 with libSBML version 5.11.0. -->
+<!-- Created by libAntimony version v2.7.0 on 2015-03-12 10:46 with libSBML version 5.11.0. -->
 <sbml xmlns="http://www.sbml.org/sbml/level3/version1/core" level="3" version="1">
   <model id="toymodel2" name="toymodel2">
     <listOfCompartments>
@@ -12,7 +12,20 @@
     </listOfSpecies>
     <listOfParameters>
       <parameter id="k1" value="0.68" constant="true"/>
+      <parameter id="sp_C_requirement" constant="false"/>
+      <parameter id="T" constant="true"/>
     </listOfParameters>
+    <listOfInitialAssignments>
+      <initialAssignment symbol="sp_C_requirement">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <minus/>
+            <cn type="integer"> 2 </cn>
+            <ci> sp_C </ci>
+          </apply>
+        </math>
+      </initialAssignment>
+    </listOfInitialAssignments>
     <listOfReactions>
       <reaction id="R1" reversible="true" fast="false">
         <listOfReactants>

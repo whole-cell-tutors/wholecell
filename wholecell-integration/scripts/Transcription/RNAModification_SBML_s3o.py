@@ -47,17 +47,17 @@ Modified_RNAs = reactionFile_data[reactionFile_data['Process'].isin(['Process_RN
 for mod_rna in Modified_RNAs:
 	reactants_reaction={}
 	products_reaction={}
-	modifier_enzyme = ""
-	modifier_enzyme_name = ""
+	modifiers_reaction=[]
+	modifiers_name=[]
 	position=""
 	reaction_name = mod_rna + "_MODIFICATION"
 	for index, row in Process_RNAModification_reactions.iterrows():
 		if mod_rna in row['ID']:
 			m = re.search(r"\[([A-Za-z0]+)\]", row['Stoichiometry'])
 			molecule = row['Molecule']
-			modifier_enzyme = modifier_enzyme +"_"+ row['Enzyme'] 
+			modifiers_reaction.append(row['Enzyme']) 
 			position = position +"_"+ str(int(row['Position']))
-			modifier_enzyme_name = modifier_enzyme_name+"_"+ row['Name']
+			modifiers_name.append(row['Name'])
 			reaction_stoich = row['Stoichiometry'].rpartition(':')[-1].strip()
 			if "<==>" in reaction_stoich:
 				LHS_reaction = reaction_stoich.split('<==>')[0].strip()
@@ -116,11 +116,14 @@ for mod_rna in Modified_RNAs:
 	reactant_ref = reaction.createReactant()
 	reactant_ref.setSpecies(RNA_molecule_reactant)
 	product_ref = reaction.createProduct()
-	product_ref.setSpecies(RNA_molecule_product) 
+	product_ref.setSpecies(RNA_molecule_product)
 
-	mod_ref = reaction.createModifier()
-	add_species_by_id(modifier_enzyme,'macromolecule',MODEL,modifier_enzyme_name, 'c')
-	mod_ref.setSpecies(modifier_enzyme)
+	k=0
+	for i in modifiers_reaction:
+		mod_ref = reaction.createModifier()
+		add_species_by_id(i,'macromolecule',MODEL,modifiers_name[k], 'c')
+		mod_ref.setSpecies(i)
+		k=k+1
 
 libsbml.writeSBMLToFile( DOCUMENT, "RNAModification_s3o.xml")
 
