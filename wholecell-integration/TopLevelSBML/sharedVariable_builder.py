@@ -101,6 +101,7 @@ def createSharedVariableSBML(n):
 
 	#Creating species, parameters and ports
 	createSpecies(model,'S')
+	createPort(model,'S','output')
 	for i in range(n):
 		createSpecies(model,'S'+str(i+1))
 		createPort(model,'S'+str(i+1),'output')

@@ -176,6 +176,7 @@
       </event>
     </listOfEvents>
     <comp:listOfPorts>
+      <comp:port sboTerm="SBO:0000601" comp:idRef="S" comp:id="output__S"/>
       <comp:port sboTerm="SBO:0000601" comp:idRef="S1" comp:id="output__S1"/>
       <comp:port sboTerm="SBO:0000601" comp:idRef="S2" comp:id="output__S2"/>
       <comp:port sboTerm="SBO:0000601" comp:idRef="S3" comp:id="output__S3"/>

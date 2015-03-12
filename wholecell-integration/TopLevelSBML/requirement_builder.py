@@ -106,6 +106,8 @@ def createRequirementSBML(n):
 		createPort(model,'Req_'+str(i+1),'input')
 	createParameter(model,'p0',value=1,SBO='SBO:0000593')
 	createParameter(model,'p1',SBO='SBO:0000593')
+	createSpecies(model,'Metabolite')
+	createPort(modelRef,'Metabolite','output')
 	createPort(model,'c','input')
 
 	#Creating events
@@ -136,6 +138,10 @@ def createRequirementSBML(n):
 		math = parseFormula(math)
 		evAss.setMath(math)
 	
+	evAss = t0.createEventAssignment()
+	evAss.setVariable('Metabolite')
+	evAss.setMath(parseFormula(met_sum))
+
 	evAss = t0.createEventAssignment()
 	evAss.setVariable('p0')
 	evAss.setMath(parseFormula('0'))
