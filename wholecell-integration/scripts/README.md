@@ -29,6 +29,6 @@ initialization file by using ```setValue``` nodes in the main loop; at the
 beginning of each iteration, variables are updated as follows:
 - [x] global variables are updated after the requirement ('req') variables
 - [x] global variables are updated after the read-write ('rw') variables
-- [] local read-only variables ('ro') are updated
-- [] local read-write variables ('rw') are updated
-- [] local requirement variables ('req') are updated
+- [ ] local read-only variables ('ro') are updated
+- [ ] local read-write variables ('rw') are updated
+- [ ] local requirement variables ('req') are updated
