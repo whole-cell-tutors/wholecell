@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version1/core" xmlns:comp="http://www.sbml.org/sbml/level3/version1/comp/version1" level="3" version="1" comp:required="true">
+  <model id="SharedVariable24">
+    <listOfCompartments>
+      <compartment id="c" size="1" constant="true"/>
+    </listOfCompartments>
+    <listOfSpecies>
+      <species id="S" compartment="c" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="S1" compartment="c" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="S2" compartment="c" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="S3" compartment="c" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="S4" compartment="c" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="S5" compartment="c" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="S6" compartment="c" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="S7" compartment="c" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="S8" compartment="c" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="S9" compartment="c" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="S10" compartment="c" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="S11" compartment="c" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="S12" compartment="c" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="S13" compartment="c" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="S14" compartment="c" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="S15" compartment="c" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="S16" compartment="c" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="S17" compartment="c" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="S18" compartment="c" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="S19" compartment="c" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="S20" compartment="c" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="S21" compartment="c" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="S22" compartment="c" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="S23" compartment="c" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="S24" compartment="c" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+    </listOfSpecies>
+    <listOfParameters>
+      <parameter sboTerm="SBO:0000593" id="p0" value="1" constant="false"/>
+      <parameter sboTerm="SBO:0000593" id="p1" value="0" constant="false"/>
+    </listOfParameters>
+    <listOfEvents>
+      <event sboTerm="SBO:0000591" id="t0" useValuesFromTriggerTime="false">
+        <trigger initialValue="false" persistent="false">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <eq/>
+              <ci> p1 </ci>
+              <cn type="integer"> 1 </cn>
+            </apply>
+          </math>
+        </trigger>
+        <delay>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <cn type="integer"> 0 </cn>
+          </math>
+        </delay>
+        <listOfEventAssignments>
+          <eventAssignment variable="S">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <apply>
+                <plus/>
+                <ci> S </ci>
+                <apply>
+                  <minus/>
+                  <ci> S </ci>
+                  <ci> S1 </ci>
+                </apply>
+                <apply>
+                  <minus/>
+                  <ci> S </ci>
+                  <ci> S2 </ci>
+                </apply>
+                <apply>
+                  <minus/>
+                  <ci> S </ci>
+                  <ci> S3 </ci>
+                </apply>
+                <apply>
+                  <minus/>
+                  <ci> S </ci>
+                  <ci> S4 </ci>
+                </apply>
+                <apply>
+                  <minus/>
+                  <ci> S </ci>
+                  <ci> S5 </ci>
+                </apply>
+                <apply>
+                  <minus/>
+                  <ci> S </ci>
+                  <ci> S6 </ci>
+                </apply>
+                <apply>
+                  <minus/>
+                  <ci> S </ci>
+                  <ci> S7 </ci>
+                </apply>
+                <apply>
+                  <minus/>
+                  <ci> S </ci>
+                  <ci> S8 </ci>
+                </apply>
+                <apply>
+                  <minus/>
+                  <ci> S </ci>
+                  <ci> S9 </ci>
+                </apply>
+                <apply>
+                  <minus/>
+                  <ci> S </ci>
+                  <ci> S10 </ci>
+                </apply>
+                <apply>
+                  <minus/>
+                  <ci> S </ci>
+                  <ci> S11 </ci>
+                </apply>
+                <apply>
+                  <minus/>
+                  <ci> S </ci>
+                  <ci> S12 </ci>
+                </apply>
+                <apply>
+                  <minus/>
+                  <ci> S </ci>
+                  <ci> S13 </ci>
+                </apply>
+                <apply>
+                  <minus/>
+                  <ci> S </ci>
+                  <ci> S14 </ci>
+                </apply>
+                <apply>
+                  <minus/>
+                  <ci> S </ci>
+                  <ci> S15 </ci>
+                </apply>
+                <apply>
+                  <minus/>
+                  <ci> S </ci>
+                  <ci> S16 </ci>
+                </apply>
+                <apply>
+                  <minus/>
+                  <ci> S </ci>
+                  <ci> S17 </ci>
+                </apply>
+                <apply>
+                  <minus/>
+                  <ci> S </ci>
+                  <ci> S18 </ci>
+                </apply>
+                <apply>
+                  <minus/>
+                  <ci> S </ci>
+                  <ci> S19 </ci>
+                </apply>
+                <apply>
+                  <minus/>
+                  <ci> S </ci>
+                  <ci> S20 </ci>
+                </apply>
+                <apply>
+                  <minus/>
+                  <ci> S </ci>
+                  <ci> S21 </ci>
+                </apply>
+                <apply>
+                  <minus/>
+                  <ci> S </ci>
+                  <ci> S22 </ci>
+                </apply>
+                <apply>
+                  <minus/>
+                  <ci> S </ci>
+                  <ci> S23 </ci>
+                </apply>
+                <apply>
+                  <minus/>
+                  <ci> S </ci>
+                  <ci> S24 </ci>
+                </apply>
+              </apply>
+            </math>
+          </eventAssignment>
+          <eventAssignment variable="p1">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <cn type="integer"> 0 </cn>
+            </math>
+          </eventAssignment>
+          <eventAssignment variable="p0">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <cn type="integer"> 1 </cn>
+            </math>
+          </eventAssignment>
+        </listOfEventAssignments>
+      </event>
+      <event sboTerm="SBO:0000591" id="t1" useValuesFromTriggerTime="false">
+        <trigger initialValue="false" persistent="false">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <and/>
+              <true/>
+              <apply>
+                <eq/>
+                <ci> p0 </ci>
+                <cn type="integer"> 1 </cn>
+              </apply>
+            </apply>
+          </math>
+        </trigger>
+        <listOfEventAssignments>
+          <eventAssignment variable="S1">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <ci> S </ci>
+            </math>
+          </eventAssignment>
+          <eventAssignment variable="S2">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <ci> S </ci>
+            </math>
+          </eventAssignment>
+          <eventAssignment variable="S3">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <ci> S </ci>
+            </math>
+          </eventAssignment>
+          <eventAssignment variable="S4">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <ci> S </ci>
+            </math>
+          </eventAssignment>
+          <eventAssignment variable="S5">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <ci> S </ci>
+            </math>
+          </eventAssignment>
+          <eventAssignment variable="S6">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <ci> S </ci>
+            </math>
+          </eventAssignment>
+          <eventAssignment variable="S7">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <ci> S </ci>
+            </math>
+          </eventAssignment>
+          <eventAssignment variable="S8">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <ci> S </ci>
+            </math>
+          </eventAssignment>
+          <eventAssignment variable="S9">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <ci> S </ci>
+            </math>
+          </eventAssignment>
+          <eventAssignment variable="S10">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <ci> S </ci>
+            </math>
+          </eventAssignment>
+          <eventAssignment variable="S11">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <ci> S </ci>
+            </math>
+          </eventAssignment>
+          <eventAssignment variable="S12">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <ci> S </ci>
+            </math>
+          </eventAssignment>
+          <eventAssignment variable="S13">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <ci> S </ci>
+            </math>
+          </eventAssignment>
+          <eventAssignment variable="S14">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <ci> S </ci>
+            </math>
+          </eventAssignment>
+          <eventAssignment variable="S15">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <ci> S </ci>
+            </math>
+          </eventAssignment>
+          <eventAssignment variable="S16">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <ci> S </ci>
+            </math>
+          </eventAssignment>
+          <eventAssignment variable="S17">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <ci> S </ci>
+            </math>
+          </eventAssignment>
+          <eventAssignment variable="S18">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <ci> S </ci>
+            </math>
+          </eventAssignment>
+          <eventAssignment variable="S19">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <ci> S </ci>
+            </math>
+          </eventAssignment>
+          <eventAssignment variable="S20">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <ci> S </ci>
+            </math>
+          </eventAssignment>
+          <eventAssignment variable="S21">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <ci> S </ci>
+            </math>
+          </eventAssignment>
+          <eventAssignment variable="S22">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <ci> S </ci>
+            </math>
+          </eventAssignment>
+          <eventAssignment variable="S23">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <ci> S </ci>
+            </math>
+          </eventAssignment>
+          <eventAssignment variable="S24">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <ci> S </ci>
+            </math>
+          </eventAssignment>
+          <eventAssignment variable="p0">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <cn type="integer"> 0 </cn>
+            </math>
+          </eventAssignment>
+          <eventAssignment variable="p1">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <cn type="integer"> 1 </cn>
+            </math>
+          </eventAssignment>
+        </listOfEventAssignments>
+      </event>
+    </listOfEvents>
+    <comp:listOfPorts>
+      <comp:port sboTerm="SBO:0000601" comp:idRef="S1" comp:id="output__S1"/>
+      <comp:port sboTerm="SBO:0000601" comp:idRef="S2" comp:id="output__S2"/>
+      <comp:port sboTerm="SBO:0000601" comp:idRef="S3" comp:id="output__S3"/>
+      <comp:port sboTerm="SBO:0000601" comp:idRef="S4" comp:id="output__S4"/>
+      <comp:port sboTerm="SBO:0000601" comp:idRef="S5" comp:id="output__S5"/>
+      <comp:port sboTerm="SBO:0000601" comp:idRef="S6" comp:id="output__S6"/>
+      <comp:port sboTerm="SBO:0000601" comp:idRef="S7" comp:id="output__S7"/>
+      <comp:port sboTerm="SBO:0000601" comp:idRef="S8" comp:id="output__S8"/>
+      <comp:port sboTerm="SBO:0000601" comp:idRef="S9" comp:id="output__S9"/>
+      <comp:port sboTerm="SBO:0000601" comp:idRef="S10" comp:id="output__S10"/>
+      <comp:port sboTerm="SBO:0000601" comp:idRef="S11" comp:id="output__S11"/>
+      <comp:port sboTerm="SBO:0000601" comp:idRef="S12" comp:id="output__S12"/>
+      <comp:port sboTerm="SBO:0000601" comp:idRef="S13" comp:id="output__S13"/>
+      <comp:port sboTerm="SBO:0000601" comp:idRef="S14" comp:id="output__S14"/>
+      <comp:port sboTerm="SBO:0000601" comp:idRef="S15" comp:id="output__S15"/>
+      <comp:port sboTerm="SBO:0000601" comp:idRef="S16" comp:id="output__S16"/>
+      <comp:port sboTerm="SBO:0000601" comp:idRef="S17" comp:id="output__S17"/>
+      <comp:port sboTerm="SBO:0000601" comp:idRef="S18" comp:id="output__S18"/>
+      <comp:port sboTerm="SBO:0000601" comp:idRef="S19" comp:id="output__S19"/>
+      <comp:port sboTerm="SBO:0000601" comp:idRef="S20" comp:id="output__S20"/>
+      <comp:port sboTerm="SBO:0000601" comp:idRef="S21" comp:id="output__S21"/>
+      <comp:port sboTerm="SBO:0000601" comp:idRef="S22" comp:id="output__S22"/>
+      <comp:port sboTerm="SBO:0000601" comp:idRef="S23" comp:id="output__S23"/>
+      <comp:port sboTerm="SBO:0000601" comp:idRef="S24" comp:id="output__S24"/>
+    </comp:listOfPorts>
+  </model>
+</sbml>

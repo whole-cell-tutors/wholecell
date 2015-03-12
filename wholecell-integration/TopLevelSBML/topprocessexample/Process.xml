@@ -1,0 +1,263 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version1/core" xmlns:layout="http://www.sbml.org/sbml/level3/version1/layout/version1" level="3" arrays:required="true" fbc:required="false" xmlns:comp="http://www.sbml.org/sbml/level3/version1/comp/version1" xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version1" comp:required="true" xmlns:arrays="http://www.sbml.org/sbml/level3/version1/arrays/version1" version="1" layout:required="false">
+  <model id="Process" metaid="iBioSim2">
+    <comp:listOfPorts xmlns:comp="http://www.sbml.org/sbml/level3/version1/comp/version1">
+      <comp:port comp:idRef="Cell" sboTerm="SBO:0000601" comp:id="compartment__Cell"/>
+      <comp:port comp:idRef="Matabolite" sboTerm="SBO:0000601" comp:id="output__Matabolite"/>
+      <comp:port comp:idRef="Matabolite_Requirement" sboTerm="SBO:0000601" comp:id="output__Matabolite_Requirement"/>
+    </comp:listOfPorts>
+    <layout:listOfLayouts xmlns:layout="http://www.sbml.org/sbml/level3/version1/layout/version1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <layout:layout layout:id="iBioSim">
+        <layout:dimensions layout:width="1070" layout:height="425" layout:depth="0"/>
+        <layout:listOfAdditionalGraphicalObjects>
+          <layout:generalGlyph layout:reference="Matabolite_Requirement" layout:id="Glyph__Matabolite_Requirement">
+            <layout:boundingBox>
+              <layout:position layout:x="420" layout:y="90"/>
+              <layout:dimensions layout:width="30" layout:height="30"/>
+            </layout:boundingBox>
+          </layout:generalGlyph>
+          <layout:generalGlyph layout:metaidRef="rule0" layout:id="Glyph__rule0">
+            <layout:boundingBox>
+              <layout:position layout:x="404" layout:y="197"/>
+              <layout:dimensions layout:width="50" layout:height="50"/>
+            </layout:boundingBox>
+            <layout:listOfReferenceGlyphs>
+              <layout:referenceGlyph layout:id="Glyph__rule0__substrate__Substrate" layout:role="substrate" layout:glyph="Glyph__Substrate">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="90" layout:y="105"/>
+                      <layout:end layout:x="429" layout:y="222"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:referenceGlyph>
+              <layout:referenceGlyph layout:id="Glyph__rule0__product__Matabolite_Requirement" layout:role="product" layout:glyph="Glyph__Matabolite_Requirement">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="429" layout:y="222"/>
+                      <layout:end layout:x="435" layout:y="105"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:referenceGlyph>
+            </layout:listOfReferenceGlyphs>
+          </layout:generalGlyph>
+        </layout:listOfAdditionalGraphicalObjects>
+        <layout:listOfCompartmentGlyphs>
+          <layout:compartmentGlyph layout:id="Glyph__Cell" layout:compartment="Cell">
+            <layout:boundingBox>
+              <layout:position layout:x="0" layout:y="0"/>
+              <layout:dimensions layout:width="1070" layout:height="425"/>
+            </layout:boundingBox>
+          </layout:compartmentGlyph>
+        </layout:listOfCompartmentGlyphs>
+        <layout:listOfSpeciesGlyphs>
+          <layout:speciesGlyph layout:id="Glyph__Matabolite" layout:species="Matabolite">
+            <layout:boundingBox>
+              <layout:position layout:x="166" layout:y="91"/>
+              <layout:dimensions layout:width="100" layout:height="30"/>
+            </layout:boundingBox>
+          </layout:speciesGlyph>
+          <layout:speciesGlyph layout:id="Glyph__Protein" layout:species="Protein">
+            <layout:boundingBox>
+              <layout:position layout:x="170" layout:y="240"/>
+              <layout:dimensions layout:width="100" layout:height="30"/>
+            </layout:boundingBox>
+          </layout:speciesGlyph>
+          <layout:speciesGlyph layout:id="Glyph__Substrate" layout:species="Substrate">
+            <layout:boundingBox>
+              <layout:position layout:x="40" layout:y="90"/>
+              <layout:dimensions layout:width="100" layout:height="30"/>
+            </layout:boundingBox>
+          </layout:speciesGlyph>
+        </layout:listOfSpeciesGlyphs>
+        <layout:listOfReactionGlyphs>
+          <layout:reactionGlyph layout:id="Glyph__R0" layout:reaction="R0">
+            <layout:boundingBox>
+              <layout:position layout:x="200" layout:y="170"/>
+              <layout:dimensions layout:width="30" layout:height="30"/>
+            </layout:boundingBox>
+            <layout:listOfSpeciesReferenceGlyphs>
+              <layout:speciesReferenceGlyph layout:id="Glyph__R0__substrate__Matabolite" layout:role="substrate" layout:speciesGlyph="Glyph__Matabolite">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="216" layout:y="106"/>
+                      <layout:end layout:x="215" layout:y="185"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:speciesReferenceGlyph>
+              <layout:speciesReferenceGlyph layout:id="Glyph__R0__substrate__Substrate" layout:role="substrate" layout:speciesGlyph="Glyph__Substrate">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="90" layout:y="105"/>
+                      <layout:end layout:x="215" layout:y="185"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:speciesReferenceGlyph>
+              <layout:speciesReferenceGlyph layout:id="Glyph__R0__product__Protein" layout:role="product" layout:speciesGlyph="Glyph__Protein">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="215" layout:y="185"/>
+                      <layout:end layout:x="220" layout:y="255"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:speciesReferenceGlyph>
+            </layout:listOfSpeciesReferenceGlyphs>
+          </layout:reactionGlyph>
+          <layout:reactionGlyph layout:id="Glyph__Protein__Reaction__Substrate">
+            <layout:boundingBox>
+              <layout:position layout:x="90" layout:y="105"/>
+              <layout:dimensions layout:width="0" layout:height="0"/>
+            </layout:boundingBox>
+            <layout:listOfSpeciesReferenceGlyphs>
+              <layout:speciesReferenceGlyph layout:id="ReferenceGlyph__Protein__Reaction__Substrate" layout:role="product" layout:speciesGlyph="Glyph__Substrate">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="220" layout:y="255"/>
+                      <layout:end layout:x="90" layout:y="105"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:speciesReferenceGlyph>
+            </layout:listOfSpeciesReferenceGlyphs>
+          </layout:reactionGlyph>
+        </layout:listOfReactionGlyphs>
+        <layout:listOfTextGlyphs>
+          <layout:textGlyph layout:graphicalObject="Glyph__Cell" layout:id="TextGlyph__Cell" layout:text="Cell">
+            <layout:boundingBox>
+              <layout:position layout:x="0" layout:y="0"/>
+              <layout:dimensions layout:width="1070" layout:height="425"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:graphicalObject="Glyph__Matabolite" layout:id="TextGlyph__Matabolite" layout:text="Matabolite">
+            <layout:boundingBox>
+              <layout:position layout:x="166" layout:y="91"/>
+              <layout:dimensions layout:width="100" layout:height="30"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:graphicalObject="Glyph__Protein" layout:id="TextGlyph__Protein" layout:text="Protein">
+            <layout:boundingBox>
+              <layout:position layout:x="170" layout:y="240"/>
+              <layout:dimensions layout:width="100" layout:height="30"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:graphicalObject="Glyph__R0" layout:id="TextGlyph__R0" layout:text="R0">
+            <layout:boundingBox>
+              <layout:position layout:x="200" layout:y="170"/>
+              <layout:dimensions layout:width="30" layout:height="30"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:graphicalObject="Glyph__Matabolite_Requirement" layout:id="TextGlyph__Matabolite_Requirement" layout:text="Matabolite_Requirement">
+            <layout:boundingBox>
+              <layout:position layout:x="420" layout:y="90"/>
+              <layout:dimensions layout:width="30" layout:height="30"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:graphicalObject="Glyph__Substrate" layout:id="TextGlyph__Substrate" layout:text="Substrate">
+            <layout:boundingBox>
+              <layout:position layout:x="40" layout:y="90"/>
+              <layout:dimensions layout:width="100" layout:height="30"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:graphicalObject="Glyph__rule0" layout:id="TextGlyph__rule0" layout:text="rule0">
+            <layout:boundingBox>
+              <layout:position layout:x="404" layout:y="197"/>
+              <layout:dimensions layout:width="50" layout:height="50"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+        </layout:listOfTextGlyphs>
+      </layout:layout>
+    </layout:listOfLayouts>
+    <listOfCompartments>
+      <compartment id="Cell" constant="true" spatialDimensions="3" size="1"/>
+    </listOfCompartments>
+    <listOfSpecies>
+      <species id="Matabolite" constant="false" initialAmount="100" hasOnlySubstanceUnits="true" metaid="iBioSim1" boundaryCondition="false" compartment="Cell"/>
+      <species id="Protein" constant="false" initialAmount="0" hasOnlySubstanceUnits="true" metaid="iBioSim3" boundaryCondition="false" compartment="Cell"/>
+      <species id="Substrate" constant="false" initialAmount="100" hasOnlySubstanceUnits="true" metaid="iBioSim9" boundaryCondition="false" compartment="Cell"/>
+    </listOfSpecies>
+    <listOfParameters>
+      <parameter id="Matabolite_Requirement" constant="false" metaid="iBioSim8" value="0"/>
+      <parameter id="kd" constant="true" name="Degradation rate" value="0.0075"/>
+    </listOfParameters>
+    <listOfRules>
+      <assignmentRule metaid="rule0" variable="Matabolite_Requirement">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <apply>
+            <times/>
+            <cn> 0.1 </cn>
+            <ci> Substrate </ci>
+          </apply>
+        </math>
+            </assignmentRule>
+    </listOfRules>
+    <listOfReactions>
+      <reaction id="R0" metaid="iBioSim6" reversible="false" fast="false" compartment="Cell">
+        <listOfReactants>
+          <speciesReference constant="true" species="Matabolite" stoichiometry="1"/>
+          <speciesReference constant="true" species="Substrate" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference constant="true" species="Protein" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+            <apply>
+              <times/>
+              <ci> kf </ci>
+              <ci> Matabolite </ci>
+            </apply>
+          </math>
+                  <listOfLocalParameters>
+            <localParameter id="kf" value="0.1"/>
+            <localParameter id="kr" value="1"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="Degradation_Protein" reversible="false" sboTerm="SBO:0000179" fast="false" compartment="Cell">
+        <listOfReactants>
+          <speciesReference constant="true" species="Protein" stoichiometry="1"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+            <apply>
+              <times/>
+              <ci> kd </ci>
+              <ci> Protein </ci>
+            </apply>
+          </math>
+                </kineticLaw>
+      </reaction>
+      <reaction id="r0" reversible="false" fast="false" compartment="Cell">
+        <listOfReactants>
+          <speciesReference constant="true" species="Protein" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference constant="true" species="Substrate" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+            <apply>
+              <times/>
+              <ci> kf </ci>
+              <ci> Protein </ci>
+            </apply>
+          </math>
+                  <listOfLocalParameters>
+            <localParameter id="kf" value="0.1"/>
+            <localParameter id="kr" value="1"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+    </listOfReactions>
+  </model>
+</sbml>

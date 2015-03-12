@@ -1,0 +1,884 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version1/core" xmlns:comp="http://www.sbml.org/sbml/level3/version1/comp/version1" level="3" version="1" comp:required="true">
+  <model id="Requirement15">
+    <listOfCompartments>
+      <compartment id="c" size="1" constant="true"/>
+    </listOfCompartments>
+    <listOfSpecies>
+      <species id="Metabolite_1" compartment="c" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="Metabolite_2" compartment="c" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="Metabolite_3" compartment="c" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="Metabolite_4" compartment="c" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="Metabolite_5" compartment="c" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="Metabolite_6" compartment="c" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="Metabolite_7" compartment="c" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="Metabolite_8" compartment="c" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="Metabolite_9" compartment="c" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="Metabolite_10" compartment="c" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="Metabolite_11" compartment="c" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="Metabolite_12" compartment="c" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="Metabolite_13" compartment="c" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="Metabolite_14" compartment="c" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="Metabolite_15" compartment="c" initialAmount="0" substanceUnits="mole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+    </listOfSpecies>
+    <listOfParameters>
+      <parameter id="Req_1" value="0" constant="false"/>
+      <parameter id="Req_2" value="0" constant="false"/>
+      <parameter id="Req_3" value="0" constant="false"/>
+      <parameter id="Req_4" value="0" constant="false"/>
+      <parameter id="Req_5" value="0" constant="false"/>
+      <parameter id="Req_6" value="0" constant="false"/>
+      <parameter id="Req_7" value="0" constant="false"/>
+      <parameter id="Req_8" value="0" constant="false"/>
+      <parameter id="Req_9" value="0" constant="false"/>
+      <parameter id="Req_10" value="0" constant="false"/>
+      <parameter id="Req_11" value="0" constant="false"/>
+      <parameter id="Req_12" value="0" constant="false"/>
+      <parameter id="Req_13" value="0" constant="false"/>
+      <parameter id="Req_14" value="0" constant="false"/>
+      <parameter id="Req_15" value="0" constant="false"/>
+      <parameter sboTerm="SBO:0000593" id="p0" value="1" constant="false"/>
+      <parameter sboTerm="SBO:0000593" id="p1" value="0" constant="false"/>
+    </listOfParameters>
+    <listOfEvents>
+      <event sboTerm="SBO:0000591" id="t0" useValuesFromTriggerTime="false">
+        <trigger initialValue="false" persistent="false">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <and/>
+              <true/>
+              <apply>
+                <eq/>
+                <ci> p0 </ci>
+                <cn type="integer"> 1 </cn>
+              </apply>
+            </apply>
+          </math>
+        </trigger>
+        <listOfEventAssignments>
+          <eventAssignment variable="Metabolite_1">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <apply>
+                <floor/>
+                <apply>
+                  <times/>
+                  <apply>
+                    <plus/>
+                    <ci> Metabolite_1 </ci>
+                    <ci> Metabolite_2 </ci>
+                    <ci> Metabolite_3 </ci>
+                    <ci> Metabolite_4 </ci>
+                    <ci> Metabolite_5 </ci>
+                    <ci> Metabolite_6 </ci>
+                    <ci> Metabolite_7 </ci>
+                    <ci> Metabolite_8 </ci>
+                    <ci> Metabolite_9 </ci>
+                    <ci> Metabolite_10 </ci>
+                    <ci> Metabolite_11 </ci>
+                    <ci> Metabolite_12 </ci>
+                    <ci> Metabolite_13 </ci>
+                    <ci> Metabolite_14 </ci>
+                    <ci> Metabolite_15 </ci>
+                  </apply>
+                  <apply>
+                    <divide/>
+                    <ci> Req_1 </ci>
+                    <apply>
+                      <plus/>
+                      <ci> Req_1 </ci>
+                      <ci> Req_2 </ci>
+                      <ci> Req_3 </ci>
+                      <ci> Req_4 </ci>
+                      <ci> Req_5 </ci>
+                      <ci> Req_6 </ci>
+                      <ci> Req_7 </ci>
+                      <ci> Req_8 </ci>
+                      <ci> Req_9 </ci>
+                      <ci> Req_10 </ci>
+                      <ci> Req_11 </ci>
+                      <ci> Req_12 </ci>
+                      <ci> Req_13 </ci>
+                      <ci> Req_14 </ci>
+                      <ci> Req_15 </ci>
+                    </apply>
+                  </apply>
+                </apply>
+              </apply>
+            </math>
+          </eventAssignment>
+          <eventAssignment variable="Metabolite_2">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <apply>
+                <floor/>
+                <apply>
+                  <times/>
+                  <apply>
+                    <plus/>
+                    <ci> Metabolite_1 </ci>
+                    <ci> Metabolite_2 </ci>
+                    <ci> Metabolite_3 </ci>
+                    <ci> Metabolite_4 </ci>
+                    <ci> Metabolite_5 </ci>
+                    <ci> Metabolite_6 </ci>
+                    <ci> Metabolite_7 </ci>
+                    <ci> Metabolite_8 </ci>
+                    <ci> Metabolite_9 </ci>
+                    <ci> Metabolite_10 </ci>
+                    <ci> Metabolite_11 </ci>
+                    <ci> Metabolite_12 </ci>
+                    <ci> Metabolite_13 </ci>
+                    <ci> Metabolite_14 </ci>
+                    <ci> Metabolite_15 </ci>
+                  </apply>
+                  <apply>
+                    <divide/>
+                    <ci> Req_2 </ci>
+                    <apply>
+                      <plus/>
+                      <ci> Req_1 </ci>
+                      <ci> Req_2 </ci>
+                      <ci> Req_3 </ci>
+                      <ci> Req_4 </ci>
+                      <ci> Req_5 </ci>
+                      <ci> Req_6 </ci>
+                      <ci> Req_7 </ci>
+                      <ci> Req_8 </ci>
+                      <ci> Req_9 </ci>
+                      <ci> Req_10 </ci>
+                      <ci> Req_11 </ci>
+                      <ci> Req_12 </ci>
+                      <ci> Req_13 </ci>
+                      <ci> Req_14 </ci>
+                      <ci> Req_15 </ci>
+                    </apply>
+                  </apply>
+                </apply>
+              </apply>
+            </math>
+          </eventAssignment>
+          <eventAssignment variable="Metabolite_3">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <apply>
+                <floor/>
+                <apply>
+                  <times/>
+                  <apply>
+                    <plus/>
+                    <ci> Metabolite_1 </ci>
+                    <ci> Metabolite_2 </ci>
+                    <ci> Metabolite_3 </ci>
+                    <ci> Metabolite_4 </ci>
+                    <ci> Metabolite_5 </ci>
+                    <ci> Metabolite_6 </ci>
+                    <ci> Metabolite_7 </ci>
+                    <ci> Metabolite_8 </ci>
+                    <ci> Metabolite_9 </ci>
+                    <ci> Metabolite_10 </ci>
+                    <ci> Metabolite_11 </ci>
+                    <ci> Metabolite_12 </ci>
+                    <ci> Metabolite_13 </ci>
+                    <ci> Metabolite_14 </ci>
+                    <ci> Metabolite_15 </ci>
+                  </apply>
+                  <apply>
+                    <divide/>
+                    <ci> Req_3 </ci>
+                    <apply>
+                      <plus/>
+                      <ci> Req_1 </ci>
+                      <ci> Req_2 </ci>
+                      <ci> Req_3 </ci>
+                      <ci> Req_4 </ci>
+                      <ci> Req_5 </ci>
+                      <ci> Req_6 </ci>
+                      <ci> Req_7 </ci>
+                      <ci> Req_8 </ci>
+                      <ci> Req_9 </ci>
+                      <ci> Req_10 </ci>
+                      <ci> Req_11 </ci>
+                      <ci> Req_12 </ci>
+                      <ci> Req_13 </ci>
+                      <ci> Req_14 </ci>
+                      <ci> Req_15 </ci>
+                    </apply>
+                  </apply>
+                </apply>
+              </apply>
+            </math>
+          </eventAssignment>
+          <eventAssignment variable="Metabolite_4">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <apply>
+                <floor/>
+                <apply>
+                  <times/>
+                  <apply>
+                    <plus/>
+                    <ci> Metabolite_1 </ci>
+                    <ci> Metabolite_2 </ci>
+                    <ci> Metabolite_3 </ci>
+                    <ci> Metabolite_4 </ci>
+                    <ci> Metabolite_5 </ci>
+                    <ci> Metabolite_6 </ci>
+                    <ci> Metabolite_7 </ci>
+                    <ci> Metabolite_8 </ci>
+                    <ci> Metabolite_9 </ci>
+                    <ci> Metabolite_10 </ci>
+                    <ci> Metabolite_11 </ci>
+                    <ci> Metabolite_12 </ci>
+                    <ci> Metabolite_13 </ci>
+                    <ci> Metabolite_14 </ci>
+                    <ci> Metabolite_15 </ci>
+                  </apply>
+                  <apply>
+                    <divide/>
+                    <ci> Req_4 </ci>
+                    <apply>
+                      <plus/>
+                      <ci> Req_1 </ci>
+                      <ci> Req_2 </ci>
+                      <ci> Req_3 </ci>
+                      <ci> Req_4 </ci>
+                      <ci> Req_5 </ci>
+                      <ci> Req_6 </ci>
+                      <ci> Req_7 </ci>
+                      <ci> Req_8 </ci>
+                      <ci> Req_9 </ci>
+                      <ci> Req_10 </ci>
+                      <ci> Req_11 </ci>
+                      <ci> Req_12 </ci>
+                      <ci> Req_13 </ci>
+                      <ci> Req_14 </ci>
+                      <ci> Req_15 </ci>
+                    </apply>
+                  </apply>
+                </apply>
+              </apply>
+            </math>
+          </eventAssignment>
+          <eventAssignment variable="Metabolite_5">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <apply>
+                <floor/>
+                <apply>
+                  <times/>
+                  <apply>
+                    <plus/>
+                    <ci> Metabolite_1 </ci>
+                    <ci> Metabolite_2 </ci>
+                    <ci> Metabolite_3 </ci>
+                    <ci> Metabolite_4 </ci>
+                    <ci> Metabolite_5 </ci>
+                    <ci> Metabolite_6 </ci>
+                    <ci> Metabolite_7 </ci>
+                    <ci> Metabolite_8 </ci>
+                    <ci> Metabolite_9 </ci>
+                    <ci> Metabolite_10 </ci>
+                    <ci> Metabolite_11 </ci>
+                    <ci> Metabolite_12 </ci>
+                    <ci> Metabolite_13 </ci>
+                    <ci> Metabolite_14 </ci>
+                    <ci> Metabolite_15 </ci>
+                  </apply>
+                  <apply>
+                    <divide/>
+                    <ci> Req_5 </ci>
+                    <apply>
+                      <plus/>
+                      <ci> Req_1 </ci>
+                      <ci> Req_2 </ci>
+                      <ci> Req_3 </ci>
+                      <ci> Req_4 </ci>
+                      <ci> Req_5 </ci>
+                      <ci> Req_6 </ci>
+                      <ci> Req_7 </ci>
+                      <ci> Req_8 </ci>
+                      <ci> Req_9 </ci>
+                      <ci> Req_10 </ci>
+                      <ci> Req_11 </ci>
+                      <ci> Req_12 </ci>
+                      <ci> Req_13 </ci>
+                      <ci> Req_14 </ci>
+                      <ci> Req_15 </ci>
+                    </apply>
+                  </apply>
+                </apply>
+              </apply>
+            </math>
+          </eventAssignment>
+          <eventAssignment variable="Metabolite_6">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <apply>
+                <floor/>
+                <apply>
+                  <times/>
+                  <apply>
+                    <plus/>
+                    <ci> Metabolite_1 </ci>
+                    <ci> Metabolite_2 </ci>
+                    <ci> Metabolite_3 </ci>
+                    <ci> Metabolite_4 </ci>
+                    <ci> Metabolite_5 </ci>
+                    <ci> Metabolite_6 </ci>
+                    <ci> Metabolite_7 </ci>
+                    <ci> Metabolite_8 </ci>
+                    <ci> Metabolite_9 </ci>
+                    <ci> Metabolite_10 </ci>
+                    <ci> Metabolite_11 </ci>
+                    <ci> Metabolite_12 </ci>
+                    <ci> Metabolite_13 </ci>
+                    <ci> Metabolite_14 </ci>
+                    <ci> Metabolite_15 </ci>
+                  </apply>
+                  <apply>
+                    <divide/>
+                    <ci> Req_6 </ci>
+                    <apply>
+                      <plus/>
+                      <ci> Req_1 </ci>
+                      <ci> Req_2 </ci>
+                      <ci> Req_3 </ci>
+                      <ci> Req_4 </ci>
+                      <ci> Req_5 </ci>
+                      <ci> Req_6 </ci>
+                      <ci> Req_7 </ci>
+                      <ci> Req_8 </ci>
+                      <ci> Req_9 </ci>
+                      <ci> Req_10 </ci>
+                      <ci> Req_11 </ci>
+                      <ci> Req_12 </ci>
+                      <ci> Req_13 </ci>
+                      <ci> Req_14 </ci>
+                      <ci> Req_15 </ci>
+                    </apply>
+                  </apply>
+                </apply>
+              </apply>
+            </math>
+          </eventAssignment>
+          <eventAssignment variable="Metabolite_7">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <apply>
+                <floor/>
+                <apply>
+                  <times/>
+                  <apply>
+                    <plus/>
+                    <ci> Metabolite_1 </ci>
+                    <ci> Metabolite_2 </ci>
+                    <ci> Metabolite_3 </ci>
+                    <ci> Metabolite_4 </ci>
+                    <ci> Metabolite_5 </ci>
+                    <ci> Metabolite_6 </ci>
+                    <ci> Metabolite_7 </ci>
+                    <ci> Metabolite_8 </ci>
+                    <ci> Metabolite_9 </ci>
+                    <ci> Metabolite_10 </ci>
+                    <ci> Metabolite_11 </ci>
+                    <ci> Metabolite_12 </ci>
+                    <ci> Metabolite_13 </ci>
+                    <ci> Metabolite_14 </ci>
+                    <ci> Metabolite_15 </ci>
+                  </apply>
+                  <apply>
+                    <divide/>
+                    <ci> Req_7 </ci>
+                    <apply>
+                      <plus/>
+                      <ci> Req_1 </ci>
+                      <ci> Req_2 </ci>
+                      <ci> Req_3 </ci>
+                      <ci> Req_4 </ci>
+                      <ci> Req_5 </ci>
+                      <ci> Req_6 </ci>
+                      <ci> Req_7 </ci>
+                      <ci> Req_8 </ci>
+                      <ci> Req_9 </ci>
+                      <ci> Req_10 </ci>
+                      <ci> Req_11 </ci>
+                      <ci> Req_12 </ci>
+                      <ci> Req_13 </ci>
+                      <ci> Req_14 </ci>
+                      <ci> Req_15 </ci>
+                    </apply>
+                  </apply>
+                </apply>
+              </apply>
+            </math>
+          </eventAssignment>
+          <eventAssignment variable="Metabolite_8">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <apply>
+                <floor/>
+                <apply>
+                  <times/>
+                  <apply>
+                    <plus/>
+                    <ci> Metabolite_1 </ci>
+                    <ci> Metabolite_2 </ci>
+                    <ci> Metabolite_3 </ci>
+                    <ci> Metabolite_4 </ci>
+                    <ci> Metabolite_5 </ci>
+                    <ci> Metabolite_6 </ci>
+                    <ci> Metabolite_7 </ci>
+                    <ci> Metabolite_8 </ci>
+                    <ci> Metabolite_9 </ci>
+                    <ci> Metabolite_10 </ci>
+                    <ci> Metabolite_11 </ci>
+                    <ci> Metabolite_12 </ci>
+                    <ci> Metabolite_13 </ci>
+                    <ci> Metabolite_14 </ci>
+                    <ci> Metabolite_15 </ci>
+                  </apply>
+                  <apply>
+                    <divide/>
+                    <ci> Req_8 </ci>
+                    <apply>
+                      <plus/>
+                      <ci> Req_1 </ci>
+                      <ci> Req_2 </ci>
+                      <ci> Req_3 </ci>
+                      <ci> Req_4 </ci>
+                      <ci> Req_5 </ci>
+                      <ci> Req_6 </ci>
+                      <ci> Req_7 </ci>
+                      <ci> Req_8 </ci>
+                      <ci> Req_9 </ci>
+                      <ci> Req_10 </ci>
+                      <ci> Req_11 </ci>
+                      <ci> Req_12 </ci>
+                      <ci> Req_13 </ci>
+                      <ci> Req_14 </ci>
+                      <ci> Req_15 </ci>
+                    </apply>
+                  </apply>
+                </apply>
+              </apply>
+            </math>
+          </eventAssignment>
+          <eventAssignment variable="Metabolite_9">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <apply>
+                <floor/>
+                <apply>
+                  <times/>
+                  <apply>
+                    <plus/>
+                    <ci> Metabolite_1 </ci>
+                    <ci> Metabolite_2 </ci>
+                    <ci> Metabolite_3 </ci>
+                    <ci> Metabolite_4 </ci>
+                    <ci> Metabolite_5 </ci>
+                    <ci> Metabolite_6 </ci>
+                    <ci> Metabolite_7 </ci>
+                    <ci> Metabolite_8 </ci>
+                    <ci> Metabolite_9 </ci>
+                    <ci> Metabolite_10 </ci>
+                    <ci> Metabolite_11 </ci>
+                    <ci> Metabolite_12 </ci>
+                    <ci> Metabolite_13 </ci>
+                    <ci> Metabolite_14 </ci>
+                    <ci> Metabolite_15 </ci>
+                  </apply>
+                  <apply>
+                    <divide/>
+                    <ci> Req_9 </ci>
+                    <apply>
+                      <plus/>
+                      <ci> Req_1 </ci>
+                      <ci> Req_2 </ci>
+                      <ci> Req_3 </ci>
+                      <ci> Req_4 </ci>
+                      <ci> Req_5 </ci>
+                      <ci> Req_6 </ci>
+                      <ci> Req_7 </ci>
+                      <ci> Req_8 </ci>
+                      <ci> Req_9 </ci>
+                      <ci> Req_10 </ci>
+                      <ci> Req_11 </ci>
+                      <ci> Req_12 </ci>
+                      <ci> Req_13 </ci>
+                      <ci> Req_14 </ci>
+                      <ci> Req_15 </ci>
+                    </apply>
+                  </apply>
+                </apply>
+              </apply>
+            </math>
+          </eventAssignment>
+          <eventAssignment variable="Metabolite_10">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <apply>
+                <floor/>
+                <apply>
+                  <times/>
+                  <apply>
+                    <plus/>
+                    <ci> Metabolite_1 </ci>
+                    <ci> Metabolite_2 </ci>
+                    <ci> Metabolite_3 </ci>
+                    <ci> Metabolite_4 </ci>
+                    <ci> Metabolite_5 </ci>
+                    <ci> Metabolite_6 </ci>
+                    <ci> Metabolite_7 </ci>
+                    <ci> Metabolite_8 </ci>
+                    <ci> Metabolite_9 </ci>
+                    <ci> Metabolite_10 </ci>
+                    <ci> Metabolite_11 </ci>
+                    <ci> Metabolite_12 </ci>
+                    <ci> Metabolite_13 </ci>
+                    <ci> Metabolite_14 </ci>
+                    <ci> Metabolite_15 </ci>
+                  </apply>
+                  <apply>
+                    <divide/>
+                    <ci> Req_10 </ci>
+                    <apply>
+                      <plus/>
+                      <ci> Req_1 </ci>
+                      <ci> Req_2 </ci>
+                      <ci> Req_3 </ci>
+                      <ci> Req_4 </ci>
+                      <ci> Req_5 </ci>
+                      <ci> Req_6 </ci>
+                      <ci> Req_7 </ci>
+                      <ci> Req_8 </ci>
+                      <ci> Req_9 </ci>
+                      <ci> Req_10 </ci>
+                      <ci> Req_11 </ci>
+                      <ci> Req_12 </ci>
+                      <ci> Req_13 </ci>
+                      <ci> Req_14 </ci>
+                      <ci> Req_15 </ci>
+                    </apply>
+                  </apply>
+                </apply>
+              </apply>
+            </math>
+          </eventAssignment>
+          <eventAssignment variable="Metabolite_11">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <apply>
+                <floor/>
+                <apply>
+                  <times/>
+                  <apply>
+                    <plus/>
+                    <ci> Metabolite_1 </ci>
+                    <ci> Metabolite_2 </ci>
+                    <ci> Metabolite_3 </ci>
+                    <ci> Metabolite_4 </ci>
+                    <ci> Metabolite_5 </ci>
+                    <ci> Metabolite_6 </ci>
+                    <ci> Metabolite_7 </ci>
+                    <ci> Metabolite_8 </ci>
+                    <ci> Metabolite_9 </ci>
+                    <ci> Metabolite_10 </ci>
+                    <ci> Metabolite_11 </ci>
+                    <ci> Metabolite_12 </ci>
+                    <ci> Metabolite_13 </ci>
+                    <ci> Metabolite_14 </ci>
+                    <ci> Metabolite_15 </ci>
+                  </apply>
+                  <apply>
+                    <divide/>
+                    <ci> Req_11 </ci>
+                    <apply>
+                      <plus/>
+                      <ci> Req_1 </ci>
+                      <ci> Req_2 </ci>
+                      <ci> Req_3 </ci>
+                      <ci> Req_4 </ci>
+                      <ci> Req_5 </ci>
+                      <ci> Req_6 </ci>
+                      <ci> Req_7 </ci>
+                      <ci> Req_8 </ci>
+                      <ci> Req_9 </ci>
+                      <ci> Req_10 </ci>
+                      <ci> Req_11 </ci>
+                      <ci> Req_12 </ci>
+                      <ci> Req_13 </ci>
+                      <ci> Req_14 </ci>
+                      <ci> Req_15 </ci>
+                    </apply>
+                  </apply>
+                </apply>
+              </apply>
+            </math>
+          </eventAssignment>
+          <eventAssignment variable="Metabolite_12">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <apply>
+                <floor/>
+                <apply>
+                  <times/>
+                  <apply>
+                    <plus/>
+                    <ci> Metabolite_1 </ci>
+                    <ci> Metabolite_2 </ci>
+                    <ci> Metabolite_3 </ci>
+                    <ci> Metabolite_4 </ci>
+                    <ci> Metabolite_5 </ci>
+                    <ci> Metabolite_6 </ci>
+                    <ci> Metabolite_7 </ci>
+                    <ci> Metabolite_8 </ci>
+                    <ci> Metabolite_9 </ci>
+                    <ci> Metabolite_10 </ci>
+                    <ci> Metabolite_11 </ci>
+                    <ci> Metabolite_12 </ci>
+                    <ci> Metabolite_13 </ci>
+                    <ci> Metabolite_14 </ci>
+                    <ci> Metabolite_15 </ci>
+                  </apply>
+                  <apply>
+                    <divide/>
+                    <ci> Req_12 </ci>
+                    <apply>
+                      <plus/>
+                      <ci> Req_1 </ci>
+                      <ci> Req_2 </ci>
+                      <ci> Req_3 </ci>
+                      <ci> Req_4 </ci>
+                      <ci> Req_5 </ci>
+                      <ci> Req_6 </ci>
+                      <ci> Req_7 </ci>
+                      <ci> Req_8 </ci>
+                      <ci> Req_9 </ci>
+                      <ci> Req_10 </ci>
+                      <ci> Req_11 </ci>
+                      <ci> Req_12 </ci>
+                      <ci> Req_13 </ci>
+                      <ci> Req_14 </ci>
+                      <ci> Req_15 </ci>
+                    </apply>
+                  </apply>
+                </apply>
+              </apply>
+            </math>
+          </eventAssignment>
+          <eventAssignment variable="Metabolite_13">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <apply>
+                <floor/>
+                <apply>
+                  <times/>
+                  <apply>
+                    <plus/>
+                    <ci> Metabolite_1 </ci>
+                    <ci> Metabolite_2 </ci>
+                    <ci> Metabolite_3 </ci>
+                    <ci> Metabolite_4 </ci>
+                    <ci> Metabolite_5 </ci>
+                    <ci> Metabolite_6 </ci>
+                    <ci> Metabolite_7 </ci>
+                    <ci> Metabolite_8 </ci>
+                    <ci> Metabolite_9 </ci>
+                    <ci> Metabolite_10 </ci>
+                    <ci> Metabolite_11 </ci>
+                    <ci> Metabolite_12 </ci>
+                    <ci> Metabolite_13 </ci>
+                    <ci> Metabolite_14 </ci>
+                    <ci> Metabolite_15 </ci>
+                  </apply>
+                  <apply>
+                    <divide/>
+                    <ci> Req_13 </ci>
+                    <apply>
+                      <plus/>
+                      <ci> Req_1 </ci>
+                      <ci> Req_2 </ci>
+                      <ci> Req_3 </ci>
+                      <ci> Req_4 </ci>
+                      <ci> Req_5 </ci>
+                      <ci> Req_6 </ci>
+                      <ci> Req_7 </ci>
+                      <ci> Req_8 </ci>
+                      <ci> Req_9 </ci>
+                      <ci> Req_10 </ci>
+                      <ci> Req_11 </ci>
+                      <ci> Req_12 </ci>
+                      <ci> Req_13 </ci>
+                      <ci> Req_14 </ci>
+                      <ci> Req_15 </ci>
+                    </apply>
+                  </apply>
+                </apply>
+              </apply>
+            </math>
+          </eventAssignment>
+          <eventAssignment variable="Metabolite_14">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <apply>
+                <floor/>
+                <apply>
+                  <times/>
+                  <apply>
+                    <plus/>
+                    <ci> Metabolite_1 </ci>
+                    <ci> Metabolite_2 </ci>
+                    <ci> Metabolite_3 </ci>
+                    <ci> Metabolite_4 </ci>
+                    <ci> Metabolite_5 </ci>
+                    <ci> Metabolite_6 </ci>
+                    <ci> Metabolite_7 </ci>
+                    <ci> Metabolite_8 </ci>
+                    <ci> Metabolite_9 </ci>
+                    <ci> Metabolite_10 </ci>
+                    <ci> Metabolite_11 </ci>
+                    <ci> Metabolite_12 </ci>
+                    <ci> Metabolite_13 </ci>
+                    <ci> Metabolite_14 </ci>
+                    <ci> Metabolite_15 </ci>
+                  </apply>
+                  <apply>
+                    <divide/>
+                    <ci> Req_14 </ci>
+                    <apply>
+                      <plus/>
+                      <ci> Req_1 </ci>
+                      <ci> Req_2 </ci>
+                      <ci> Req_3 </ci>
+                      <ci> Req_4 </ci>
+                      <ci> Req_5 </ci>
+                      <ci> Req_6 </ci>
+                      <ci> Req_7 </ci>
+                      <ci> Req_8 </ci>
+                      <ci> Req_9 </ci>
+                      <ci> Req_10 </ci>
+                      <ci> Req_11 </ci>
+                      <ci> Req_12 </ci>
+                      <ci> Req_13 </ci>
+                      <ci> Req_14 </ci>
+                      <ci> Req_15 </ci>
+                    </apply>
+                  </apply>
+                </apply>
+              </apply>
+            </math>
+          </eventAssignment>
+          <eventAssignment variable="Metabolite_15">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <apply>
+                <floor/>
+                <apply>
+                  <times/>
+                  <apply>
+                    <plus/>
+                    <ci> Metabolite_1 </ci>
+                    <ci> Metabolite_2 </ci>
+                    <ci> Metabolite_3 </ci>
+                    <ci> Metabolite_4 </ci>
+                    <ci> Metabolite_5 </ci>
+                    <ci> Metabolite_6 </ci>
+                    <ci> Metabolite_7 </ci>
+                    <ci> Metabolite_8 </ci>
+                    <ci> Metabolite_9 </ci>
+                    <ci> Metabolite_10 </ci>
+                    <ci> Metabolite_11 </ci>
+                    <ci> Metabolite_12 </ci>
+                    <ci> Metabolite_13 </ci>
+                    <ci> Metabolite_14 </ci>
+                    <ci> Metabolite_15 </ci>
+                  </apply>
+                  <apply>
+                    <divide/>
+                    <ci> Req_15 </ci>
+                    <apply>
+                      <plus/>
+                      <ci> Req_1 </ci>
+                      <ci> Req_2 </ci>
+                      <ci> Req_3 </ci>
+                      <ci> Req_4 </ci>
+                      <ci> Req_5 </ci>
+                      <ci> Req_6 </ci>
+                      <ci> Req_7 </ci>
+                      <ci> Req_8 </ci>
+                      <ci> Req_9 </ci>
+                      <ci> Req_10 </ci>
+                      <ci> Req_11 </ci>
+                      <ci> Req_12 </ci>
+                      <ci> Req_13 </ci>
+                      <ci> Req_14 </ci>
+                      <ci> Req_15 </ci>
+                    </apply>
+                  </apply>
+                </apply>
+              </apply>
+            </math>
+          </eventAssignment>
+          <eventAssignment variable="p0">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <cn type="integer"> 0 </cn>
+            </math>
+          </eventAssignment>
+          <eventAssignment variable="p1">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <cn type="integer"> 1 </cn>
+            </math>
+          </eventAssignment>
+        </listOfEventAssignments>
+      </event>
+      <event sboTerm="SBO:0000591" id="t1" useValuesFromTriggerTime="false">
+        <trigger initialValue="false" persistent="false">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <eq/>
+              <ci> p1 </ci>
+              <cn type="integer"> 1 </cn>
+            </apply>
+          </math>
+        </trigger>
+        <delay>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <cn type="integer"> 0 </cn>
+          </math>
+        </delay>
+        <listOfEventAssignments>
+          <eventAssignment variable="p1">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <cn type="integer"> 0 </cn>
+            </math>
+          </eventAssignment>
+          <eventAssignment variable="p0">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <cn type="integer"> 1 </cn>
+            </math>
+          </eventAssignment>
+        </listOfEventAssignments>
+      </event>
+    </listOfEvents>
+    <comp:listOfPorts>
+      <comp:port sboTerm="SBO:0000601" comp:idRef="Metabolite_1" comp:id="output__Metabolite_1"/>
+      <comp:port sboTerm="SBO:0000600" comp:idRef="Req_1" comp:id="input__Req_1"/>
+      <comp:port sboTerm="SBO:0000601" comp:idRef="Metabolite_2" comp:id="output__Metabolite_2"/>
+      <comp:port sboTerm="SBO:0000600" comp:idRef="Req_2" comp:id="input__Req_2"/>
+      <comp:port sboTerm="SBO:0000601" comp:idRef="Metabolite_3" comp:id="output__Metabolite_3"/>
+      <comp:port sboTerm="SBO:0000600" comp:idRef="Req_3" comp:id="input__Req_3"/>
+      <comp:port sboTerm="SBO:0000601" comp:idRef="Metabolite_4" comp:id="output__Metabolite_4"/>
+      <comp:port sboTerm="SBO:0000600" comp:idRef="Req_4" comp:id="input__Req_4"/>
+      <comp:port sboTerm="SBO:0000601" comp:idRef="Metabolite_5" comp:id="output__Metabolite_5"/>
+      <comp:port sboTerm="SBO:0000600" comp:idRef="Req_5" comp:id="input__Req_5"/>
+      <comp:port sboTerm="SBO:0000601" comp:idRef="Metabolite_6" comp:id="output__Metabolite_6"/>
+      <comp:port sboTerm="SBO:0000600" comp:idRef="Req_6" comp:id="input__Req_6"/>
+      <comp:port sboTerm="SBO:0000601" comp:idRef="Metabolite_7" comp:id="output__Metabolite_7"/>
+      <comp:port sboTerm="SBO:0000600" comp:idRef="Req_7" comp:id="input__Req_7"/>
+      <comp:port sboTerm="SBO:0000601" comp:idRef="Metabolite_8" comp:id="output__Metabolite_8"/>
+      <comp:port sboTerm="SBO:0000600" comp:idRef="Req_8" comp:id="input__Req_8"/>
+      <comp:port sboTerm="SBO:0000601" comp:idRef="Metabolite_9" comp:id="output__Metabolite_9"/>
+      <comp:port sboTerm="SBO:0000600" comp:idRef="Req_9" comp:id="input__Req_9"/>
+      <comp:port sboTerm="SBO:0000601" comp:idRef="Metabolite_10" comp:id="output__Metabolite_10"/>
+      <comp:port sboTerm="SBO:0000600" comp:idRef="Req_10" comp:id="input__Req_10"/>
+      <comp:port sboTerm="SBO:0000601" comp:idRef="Metabolite_11" comp:id="output__Metabolite_11"/>
+      <comp:port sboTerm="SBO:0000600" comp:idRef="Req_11" comp:id="input__Req_11"/>
+      <comp:port sboTerm="SBO:0000601" comp:idRef="Metabolite_12" comp:id="output__Metabolite_12"/>
+      <comp:port sboTerm="SBO:0000600" comp:idRef="Req_12" comp:id="input__Req_12"/>
+      <comp:port sboTerm="SBO:0000601" comp:idRef="Metabolite_13" comp:id="output__Metabolite_13"/>
+      <comp:port sboTerm="SBO:0000600" comp:idRef="Req_13" comp:id="input__Req_13"/>
+      <comp:port sboTerm="SBO:0000601" comp:idRef="Metabolite_14" comp:id="output__Metabolite_14"/>
+      <comp:port sboTerm="SBO:0000600" comp:idRef="Req_14" comp:id="input__Req_14"/>
+      <comp:port sboTerm="SBO:0000601" comp:idRef="Metabolite_15" comp:id="output__Metabolite_15"/>
+      <comp:port sboTerm="SBO:0000600" comp:idRef="Req_15" comp:id="input__Req_15"/>
+      <comp:port sboTerm="SBO:0000600" comp:idRef="c" comp:id="input__c"/>
+    </comp:listOfPorts>
+  </model>
+</sbml>
