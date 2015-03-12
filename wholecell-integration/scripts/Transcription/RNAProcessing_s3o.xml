@@ -1,30 +1,30 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<sbml xmlns="http://www.sbml.org/sbml/level2/version4" level="2" version="4">
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version1/core" level="3" version="1">
   <model>
     <listOfCompartments>
-      <compartment id="c" size="1" units="volume" constant="true"/>
+      <compartment constant="true" id="c" units="volume" size="1"/>
     </listOfCompartments>
     <listOfSpecies>
-      <species sboTerm="SBO:0000247" id="H2O" name="H2O" compartment="c"/>
-      <species sboTerm="SBO:0000247" id="ApAp" name="ApAp" compartment="c"/>
-      <species sboTerm="SBO:0000247" id="ATP" name="ATP" compartment="c"/>
-      <species sboTerm="SBO:0000247" id="AMP" name="AMP" compartment="c"/>
-      <species sboTerm="SBO:0000247" id="PI" name="PI" compartment="c"/>
-      <species sboTerm="SBO:0000247" id="ADP" name="ADP" compartment="c"/>
-      <species sboTerm="SBO:0000247" id="H" name="H" compartment="c"/>
-      <species sboTerm="SBO:0000245" id="MG_425_DIMER" name="MG_425_DIMER" compartment="c"/>
-      <species sboTerm="SBO:0000247" id="CpCp" name="CpCp" compartment="c"/>
-      <species sboTerm="SBO:0000247" id="CMP" name="CMP" compartment="c"/>
-      <species sboTerm="SBO:0000247" id="GpGp" name="GpGp" compartment="c"/>
-      <species sboTerm="SBO:0000247" id="GMP" name="GMP" compartment="c"/>
-      <species sboTerm="SBO:0000247" id="UpUp" name="UpUp" compartment="c"/>
-      <species sboTerm="SBO:0000247" id="UMP" name="UMP" compartment="c"/>
-      <species sboTerm="SBO:0000245" id="MG_367_DIMER" name="MG_367_DIMER" compartment="c"/>
-      <species sboTerm="SBO:0000245" id="MG_139_DIMER" name="MG_139_DIMER" compartment="c"/>
-      <species sboTerm="SBO:0000245" id="MG_0003_465" name="MG_0003_465" compartment="c"/>
-      <species sboTerm="SBO:0000247" id="GTP" name="GTP" compartment="c"/>
-      <species sboTerm="SBO:0000247" id="GDP" name="GDP" compartment="c"/>
-      <species sboTerm="SBO:0000245" id="MG_110_MONOMER" name="MG_110_MONOMER" compartment="c"/>
+      <species compartment="c" name="H2O" id="H2O" sboTerm="SBO:0000247"/>
+      <species compartment="c" name="ApAp" id="ApAp" sboTerm="SBO:0000247"/>
+      <species compartment="c" name="ATP" id="ATP" sboTerm="SBO:0000247"/>
+      <species compartment="c" name="AMP" id="AMP" sboTerm="SBO:0000247"/>
+      <species compartment="c" name="PI" id="PI" sboTerm="SBO:0000247"/>
+      <species compartment="c" name="ADP" id="ADP" sboTerm="SBO:0000247"/>
+      <species compartment="c" name="H" id="H" sboTerm="SBO:0000247"/>
+      <species compartment="c" name="MG_425_DIMER" id="MG_425_DIMER" sboTerm="SBO:0000245"/>
+      <species compartment="c" name="CpCp" id="CpCp" sboTerm="SBO:0000247"/>
+      <species compartment="c" name="CMP" id="CMP" sboTerm="SBO:0000247"/>
+      <species compartment="c" name="GpGp" id="GpGp" sboTerm="SBO:0000247"/>
+      <species compartment="c" name="GMP" id="GMP" sboTerm="SBO:0000247"/>
+      <species compartment="c" name="UpUp" id="UpUp" sboTerm="SBO:0000247"/>
+      <species compartment="c" name="UMP" id="UMP" sboTerm="SBO:0000247"/>
+      <species compartment="c" name="MG_367_DIMER" id="MG_367_DIMER" sboTerm="SBO:0000245"/>
+      <species compartment="c" name="MG_139_DIMER" id="MG_139_DIMER" sboTerm="SBO:0000245"/>
+      <species compartment="c" name="MG_0003_465" id="MG_0003_465" sboTerm="SBO:0000245"/>
+      <species compartment="c" name="GTP" id="GTP" sboTerm="SBO:0000247"/>
+      <species compartment="c" name="GDP" id="GDP" sboTerm="SBO:0000247"/>
+      <species compartment="c" name="MG_110_MONOMER" id="MG_110_MONOMER" sboTerm="SBO:0000245"/>
     </listOfSpecies>
     <listOfReactions>
       <reaction id="RNACleavage_DeaD_AMP" reversible="false">
