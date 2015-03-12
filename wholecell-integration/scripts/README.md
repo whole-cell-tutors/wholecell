@@ -8,7 +8,7 @@ To execute the script, open a command prompt and type:
 python sedml_gen.py
 ```
 
-The script both [libSBML](http://sbml.org/Software/libSBML) and
+The script requires both [libSBML](http://sbml.org/Software/libSBML) and
 [libSEDML](https://github.com/fbergmann/libSEDML) Python wrappers to be
 installed.
 
