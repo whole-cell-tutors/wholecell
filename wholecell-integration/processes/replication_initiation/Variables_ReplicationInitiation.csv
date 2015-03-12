@@ -1,0 +1,14 @@
+Variable,State ID,Property name,Changed
+Chromosome_complexBoundSites,Chromosome,complexBoundSites,x
+Chromosome_monomerBoundSites,Chromosome,monomerBoundSites,
+Chromosome_polymerizedRegions,Chromosome,polymerizedRegions,
+Geometry_volume,Geometry,volume,
+Mass_total,Mass,total,
+Metabolite_counts,Metabolite,counts,
+Metabolite_processAllocations,Metabolite,processAllocations,
+Metabolite_processRequirements,Metabolite,processRequirements,
+Metabolite_processUsages,Metabolite,processUsages,
+ProteinComplex_counts,ProteinComplex,counts,
+ProteinMonomer_counts,ProteinMonomer,counts,
+Time_values,Time,values,
+
