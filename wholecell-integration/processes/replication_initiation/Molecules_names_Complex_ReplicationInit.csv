@@ -1,15 +1,17 @@
 Protein Complex (201),Description,read only,Read and write
-MG_469_1MER_ADP,DnaA-ADP,,x
-MG_469_1MER_ATP,DnaA-ATP,,x
-MG_469_2MER_1ATP_ADP,DnaA 2mer-(1)ATP-(1)ADP,,x
-MG_469_2MER_ATP,DnaA-ATP 2mer,,x
-MG_469_3MER_2ATP_ADP,DnaA 3mer-(2)ATP-(1)ADP,,x
-MG_469_3MER_ATP,DnaA-ATP 3mer,,x
-MG_469_4MER_3ATP_ADP,DnaA 4mer-(3)ATP-(1)ADP,,x
-MG_469_4MER_ATP,DnaA-ATP 4mer,,x
-MG_469_5MER_4ATP_ADP,DnaA 5mer-(4)ATP-(1)ADP,,x
-MG_469_5MER_ATP,DnaA-ATP 5mer,,x
-MG_469_6MER_5ATP_ADP,DnaA 6mer-(5)ATP-(1)ADP,,x
-MG_469_6MER_ATP,DnaA-ATP 6mer,,x
-MG_469_7MER_6ATP_ADP,DnaA 7mer-(6)ATP-(1)ADP,,x
-MG_469_7MER_ATP,DnaA-ATP 7mer,,x
+MG_469_1MER_ADP__c,DnaA-ADP,,x
+MG_469_1MER_ADP__d__bound,DnaA-ADP,,x
+MG_469_1MER_ATP__c,DnaA-ATP,,x
+MG_469_1MER_ATP__d__bound,DnaA-ATP,,x
+MG_469_2MER_1ATP_ADP__d__bound,DnaA 2mer-(1)ATP-(1)ADP,,x
+MG_469_2MER_ATP__d__bound,DnaA-ATP 2mer,,x
+MG_469_3MER_2ATP_ADP__d__bound,DnaA 3mer-(2)ATP-(1)ADP,,x
+MG_469_3MER_ATP__d__bound,DnaA-ATP 3mer,,x
+MG_469_4MER_3ATP_ADP__d__bound,DnaA 4mer-(3)ATP-(1)ADP,,x
+MG_469_4MER_ATP__d__bound,DnaA-ATP 4mer,,x
+MG_469_5MER_4ATP_ADP__d__bound,DnaA 5mer-(4)ATP-(1)ADP,,x
+MG_469_5MER_ATP__d__bound,DnaA-ATP 5mer,,x
+MG_469_6MER_5ATP_ADP__d__bound,DnaA 6mer-(5)ATP-(1)ADP,,x
+MG_469_6MER_ATP__d__bound,DnaA-ATP 6mer,,x
+MG_469_7MER_6ATP_ADP__d__bound,DnaA 7mer-(6)ATP-(1)ADP,,x
+MG_469_7MER_ATP__d__bound,DnaA-ATP 7mer,,x
