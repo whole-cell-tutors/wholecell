@@ -2,6 +2,7 @@
 # coding=utf-8
 
 # Python script for generating the master SED-ML file for the wholecell model
+# @author Bertrand Moreau, Argyris Zardilis, Chris J. Myers, Paulo Burke, Thawfeek Varusai, Tobias Czauderna
 import libsbml, libsedml
 import os.path
 import parser_ifaces as ifaces

@@ -12,6 +12,7 @@ The produced SED-ML file synchronizes the subprocesses with the top-level
 initialization file by using ```setValue``` nodes in the main loop; at the
 beginning of each iteration, variables are updated following an order dictated
 by the nature of each variable (read-only, read-write, and / or requirement).
+
 The script requires both [libSBML](http://sbml.org/Software/libSBML) and
 [libSEDML](https://github.com/fbergmann/libSEDML) Python wrappers to be
 installed.
