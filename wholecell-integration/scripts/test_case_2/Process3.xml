@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version1/core" xmlns:comp="http://www.sbml.org/sbml/level3/version1/comp/version1" level="3" version="1" comp:required="true">
+  <model>
+    <listOfCompartments>
+      <compartment id="Cytosol" spatialDimensions="3" size="1" constant="true"/>
+      <compartment id="Extracellular" spatialDimensions="3" size="1" constant="true"/>
+      <compartment id="Membrane" spatialDimensions="3" size="1" constant="true"/>
+    </listOfCompartments>
+    <listOfSpecies>
+      <species id="ABC" compartment="Cytosol" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="ATP" compartment="Cytosol" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+    </listOfSpecies>
+    <listOfParameters>
+      <parameter id="Br" value="0" constant="true"/>
+      <parameter id="ATP_requirement" value="0" constant="true"/>
+    </listOfParameters>
+    <comp:listOfPorts>
+      <comp:port comp:idRef="Cytosol" comp:id="output__Cytosol"/>
+      <comp:port comp:idRef="Extracellular" comp:id="output__Extracellular"/>
+      <comp:port comp:idRef="Membrane" comp:id="output__Membrane"/>
+      <comp:port comp:idRef="ABC" comp:id="input__ABC"/>
+      <comp:port comp:idRef="Br" comp:id="output__Br"/>
+      <comp:port comp:idRef="ATP" comp:id="output__ATP"/>
+      <comp:port comp:idRef="ATP_requirement" comp:id="output__ATP_requirement"/>
+    </comp:listOfPorts>
+  </model>
+</sbml>
