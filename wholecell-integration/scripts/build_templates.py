@@ -57,7 +57,7 @@ def create_species(models, entry):
            param.setId(entry.vid + "_global")
            param.setConstant(True)
            param.setValue(0)
-           create_port(model, entry.vid, "output")
+           create_port(model, entry.vid, "input")
            
            param1 = model.createParameter()
            param1.setId(entry.vid + "_requirement")
