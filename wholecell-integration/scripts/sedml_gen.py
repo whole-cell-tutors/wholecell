@@ -5,7 +5,7 @@
 # @author Bertrand Moreau, Argyris Zardilis, Chris J. Myers, Paulo Burke, Thawfeek Varusai, Tobias Czauderna
 import libsbml, libsedml
 import os.path
-import parser_ifaces as ifaces
+import sed_parser_ifaces as ifaces
 
 # Required inputs
 model_files = ['test_case_1/toymodel1.xml',
