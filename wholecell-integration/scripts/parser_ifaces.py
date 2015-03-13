@@ -26,15 +26,14 @@ class ProcPerms:
         self.perm = perm
 
         
-def build_model(fns, proc_name):
+def build_model(fns, proc_name, delimiter):
     ronly = []
     readwrite = []
     require = []
-
     for fn in fns:
         with open(fn) as fin:
             fin.readline()
-            iface_reader = csv.reader(fin, delimiter=",")
+            iface_reader = csv.reader(fin, delimiter=delimiter)
             for entry in iface_reader:
                 vid, name, ro, rw, req = 5*[""]
                 if "Metabolites" in fn:
@@ -58,21 +57,21 @@ def get_process_name(fn):
     return f.split('_')[-1]
 
 
-def build_all_models(directory):
+def build_all_models(directory, delimiter):
     models = []
     
     proc_files = defaultdict(list)
     for fn in os.listdir(directory):
         if os.path.basename(fn).endswith(".csv"):
             pname = get_process_name(fn)
-            proc_files[pname].append(fn)
+            proc_files[pname].append(os.path.join(directory, fn))
 
     for proc_name, proc_fns in proc_files.iteritems():
-        models.append(build_model(proc_fns, proc_name))
+        models.append(build_model(proc_fns, proc_name, delimiter))
                 
     return models
 
-def build_all_models1(directory):
+def build_all_models1(directory, delimiter):
     models = []
     
     proc_files = defaultdict(list)
@@ -84,7 +83,7 @@ def build_all_models1(directory):
                 proc_files[pn].append(os.path.join(pf, fn))
 
     for proc_name, proc_fns in proc_files.iteritems():
-        models.append(build_model(proc_fns, proc_name))
+        models.append(build_model(proc_fns, proc_name, delimiter))
                     
                 
     return models
@@ -120,5 +119,6 @@ def build_entries(models):
 
 
 def main_test():
-    return build_model(["Molecules_names_Metabolite_Metabolism.csv"], "Metabolism")
+    return build_model(["Molecules_names_Metabolite_Metabolism.csv"],
+        "Metabolism", ",")
     

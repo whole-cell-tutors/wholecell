@@ -3,13 +3,17 @@
 
 # Python script for generating the master SED-ML file for the wholecell model
 import libsbml, libsedml
+import os.path
 import parser_ifaces as ifaces
 
 # Required inputs
-model_files = ['toymodel1.xml', 'toymodel2.xml', 'toymodel3.xml']
-io_location = '.'
-out_sed = 'scheduler.xml'
-out_ini = 'init.xml'
+model_files = ['test_case_1/toymodel1.xml',
+               'test_case_1/toymodel2.xml',
+               'test_case_1/toymodel3.xml']
+io_location = 'test_case_1'
+delimiter = ','
+out_sed = 'test_case_1/scheduler.xml'
+out_ini = 'test_case_1/init.xml'
 
 # write initialization SBML file
 def write_init_file(mods, loc):
@@ -36,12 +40,12 @@ def add_sim(doc):
 # add initialization model and its associated task
 def add_init_model(doc, init_file):
   ini = libsedml.SedModel(1, 2)
-  ini_id = init_file.rstrip('.xml')
+  ini_id = os.path.split(init_file)[1].rstrip('.xml')
   ini.setId(ini_id)
   ini.setLanguage('urn:sedml:language:sbml')
   ini.setSource(init_file)
   doc.addModel(ini)
-  # create its associated task
+  # create associated task
   ini_tsk = libsedml.SedTask(1, 2)
   ini_tsk.setId('task_' + ini_id)
   ini_tsk.setSimulationReference('stepper')
@@ -49,13 +53,13 @@ def add_init_model(doc, init_file):
   doc.addTask(ini_tsk)
 
 # populate list of models & tasks
-def add_models(doc, files):
+def add_models(doc, files, out_dir):
   for m in files:
     mod = libsedml.SedModel(1, 2)
-    m_id = m.rstrip('.xml')
+    m_id = os.path.split(m)[1].rstrip('.xml')
     mod.setId(m_id)
     mod.setLanguage('urn:sedml:language:sbml')
-    mod.setSource(str(m))
+    mod.setSource(os.path.relpath(m, out_dir))
     doc.addModel(mod)
     # one task per model
     tsk = libsedml.SedTask(1, 2)
@@ -144,17 +148,18 @@ def build_loop(doc, entries):
   doc.addTask(rpt)
 
 # write SED-ML scheduler file
-def write_scheduler_file(init_file, loc, files, entries):
+def write_scheduler_file(init_file, loc, out_dir, files, entries):
   sed_doc = libsedml.SedDocument(1, 2)
   add_sim(sed_doc)
-  add_init_model(sed_doc, init_file)
-  add_models(sed_doc, files)
+  add_init_model(sed_doc, os.path.relpath(init_file, out_dir))
+  add_models(sed_doc, files, out_dir)
   build_loop(sed_doc, entries)
   # writing generated file
   sed_writer = libsedml.SedWriter()
   sed_writer.writeSedMLToFile(sed_doc, loc)
 
-mods = ifaces.build_all_models(io_location)
+mods = ifaces.build_all_models(io_location, delimiter)
 write_init_file(mods, out_ini)
 entries = ifaces.build_entries(mods)
-write_scheduler_file(out_ini, out_sed, model_files, entries)
+sed_dir = os.path.dirname(os.path.abspath(out_sed))
+write_scheduler_file(out_ini, out_sed, sed_dir, model_files, entries)
