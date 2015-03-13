@@ -8,27 +8,31 @@ To execute the script, open a command prompt and type:
 python sedml_gen.py
 ```
 
-The script both [libSBML](http://sbml.org/Software/libSBML) and
+The produced SED-ML file synchronizes the subprocesses with the top-level
+initialization file by using ```setValue``` nodes in the main loop; at the
+beginning of each iteration, variables are updated following an order dictated
+by the nature of each variable (read-only, read-write, and / or requirement).
+The script requires both [libSBML](http://sbml.org/Software/libSBML) and
 [libSEDML](https://github.com/fbergmann/libSEDML) Python wrappers to be
 installed.
 
 Inputs can be changed by editing the following variables in the script:
-* 'model_files': a list of paths to SBML files (here, those files are
-  'toymodel1.xml', 'toymodel2.xml' and 'toymodel3.xml')
-* 'io_location': path to a folder containing interface files (here, those files
-  'Molecules_names_Metabolites_toymodel1.csv',
-  'Molecules_names_Metabolites_toymodel2.csv' and
-  'Molecules_names_Metabolites_toymodel3.csv')
-* 'out_sed': where to write the resulting SED-ML file (here, 'scheduler.xml')
-* 'out_ini': where to write the resulting SBML initialization file (here,
-  'init.xml')
+* 'model_files': a list of paths to SBML files
+* 'io_location': path to a folder containing interface files
+* 'delimiter': what delimiter should be used for parsing the interface files
+* 'out_sed': where to write the resulting SED-ML file
+* 'out_ini': where to write the resulting SBML initialization file
+
+The current version of the script is set for processing the files in the
+```test_case_1``` folder.
 
 ### What remains to be done
-The resulting SED-ML file synchronizes the subprocesses with the top-level
-initialization file by using ```setValue``` nodes in the main loop; at the
-beginning of each iteration, variables are updated as follows:
-- [x] global variables are updated after the requirement ('req') variables
-- [x] global variables are updated after the read-write ('rw') variables
-- [] local read-only variables ('ro') are updated
-- [] local read-write variables ('rw') are updated
-- [] local requirement variables ('req') are updated
+- [x] generate the SBML initialization model
+- [ ] generate the SED-ML scheduler file
+ - [x] schedule the subprocesses
+ - [ ] synchronize the subprocesses through the initialization file
+   - [x] global variables are updated after the requirement ('req') variables
+   - [x] global variables are updated after the read-write ('rw') variables
+   - [ ] local read-only variables ('ro') are updated
+   - [ ] local read-write variables ('rw') are updated
+   - [ ] local requirement variables ('req') are updated

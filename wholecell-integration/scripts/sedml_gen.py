@@ -38,12 +38,12 @@ def add_sim(doc):
   doc.addSimulation(sim)
 
 # add initialization model and its associated task
-def add_init_model(doc, init_file):
+def add_init_model(doc, init_file, out_dir):
   ini = libsedml.SedModel(1, 2)
   ini_id = os.path.split(init_file)[1].rstrip('.xml')
   ini.setId(ini_id)
   ini.setLanguage('urn:sedml:language:sbml')
-  ini.setSource(init_file)
+  ini.setSource(os.path.relpath(init_file, out_dir))
   doc.addModel(ini)
   # create associated task
   ini_tsk = libsedml.SedTask(1, 2)
@@ -151,7 +151,7 @@ def build_loop(doc, entries):
 def write_scheduler_file(init_file, loc, out_dir, files, entries):
   sed_doc = libsedml.SedDocument(1, 2)
   add_sim(sed_doc)
-  add_init_model(sed_doc, os.path.relpath(init_file, out_dir))
+  add_init_model(sed_doc, init_file, out_dir)
   add_models(sed_doc, files, out_dir)
   build_loop(sed_doc, entries)
   # writing generated file
