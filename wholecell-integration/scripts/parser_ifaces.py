@@ -32,7 +32,6 @@ def build_model(fns, proc_name):
     ronly = []
     readwrite = []
     require = []
-
     for fn in fns:
         with open(fn) as fin:
             print fn
@@ -197,5 +196,6 @@ def write_entries(entries, fn):
 
             
 def main_test():
-    return build_model(["Molecules_names_Metabolite_Metabolism.csv"], "Metabolism")
+    return build_model(["Molecules_names_Metabolite_Metabolism.csv"],
+        "Metabolism", ",")
     

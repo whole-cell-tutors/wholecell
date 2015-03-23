@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version1/core" level="3" version="1">
+  <model id="global">
+    <listOfParameters>
+      <parameter id="ATP_BR" value="0"/>
+      <parameter id="ABC" value="0"/>
+      <parameter id="ATP" value="0"/>
+      <parameter id="ATP_S" value="0"/>
+      <parameter id="Pi" value="0"/>
+      <parameter id="Gluc_Oxid" value="0"/>
+      <parameter id="GORate" value="0"/>
+      <parameter id="ES" value="0"/>
+      <parameter id="Gluc" value="0"/>
+    </listOfParameters>
+  </model>
+</sbml>
