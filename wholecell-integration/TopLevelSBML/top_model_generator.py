@@ -134,7 +134,9 @@ def main(argv):
 	check(model, 'Creating model')
 	check(model.enablePackage("http://www.sbml.org/sbml/level3/version1/comp/version1", "comp", True))
 	
-	compartments = ['c','d','e','m','tc','tm']
+#	compartments = ['c','d','e','m','tc','tm']
+	compartments = ['c','e','m']
+
 	for com in compartments:
 		compartment = model.createCompartment()
 		compartment.setId(com)
@@ -149,10 +151,11 @@ def main(argv):
 	f_interface = open(interface_file)
 	for line in f_interface.readlines():
 		line = line.replace('\n','').split(',')
-		interfaces_id[line[0]] = {}
-		for i in range(1,len(line)):
+		interfaces_id[line[1]] = [line[0],{}]
+		for i in range(2,len(line)):
 			proc_txt = line[i].split('(')
-			interfaces_id[line[0]][proc_txt[0]] = proc_txt[1].replace(')','')
+			interfaces_id[line[1]][1][proc_txt[0]] = proc_txt[1].replace(')','').replace('\r','')
+	print interfaces_id
 	f_interface.close()
 
 
@@ -194,9 +197,9 @@ def main(argv):
 	modelRef = {}
 	for sub_file in sub_models_id:
 		#Create Submodel
-		submodel = mplugin.createSubmodel()
 		createSubmodel(mplugin,'subModel'+str(subModelcount),sub_file.replace('.xml',''),sub_file.replace('.xml',''))
-		compartments = ['c','d','e','m','tc','tm']
+#		compartments = ['c','d','e','m','tc','tm']
+#		compartments = ['c','e','m']
 		for com in compartments:
 			compartment = model.getCompartment(com)
 			createReplacedElement(compartment,'output__'+com,'subModel'+str(subModelcount))
@@ -207,19 +210,22 @@ def main(argv):
 #Create interface ------------------------------------------------------------
 	print "Creating interfaces..."
 	for key in interfaces_id:
-		sp_compartment = 'c'
-		for com in compartments:
-			if '__'+com+'__' in key:
-				sp_compartment = com
-				break
-		s = createSpecies(model,key,sp_compartment)
+		if interfaces_id[key][0]=='species':
+			sp_compartment = 'c'
+			for com in compartments:
+				if '__'+com+'__' in key:
+					sp_compartment = com
+					break
+			s = createSpecies(model,key,sp_compartment)
+		elif interfaces_id[key][0]=='param':
+			s = createParameter(model,key)
 		conCounts={}
 		conCounts['ro'] = 0
 		conCounts['rw'] = 0
 		conCounts['req'] = 0
 		conCounts['roreq'] = 0
-		for key2 in interfaces_id[key]:
-			conCounts[interfaces_id[key][key2]]+=1
+		for key2 in interfaces_id[key][1]:
+			conCounts[interfaces_id[key][1][key2]]+=1
 
 		checkFlag = 0
 		#Create requirements
@@ -230,15 +236,15 @@ def main(argv):
 			compartment = model.getCompartment(sp_compartment)
 			createReplacedElement(compartment,'output__'+sp_compartment,'subModel'+str(subModelcount))
 			reqPort = createReplacedElement(s,'output__Metabolite','subModel'+str(subModelcount))
-			compartment = model.getCompartment(com)
-			createReplacedElement(compartment,'output__'+com,'subModel'+str(subModelcount))
 			subModelcount+=1
 			req_count = 1
-			for key2 in interfaces_id[key]:
-				if interfaces_id[key][key2]=='req' or interfaces_id[key][key2]=='roreq':
+			for key2 in interfaces_id[key][1]:
+				if interfaces_id[key][1][key2]=='req' or interfaces_id[key][1][key2]=='roreq':
 					sr = createSpecies(model,key+'_for_'+key2,sp_compartment)
 					reqPort = createReplacedElement(sr,'output__Metabolite_'+str(req_count),'subModel'+str(subModelcount-1))
 					reqPort = createReplacedElement(sr,'output__'+key,modelRef[key2])
+					if interfaces_id[key][1][key2]=='roreq':
+						reqPort = createReplacedElement(s,'input__'+key+'_global',modelRef[key2])
 					pr = createParameter(model,key+'_req_'+key2)
 					reqPort = createReplacedElement(pr,'input__Req_'+str(req_count),'subModel'+str(subModelcount-1))
 					reqPort = createReplacedElement(pr,'output__'+key+'_requirement',modelRef[key2])
@@ -255,19 +261,22 @@ def main(argv):
 			reqPort = createReplacedElement(s,'output__S','subModel'+str(subModelcount))
 			subModelcount+=1
 			shareCount = 1
-			for key2 in interfaces_id[key]:
-				if interfaces_id[key][key2]=='req' or interfaces_id[key][key2]=='roreq' or interfaces_id[key][key2]=='rw':
+			for key2 in interfaces_id[key][1]:
+				if interfaces_id[key][1][key2]=='req' or interfaces_id[key][1][key2]=='roreq' or interfaces_id[key][1][key2]=='rw':
 					ss = createSpecies(model,key+'_from_'+key2,sp_compartment)
 					reqPort = createReplacedElement(ss,'output__S'+str(shareCount),'subModel'+str(subModelcount-1))
 					reqPort = createReplacedElement(ss,'output__'+key,modelRef[key2])
 					shareCount+=1
 
 		#Create variable read onlys
-		if conCounts['ro'] or conCounts['roreq']+conCounts['rw']+conCounts['req']==1:
+		if conCounts['ro'] or conCounts['roreq'] or conCounts['rw']+conCounts['req']==1:
 			checkFlag += 1
-			for key2 in interfaces_id[key]:
-				if interfaces_id[key][key2]=='ro' or interfaces_id[key][key2]=='roreq' or interfaces_id[key][key2]=='rw':
+			for key2 in interfaces_id[key][1]:
+				if interfaces_id[key][1][key2]=='ro':
+					reqPort = createReplacedElement(s,'input__'+key,modelRef[key2])
+				elif interfaces_id[key][1][key2]=='roreq' or (interfaces_id[key][1][key2]=='rw' and conCounts['rw']==1) or (interfaces_id[key][1][key2]=='req' and conCounts['req']==1):
 					reqPort = createReplacedElement(s,'output__'+key,modelRef[key2])
+					
 
 		if not checkFlag:
 			print "Error: No ports were created for "+key+"."
