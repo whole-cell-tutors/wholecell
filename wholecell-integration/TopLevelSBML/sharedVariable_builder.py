@@ -90,7 +90,7 @@ def createSharedVariableSBML(n):
 		print('Error - Could not create SBMLDocumention object')
 		sys.exit(1)
 
-	model = document.createModel("SharedVariable"+str(n))
+	model = document.createModel("sharedVariables_"+str(n))
 	check(model, 'Creating model')
 	check(model.enablePackage("http://www.sbml.org/sbml/level3/version1/comp/version1", "comp", True))
 
@@ -98,6 +98,7 @@ def createSharedVariableSBML(n):
 	compartment.setId("c")
 	compartment.setConstant(True)
 	compartment.setSize(1)
+	createPort(model,'c','output')
 
 	#Creating species, parameters and ports
 	createSpecies(model,'S')
