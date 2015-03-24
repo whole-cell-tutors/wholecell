@@ -89,7 +89,7 @@ def createRequirementSBML(n):
 		print('Error - Could not create SBMLDocumention object')
 		sys.exit(1)
 
-	model = document.createModel("Requirement"+str(n))
+	model = document.createModel("requirement_"+str(n))
 	check(model, 'Creating model')
 	check(model.enablePackage("http://www.sbml.org/sbml/level3/version1/comp/version1", "comp", True))
 
@@ -107,7 +107,7 @@ def createRequirementSBML(n):
 	createParameter(model,'p0',value=1,SBO='SBO:0000593')
 	createParameter(model,'p1',SBO='SBO:0000593')
 	createSpecies(model,'Metabolite')
-	createPort(modelRef,'Metabolite','output')
+	createPort(model,'Metabolite','output')
 	createPort(model,'c','input')
 
 	#Creating events
