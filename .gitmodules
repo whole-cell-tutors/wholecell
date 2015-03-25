@@ -22,3 +22,6 @@
 [submodule "wholecell-annotation"]
 	path = wholecell-annotation
 	url = https://github.com/dagwa/wholecell-annotation.git
+[submodule "wholecell-replication"]
+	path = wholecell-replication
+	url = https://github.com/dagwa/wholecell-replication.git
