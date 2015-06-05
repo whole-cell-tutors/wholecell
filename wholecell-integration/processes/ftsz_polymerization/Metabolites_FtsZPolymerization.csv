@@ -1,4 +1,6 @@
 ID (as in matlab),read-only,Read and write,requirement
-H20,X,,
+H,,X,
+Pi,,X,
+H20,,X,
 GDP,,X,
 GTP,,X,X
